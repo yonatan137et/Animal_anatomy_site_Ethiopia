@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Head & Neck Muscles -->
+  <g id="masseter" />              <!-- Origin: zygomatic arch; Insertion: mandible -->
+  <g id="temporalis" />            <!-- Origin: temporal fossa; Insertion: coronoid process -->
+  <g id="buccinator" />            <!-- Origin: maxilla & mandible; Insertion: orbicularis oris -->
+  <g id="sternocephalicus" />      <!-- Origin: sternum; Insertion: mandible/mastoid -->
+  <g id="brachiocephalicus" />     <!-- Origin: clavicular intersection; Insertion: mastoid process -->
+  <g id="omotransversarius" />     <!-- Origin: scapula; Insertion: atlas transverse process -->
+
+  <!-- 🦴 Thoracic & Abdominal Muscles -->
+  <g id="trapezius_cervical" />    <!-- Origin: nuchal ligament; Insertion: scapular spine -->
+  <g id="trapezius_thoracic" />
+  <g id="latissimus_dorsi" />      <!-- Origin: thoracolumbar fascia; Insertion: humerus -->
+  <g id="serratus_ventralis" />    <!-- Origin: ribs; Insertion: scapula -->
+  <g id="external_intercostals" />
+  <g id="internal_intercostals" />
+  <g id="rectus_abdominis" />      <!-- Origin: pubis; Insertion: sternum -->
+  <g id="external_oblique" />
+  <g id="internal_oblique" />
+  <g id="transversus_abdominis" />
+
+  <!-- 🦵 Forelimb Muscles -->
+  <g id="deltoideus" />            <!-- Origin: scapular spine; Insertion: deltoid tuberosity -->
+  <g id="supraspinatus" />         <!-- Origin: supraspinous fossa; Insertion: humerus -->
+  <g id="infraspinatus" />         <!-- Origin: infraspinous fossa; Insertion: humerus -->
+  <g id="subscapularis" />         <!-- Origin: subscapular fossa; Insertion: humerus -->
+  <g id="teres_major" />
+  <g id="biceps_brachii" />        <!-- Origin: supraglenoid tubercle; Insertion: radius -->
+  <g id="triceps_brachii_long" />  <!-- Origin: scapula; Insertion: olecranon -->
+  <g id="triceps_brachii_lateral" />
+  <g id="triceps_brachii_medial" />
+  <g id="extensor_carpi_radialis" />
+  <g id="flexor_carpi_ulnaris" />
+  <g id="common_digital_extensor_fore" />
+  <g id="superficial_digital_flexor_fore" />
+  <g id="deep_digital_flexor_fore" />
+
+  <!-- 🦵 Hindlimb Muscles -->
+  <g id="gluteus_medius" />        <!-- Origin: ilium; Insertion: greater trochanter -->
+  <g id="gluteus_superficialis" />
+  <g id="biceps_femoris" />        <!-- Origin: ischial tuberosity; Insertion: patella/tibia -->
+  <g id="semitendinosus" />
+  <g id="semimembranosus" />
+  <g id="quadriceps_femoris" />    <!-- Origin: femur & ilium; Insertion: patella -->
+  <g id="sartorius" />
+  <g id="gracilis" />
+  <g id="adductor" />
+  <g id="gastrocnemius" />         <!-- Origin: femur; Insertion: calcaneus -->
+  <g id="soleus" />
+  <g id="superficial_digital_flexor_hind" />
+  <g id="deep_digital_flexor_hind" />
+  <g id="long_digital_extensor" />
+  <g id="peroneus_tertius" />
+
+  <!-- 🐴 Tail & Perineal Muscles -->
+  <g id="coccygeus" />             <!-- Origin: ischial spine; Insertion: caudal vertebrae -->
+  <g id="levator_ani" />           <!-- Origin: pubis; Insertion: rectum/anal canal -->
+  <g id="external_anal_sphincter" />
+  <g id="bulbospongiosus" />
+  <g id="ischiocavernosus" />
+
+</svg>

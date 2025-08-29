@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+
+  <!-- Digestive System -->
+  <g id="esophagus"><path d="M100,100 h20 v60 h-20 z" /></g>
+  <g id="stomach"><path d="M120,160 h80 v40 h-80 z" /></g>
+  <g id="small_intestine"><path d="M120,200 h100 v60 h-100 z" /></g>
+  <g id="large_intestine"><path d="M120,260 h100 v40 h-100 z" /></g>
+  <g id="rectum"><path d="M120,300 h40 v20 h-40 z" /></g
+  >
+  <g id="liver"><path d="M220,160 h100 v40 h-100 z" /></g>
+  <g id="gallbladder"><path d="M320,160 h30 v20 h-30 z" /></g
+  >
+  <g id="pancreas"><path d="M220,200 h80 v20 h-80 z" /></g>
+
+  <!-- Respiratory System -->
+  <g id="trachea"><path d="M100,80 h20 v20 h-20 z" /></g>
+  <g id="lungs"><path d="M140,80 h100 v60 h-100 z" /></g>
+  <g id="diaphragm"><path d="M120,140 h120 v10 h-120 z" /></g>
+
+  <!-- Urinary System -->
+  <g id="kidneys"><path d="M400,160 h60 v30 h-60 z" /></g>
+  <g id="ureters"><path d="M460,160 h10 v40 h-10 z" /></g>
+  <g id="bladder"><path d="M400,200 h60 v30 h-60 z" /></g
+
+  >
+
+  <!-- Reproductive System (Male/Female) -->
+  <g id="testes"><path d="M400,240 h30 v20 h-30 z" /></g>
+  <g id="ovaries"><path d="M440,240 h30 v20 h-30 z" /></g>
+  <g id="uterus"><path d="M470,240 h40 v20 h-40 z" /></g>
+
+  <!-- Endocrine & Lymphatic -->
+  <g id="spleen"><path d="M520,160 h40 v20 h-40 z" /></g>
+  <g id="adrenal_glands"><path d="M560,160 h20 v20 h-20 z" /></g>
+  <g id="thyroid"><path d="M580,80 h30 v20 h-30 z" /></g>
+  <g id="lymph_nodes"><path d="M600,200 h30 v20 h-30 z" /></g>
+
+</svg>

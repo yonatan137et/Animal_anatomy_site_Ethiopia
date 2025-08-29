@@ -1,0 +1,42 @@
+{
+  "clickHint": "Click a part to learn more",
+  "language": "Language",
+  "function": "Function",
+  "context": "Ethiopian Context",
+
+  "titleDogBones": "Dog Anatomy — Skeletal System",
+  "titleDogMuscles": "Dog Anatomy — Muscular System",
+  "titleDogOrgans": "Dog Anatomy — Internal Organs",
+
+  "titleCatBones": "Cat Anatomy — Skeletal System",
+  "titleCatMuscles": "Cat Anatomy — Muscular System",
+  "titleCatOrgans": "Cat Anatomy — Internal Organs",
+
+  "titleHorseBones": "Horse Anatomy — Skeletal System",
+  "titleHorseMuscles": "Horse Anatomy — Muscular System",
+  "titleHorseOrgans": "Horse Anatomy — Internal Organs",
+
+  "titleSheepBones": "Sheep Anatomy — Skeletal System",
+  "titleSheepMuscles": "Sheep Anatomy — Muscular System",
+  "titleSheepOrgans": "Sheep Anatomy — Internal Organs",
+
+  "titleGoatBones": "Goat Anatomy — Skeletal System",
+  "titleGoatMuscles": "Goat Anatomy — Muscular System",
+  "titleGoatOrgans": "Goat Anatomy — Internal Organs",
+
+  "titleCowBones": "Cow Anatomy — Skeletal System",
+  "titleCowMuscles": "Cow Anatomy — Muscular System",
+  "titleCowOrgans": "Cow Anatomy — Internal Organs",
+
+  "titleDonkeyBones": "Donkey Anatomy — Skeletal System",
+  "titleDonkeyMuscles": "Donkey Anatomy — Muscular System",
+  "titleDonkeyOrgans": "Donkey Anatomy — Internal Organs",
+
+  "titleChickenBones": "Chicken Anatomy — Skeletal System",
+  "titleChickenMuscles": "Chicken Anatomy — Muscular System",
+  "titleChickenOrgans": "Chicken Anatomy — Internal Organs",
+
+  "titleCamelBones": "Camel Anatomy — Skeletal System",
+  "titleCamelMuscles": "Camel Anatomy — Muscular System",
+  "titleCamelOrgans": "Camel Anatomy — Internal Organs"
+}

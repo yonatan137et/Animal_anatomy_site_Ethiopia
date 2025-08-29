@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+
+  <!-- Head -->
+  <g id="skull"><path d="M100,100 h100 v50 h-100 z" /></g>
+  <g id="mandible"><path d="M100,160 h100 v30 h-100 z" /></g>
+  <g id="maxilla"><path d="M100,190 h100 v20 h-100 z" /></g>
+  <g id="nasal"><path d="M120,90 h60 v10 h-60 z" /></g>
+  <g id="zygomatic"><path d="M90,110 h20 v10 h-20 z" /></g>
+  <g id="frontal"><path d="M110,80 h80 v10 h-80 z" /></g>
+  <g id="occipital"><path d="M100,70 h100 v10 h-100 z" /></g>
+
+  <!-- Vertebral Column -->
+  <g id="vertebrae_cervical"><path d="M220,100 h80 v20 h-80 z" /></g>
+  <g id="vertebrae_thoracic"><path d="M300,100 h100 v20 h-100 z" /></g>
+  <g id="vertebrae_lumbar"><path d="M400,100 h80 v20 h-80 z" /></g>
+  <g id="sacrum"><path d="M480,100 h60 v20 h-60 z" /></g>
+  <g id="vertebrae_caudal"><path d="M540,100 h100 v20 h-100 z" /></g>
+
+  <!-- Thorax -->
+  <g id="ribs"><path d="M300,130 h100 v10 h-100 z" /></g>
+  <g id="sternum"><path d="M350,140 h40 v10 h-40 z" /></g>
+  <g id="costal_cartilage"><path d="M340,150 h60 v5 h-60 z" /></g>
+
+  <!-- Forelimb -->
+  <g id="scapula"><path d="M250,200 h60 v30 h-60 z" /></g>
+  <g id="humerus"><path d="M250,230 h60 v40 h-60 z" /></g>
+  <g id="radius"><path d="M250,270 h30 v40 h-30 z" /></g>
+  <g id="ulna"><path d="M280,270 h30 v40 h-30 z" /></g>
+  <g id="carpals"><path d="M250,310 h60 v10 h-60 z" /></g>
+  <g id="metacarpals"><path d="M250,320 h60 v10 h-60 z" /></g>
+  <g id="phalanges_fore"><path d="M250,330 h60 v10 h-60 z" /></g>
+
+  <!-- Hindlimb -->
+  <g id="pelvis"><path d="M600,200 h80 v40 h-80 z" /></g>
+  <g id="femur"><path d="M600,240 h40 v60 h-40 z" /></g>
+  <g id="patella"><path d="M620,300 h20 v10 h-20 z" /></g>
+  <g id="tibia"><path d="M600,310 h30 v50 h-30 z" /></g>
+  <g id="fibula"><path d="M630,310 h20 v50 h-20 z" /></g>
+  <g id="tarsals"><path d="M600,360 h60 v10 h-60 z" /></g>
+  <g id="metatarsals"><path d="M600,370 h60 v10 h-60 z" /></g>
+  <g id="phalanges_hind"><path d="M600,380 h60 v10 h-60 z" /></g>
+
+  <!-- Tail -->
+  <g id="tail"><path d="M700,100 h100 v10 h-100 z" /></g>
+
+</svg>

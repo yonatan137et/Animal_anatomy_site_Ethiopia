@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+
+  <!-- Head & Neck -->
+  <g id="masseter"><path d="M100,100 h60 v30 h-60 z" /></g>
+  <g id="temporalis"><path d="M100,70 h60 v20 h-60 z" /></g>
+  <g id="digastric"><path d="M100,140 h60 v20 h-60 z" /></g>
+  <g id="sternocephalicus"><path d="M160,100 h40 v30 h-40 z" /></g>
+  <g id="brachiocephalicus"><path d="M200,100 h60 v20 h-60 z" /></g>
+
+  <!-- Thorax & Abdomen -->
+  <g id="pectoralis_superficialis"><path d="M300,200 h80 v30 h-80 z" /></g>
+  <g id="pectoralis_profunda"><path d="M300,230 h80 v30 h-80 z" /></g>
+  <g id="external_oblique"><path d="M380,200 h100 v40 h-100 z" /></g>
+  <g id="internal_oblique"><path d="M380,240 h100 v40 h-100 z" /></g>
+  <g id="transversus_abdominis"><path d="M380,280 h100 v30 h-100 z" /></g>
+  <g id="rectus_abdominis"><path d="M480,200 h40 v110 h-40 z" /></g
+
+  <!-- Forelimb -->
+  <g id="deltoid"><path d="M250,300 h60 v30 h-60 z" /></g>
+  <g id="triceps_brachii"><path d="M250,330 h60 v40 h-60 z" /></g>
+  <g id="biceps_brachii"><path d="M250,370 h60 v30 h-60 z" /></g>
+  <g id="brachialis"><path d="M250,400 h60 v20 h-60 z" /></g>
+  <g id="extensor_carpi_radialis"><path d="M250,420 h60 v20 h-60 z" /></g>
+  <g id="flexor_carpi_ulnaris"><path d="M250,440 h60 v20 h-60 z" /></g>
+  <g id="digital_extensors_fore"><path d="M250,460 h60 v20 h-60 z" /></g>
+  <g id="digital_flexors_fore"><path d="M250,480 h60 v20 h-60 z" /></g>
+
+  <!-- Hindlimb -->
+  <g id="gluteal_group"><path d="M600,300 h80 v40 h-80 z" /></g>
+  <g id="biceps_femoris"><path d="M600,340 h80 v40 h-80 z" /></g>
+  <g id="semitendinosus"><path d="M600,380 h80 v30 h-80 z" /></g>
+  <g id="semimembranosus"><path d="M600,410 h80 v30 h-80 z" /></g>
+  <g id="quadriceps_femoris"><path d="M680,340 h60 v60 h-60 z" /></g>
+  <g id="gastrocnemius"><path d="M680,400 h60 v40 h-60 z" /></g>
+  <g id="tibialis_cranialis"><path d="M680,440 h60 v30 h-60 z" /></g>
+  <g id="digital_extensors_hind"><path d="M680,470 h60 v20 h-60 z" /></g>
+  <g id="digital_flexors_hind"><path d="M680,490 h60 v20 h-60 z" /></g>
+
+  <!-- Tail Base -->
+  <g id="coccygeus"><path d="M800,300 h60 v20 h-60 z" /></g>
+  <g id="levator_ani"><path d="M800,320 h60 v20 h-60 z" /></g>
+
+</svg>

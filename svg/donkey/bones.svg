@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Skull -->
+  <g id="skull_frontal" />
+  <g id="skull_parietal" />
+  <g id="skull_occipital" />
+  <g id="skull_temporal" />
+  <g id="maxilla" />
+  <g id="mandible" />
+  <g id="nasal_bone" />
+  <g id="zygomatic_arch" />
+  <g id="incisive_bone" />
+
+  <!-- 🦴 Vertebral Column -->
+  <g id="vertebrae_cervical" />
+  <g id="vertebrae_thoracic" />
+  <g id="vertebrae_lumbar" />
+  <g id="sacrum" />
+  <g id="vertebrae_caudal" />
+
+  <!-- 🦴 Thoracic Cage -->
+  <g id="ribs_left" />
+  <g id="ribs_right" />
+  <g id="sternum" />
+  <g id="costal_cartilage" />
+
+  <!-- 🦵 Forelimb -->
+  <g id="scapula_left" />
+  <g id="humerus_left" />
+  <g id="radius_left" />
+  <g id="ulna_left" />
+  <g id="carpal_bones_left" />
+  <g id="metacarpal_bones_left" />
+  <g id="phalanges_forelimb_left" />
+
+  <!-- 🦵 Hindlimb -->
+  <g id="pelvis_left" />
+  <g id="femur_left" />
+  <g id="patella_left" />
+  <g id="tibia_left" />
+  <g id="fibula_left" />
+  <g id="tarsal_bones_left" />
+  <g id="metatarsal_bones_left" />
+  <g id="phalanges_hindlimb_left" />
+
+  <!-- 🦿 Joints -->
+  <g id="atlanto_occipital_joint" />
+  <g id="cervicothoracic_joint" />
+  <g id="thoracolumbar_joint" />
+  <g id="lumbosacral_joint" />
+  <g id="sacroiliac_joint" />
+  <g id="shoulder_joint_left" />
+  <g id="elbow_joint_left" />
+  <g id="carpal_joint_left" />
+  <g id="hip_joint_left" />
+  <g id="stifle_joint_left" />
+  <g id="hock_joint_left" />
+  <g id="fetlock_joint_forelimb_left" />
+  <g id="fetlock_joint_hindlimb_left" />
+
+</svg>

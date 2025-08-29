@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+
+  <!-- 🧠 Brain -->
+  <g id="cerebrum"><path d="M100,100 h120 v60 h-120 z" /></g>
+  <g id="cerebellum"><path d="M220,100 h80 v40 h-80 z" /></g>
+  <g id="brainstem"><path d="M300,100 h40 v60 h-40 z" /></g>
+  <g id="olfactory_bulbs"><path d="M100,80 h40 v20 h-40 z" /></g>
+  <g id="optic_chiasm"><path d="M140,80 h40 v20 h-40 z" /></g>
+
+  <!-- 🧬 Spinal Cord -->
+  <g id="cervical_spinal_cord"><path d="M340,100 h20 v60 h-20 z" /></g>
+  <g id="thoracic_spinal_cord"><path d="M360,160 h20 v80 h-20 z" /></g>
+  <g id="lumbar_spinal_cord"><path d="M380,240 h20 v60 h-20 z" /></g>
+  <g id="sacral_spinal_cord"><path d="M400,300 h20 v40 h-20 z" /></g>
+  <g id="caudal_spinal_cord"><path d="M420,340 h20 v40 h-20 z" /></g>
+
+  <!-- 🫁 Respiratory System -->
+  <g id="nasal_cavity"><path d="M100,200 h60 v20 h-60 z" /></g>
+  <g id="larynx"><path d="M160,200 h40 v20 h-40 z" /></g>
+  <g id="trachea"><path d="M200,200 h20 v80 h-20 z" /></g>
+  <g id="left_lung"><path d="M220,200 h80 v80 h-80 z" /></g>
+  <g id="right_lung"><path d="M300,200 h80 v80 h-80 z" /></g>
+
+  <!-- ❤️ Heart -->
+  <g id="left_atrium"><path d="M400,180 h40 v30 h-40 z" /></g>
+  <g id="right_atrium"><path d="M440,180 h40 v30 h-40 z" /></g>
+  <g id="left_ventricle"><path d="M400,210 h40 v40 h-40 z" /></g>
+  <g id="right_ventricle"><path d="M440,210 h40 v40 h-40 z" /></g>
+  <g id="aortic_arch"><path d="M480,180 h40 v20 h-40 z" /></g>
+  <g id="pulmonary_artery"><path d="M480,200 h40 v20 h-40 z" /></g>
+
+  <!-- 🍽️ Digestive System -->
+  <g id="esophagus"><path d="M520,150 h20 v60 h-20 z" /></g>
+  <g id="cardia"><path d="M540,210 h20 v20 h-20 z" /></g>
+  <g id="fundus"><path d="M560,210 h40 v20 h-40 z" /></g>
+  <g id="body"><path d="M600,210 h60 v30 h-60 z" /></g>
+  <g id="pylorus"><path d="M660,210 h20 v20 h-20 z" /></g>
+  <g id="small_intestine"><path d="M540,240 h140 v60 h-140 z" /></g>
+  <g id="large_intestine"><path d="M680,240 h120 v60 h-120 z" /></g>
+  <g id="liver_left_lobe"><path d="M540,170 h60 v30 h-60 z" /></g>
+  <g id="liver_right_lobe"><path d="M600,170 h60 v30 h-60 z" /></g>
+  <g id="caudate_lobe"><path d="M660,170 h40 v20 h-40 z" /></g>
+  <g id="quadrate_lobe"><path d="M700,170 h40 v20 h-40 z" /></g>
+  <g id="pancreas"><path d="M740,210 h80 v20 h-80 z" /></g>
+  <g id="spleen"><path d="M820,210 h40 v20 h-40 z" /></g>
+
+  <!-- 🚽 Urinary System -->
+  <g id="renal_cortex"><path d="M900,180 h40 v20 h-40 z" /></g>
+  <g id="renal_medulla"><path d="M940,180 h40 v20 h-40 z" /></g>
+  <g id="renal_pelvis"><path d="M980,180 h40 v20 h-40 z" /></g>
+  <g id="ureters"><path d="M1020,180 h20 v60 h-20 z" /></g>
+  <g id="bladder"><path d="M1040,240 h60 v40 h-60 z" /></g>
+
+  <!-- 🧬 Reproductive System -->
+  <g id="testes"><path d="M1100,290 h40 v20 h-40 z" /></g>
+  <g id="ovaries"><path d="M1100,290 h40 v20 h-40 z" /></g>
+  <g id="uterine_horns"><path d="M1140,290 h60 v20 h-60 z" /></g>
+  <g id="uterine_body"><path d="M1200,290 h40 v20 h-40 z" /></g>
+  <g id="cervix"><path d="M1240,290 h40 v20 h-40 z" /></g>
+
+  <!-- 🧪 Endocrine System -->
+  <g id="left_thyroid_lobe"><path d="M1300,150 h40 v20 h-40 z" /></g>
+  <g id="right_thyroid_lobe"><path d="M1340,150 h40 v20 h-40 z" /></g>
+  <g id="adrenal_glands"><path d="M1380,180 h40 v20 h-40 z" /></g>
+
+</svg>

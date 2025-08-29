@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Nervous System -->
+  <g id="brain" />
+  <g id="spinal_cord" />
+
+  <!-- 🫀 Cardiovascular System -->
+  <g id="heart" />
+  <g id="aorta" />
+  <g id="vena_cava_cranial" />
+  <g id="vena_cava_caudal" />
+
+  <!-- 🫁 Respiratory System -->
+  <g id="trachea" />
+  <g id="lungs_left" />
+  <g id="lungs_right" />
+  <g id="bronchi" />
+  <g id="diaphragm" />
+
+  <!-- 🍽 Digestive System -->
+  <g id="esophagus" />
+  <g id="stomach" />
+  <g id="small_intestine" />
+  <g id="duodenum" />
+  <g id="jejunum" />
+  <g id="ileum" />
+  <g id="cecum" />
+  <g id="colon_ascending" />
+  <g id="colon_transverse" />
+  <g id="colon_descending" />
+  <g id="rectum" />
+  <g id="anus" />
+
+  <!-- 🧪 Endocrine System -->
+  <g id="pituitary_gland" />
+  <g id="thyroid_gland" />
+  <g id="adrenal_glands" />
+  <g id="pancreas_endocrine" />
+
+  <!-- 🧫 Hepatobiliary System -->
+  <g id="liver" />
+  <g id="gallbladder" />
+  <g id="bile_ducts" />
+  <g id="pancreas_exocrine" />
+
+  <!-- 🚰 Urinary System -->
+  <g id="kidney_left" />
+  <g id="kidney_right" />
+  <g id="ureters" />
+  <g id="urinary_bladder" />
+  <g id="urethra" />
+
+  <!-- 🧬 Reproductive System (M/F) -->
+  <g id="testes" />
+  <g id="epididymis" />
+  <g id="vas_deferens" />
+  <g id="penis" />
+  <g id="prostate_gland" />
+  <g id="ovaries" />
+  <g id="uterine_tubes" />
+  <g id="uterus" />
+  <g id="cervix" />
+  <g id="vagina" />
+  <g id="vulva" />
+
+  <!-- 👁 Sense Organs -->
+  <g id="eye_left" />
+  <g id="eye_right" />
+  <g id="ear_external" />
+  <g id="ear_middle" />
+  <g id="ear_inner" />
+  <g id="olfactory_epithelium" />
+  <g id="tongue" />
+  <g id="taste_buds" />
+
+</svg>

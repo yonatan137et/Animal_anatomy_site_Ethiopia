@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+
+  <!-- Head & Neck -->
+  <g id="masseter"><path d="M100,100 h60 v30 h-60 z" /></g>
+  <g id="temporalis"><path d="M100,70 h60 v20 h-60 z" /></g>
+  <g id="sternocephalicus"><path d="M160,100 h40 v20 h-40 z" /></g>
+  <g id="brachiocephalicus"><path d="M200,100 h60 v20 h-60 z" /></g>
+
+  <!-- Thorax & Abdomen -->
+  <g id="trapezius"><path d="M300,100 h80 v30 h-80 z" /></g>
+  <g id="latissimus_dorsi"><path d="M380,130 h100 v30 h-100 z" /></g>
+  <g id="pectoralis"><path d="M300,160 h80 v20 h-80 z" /></g>
+  <g id="external_oblique"><path d="M400,180 h100 v30 h-100 z" /></g>
+  <g id="rectus_abdominis"><path d="M500,180 h60 v30 h-60 z" /></g>
+
+  <!-- Forelimb -->
+  <g id="deltoid"><path d="M250,200 h60 v30 h-60 z" /></g>
+  <g id="triceps_brachii"><path d="M250,230 h60 v40 h-60 z" /></g>
+  <g id="biceps_brachii"><path d="M250,270 h60 v30 h-60 z" /></g>
+  <g id="extensor_carpi_radialis"><path d="M250,300 h60 v10 h-60 z" /></g>
+  <g id="flexor_carpi_ulnaris"><path d="M250,310 h60 v10 h-60 z" /></g>
+
+  <!-- Hindlimb -->
+  <g id="gluteal"><path d="M600,200 h80 v40 h-80 z" /></g>
+  <g id="biceps_femoris"><path d="M600,240 h80 v40 h-80 z" /></g>
+  <g id="semitendinosus"><path d="M600,280 h80 v30 h-80 z" /></g>
+  <g id="quadriceps_femoris"><path d="M600,310 h80 v30 h-80 z" /></g>
+  <g id="gastrocnemius"><path d="M600,340 h80 v30 h-80 z" /></g
+  >
+  <g id="tibialis_cranialis"><path d="M600,370 h80 v20 h-80 z" /></g>
+
+  <!-- Tail Muscles -->
+  <g id="coccygeus"><path d="M700,100 h60 v20 h-60 z" /></g>
+  <g id="levator_ani"><path d="M760,100 h60 v20 h-60 z" /></g>
+
+</svg>

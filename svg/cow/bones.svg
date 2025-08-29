@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Skull -->
+  <g id="skull_frontal"><path d="M100,100 h100 v40 h-100 z" /></g>
+  <g id="skull_parietal"><path d="M100,140 h100 v40 h-100 z" /></g>
+  <g id="skull_occipital"><path d="M100,180 h100 v30 h-100 z" /></g>
+  <g id="skull_temporal"><path d="M200,140 h60 v40 h-60 z" /></g>
+  <g id="maxilla"><path d="M100,210 h100 v20 h-100 z" /></g>
+  <g id="mandible"><path d="M100,230 h100 v30 h-100 z" /></g
+  <g id="zygomatic"><path d="M200,180 h40 v20 h-40 z" /></g>
+  <g id="nasal"><path d="M120,90 h60 v10 h-60 z" /></g>
+
+  <!-- 🦴 Vertebral Column -->
+  <g id="vertebrae_cervical"><path d="M300,100 h140 v20 h-140 z" /></g>
+  <g id="vertebrae_thoracic"><path d="M440,100 h180 v20 h-180 z" /></g>
+  <g id="vertebrae_lumbar"><path d="M620,100 h140 v20 h-140 z" /></g>
+  <g id="sacrum"><path d="M760,100 h100 v20 h-100 z" /></g>
+  <g id="vertebrae_caudal"><path d="M860,100 h160 v20 h-160 z" /></g>
+
+  <!-- 🦴 Thoracic Cage -->
+  <g id="ribs_left"><path d="M440,120 h90 v10 h-90 z" /></g>
+  <g id="ribs_right"><path d="M530,120 h90 v10 h-90 z" /></g>
+  <g id="sternum"><path d="M490,130 h60 v10 h-60 z" /></g>
+  <g id="costal_cartilage"><path d="M480,140 h80 v5 h-80 z" /></g>
+
+  <!-- 🦵 Forelimb -->
+  <g id="scapula_left"><path d="M400,200 h80 v40 h-80 z" /></g>
+  <g id="humerus_left"><path d="M400,240 h80 v80 h-80 z" /></g>
+  <g id="radius_left"><path d="M400,320 h40 v80 h-40 z" /></g>
+  <g id="ulna_left"><path d="M440,320 h40 v80 h-40 z" /></g>
+  <g id="carpals_left"><path d="M400,400 h80 v10 h-80 z" /></g>
+  <g id="metacarpals_left"><path d="M400,410 h80 v10 h-80 z" /></g>
+  <g id="phalanges_fore_left"><path d="M400,420 h80 v10 h-80 z" /></g>
+
+  <!-- 🦵 Hindlimb -->
+  <g id="pelvis_left"><path d="M900,200 h100 v40 h-100 z" /></g>
+  <g id="femur_left"><path d="M900,240 h60 v100 h-60 z" /></g>
+  <g id="patella_left"><path d="M960,340 h20 v10 h-20 z" /></g>
+  <g id="tibia_left"><path d="M900,350 h40 v80 h-40 z" /></g>
+  <g id="fibula_left"><path d="M940,350 h20 v80 h-20 z" /></g>
+  <g id="tarsals_left"><path d="M900,430 h60 v10 h-60 z" /></g>
+  <g id="metatarsals_left"><path d="M900,440 h60 v10 h-60 z" /></g>
+  <g id="phalanges_hind_left"><path d="M900,450 h60 v10 h-60 z" /></g>
+
+  <!-- 🦿 Joints -->
+  <g id="atlanto_occipital_joint"><circle cx="200" cy="100" r="10" /></g>
+  <g id="cervicothoracic_joint"><circle cx="440" cy="100" r="10" /></g>
+  <g id="thoracolumbar_joint"><circle cx="620" cy="100" r="10" /></g>
+  <g id="lumbosacral_joint"><circle cx="760" cy="100" r="10" /></g>
+  <g id="sacroiliac_joint"><circle cx="900" cy="200" r="10" /></g>
+  <g id="shoulder_joint_left"><circle cx="400" cy="240" r="10" /></g>
+  <g id="elbow_joint_left"><circle cx="400" cy="320" r="10" /></g>
+  <g id="carpal_joint_left"><circle cx="400" cy="400" r="10" /></g>
+  <g id="hip_joint_left"><circle cx="900" cy="240" r="10" /></g>
+  <g id="stifle_joint_left"><circle cx="900" cy="350" r="10" /></g>
+  <g id="hock_joint_left"><circle cx="900" cy="430" r="10" /></g
+
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+
+  <!-- 🧠 Skull & Facial Bones -->
+  <g id="skull"><path d="M100,100 h120 v60 h-120 z" /></g>
+  <g id="mandible"><path d="M100,160 h120 v30 h-120 z" /></g>
+  <g id="maxilla"><path d="M100,190 h120 v20 h-120 z" /></g>
+  <g id="nasal"><path d="M120,90 h80 v10 h-80 z" /></g>
+  <g id="zygomatic"><path d="M90,110 h30 v10 h-30 z" /></g>
+  <g id="frontal"><path d="M110,80 h100 v10 h-100 z" /></g>
+  <g id="occipital"><path d="M100,70 h120 v10 h-120 z" /></g
+
+  <!-- 🦴 Vertebral Column -->
+  <g id="vertebrae_cervical"><path d="M240,100 h100 v20 h-100 z" /></g>
+  <g id="vertebrae_thoracic"><path d="M340,100 h120 v20 h-120 z" /></g>
+  <g id="vertebrae_lumbar"><path d="M460,100 h100 v20 h-100 z" /></g>
+  <g id="sacrum"><path d="M560,100 h80 v20 h-80 z" /></g>
+  <g id="vertebrae_caudal"><path d="M640,100 h120 v20 h-120 z" /></g>
+
+  <!-- 🦴 Thoracic Cage -->
+  <g id="ribs"><path d="M340,130 h120 v10 h-120 z" /></g>
+  <g id="sternum"><path d="M390,140 h60 v10 h-60 z" /></g>
+  <g id="costal_cartilage"><path d="M380,150 h80 v5 h-80 z" /></g>
+
+  <!-- 🦵 Forelimb -->
+  <g id="scapula"><path d="M300,200 h80 v40 h-80 z" /></g>
+  <g id="humerus"><path d="M300,240 h80 v60 h-80 z" /></g>
+  <g id="radius"><path d="M300,300 h40 v60 h-40 z" /></g>
+  <g id="ulna"><path d="M340,300 h40 v60 h-40 z" /></g>
+  <g id="carpals"><path d="M300,360 h80 v10 h-80 z" /></g>
+  <g id="metacarpals"><path d="M300,370 h80 v10 h-80 z" /></g>
+  <g id="phalanges_fore"><path d="M300,380 h80 v10 h-80 z" /></g>
+
+  <!-- 🦵 Hindlimb -->
+  <g id="pelvis"><path d="M700,200 h100 v40 h-100 z" /></g>
+  <g id="femur"><path d="M700,240 h60 v80 h-60 z" /></g>
+  <g id="patella"><path d="M760,320 h20 v10 h-20 z" /></g>
+  <g id="tibia"><path d="M700,330 h40 v70 h-40 z" /></g>
+  <g id="fibula"><path d="M740,330 h20 v70 h-20 z" /></g>
+  <g id="tarsals"><path d="M700,400 h60 v10 h-60 z" /></g>
+  <g id="metatarsals"><path d="M700,410 h60 v10 h-60 z" /></g>
+  <g id="phalanges_hind"><path d="M700,420 h60 v10 h-60 z" /></g>
+
+  <!-- 🐐 Tail -->
+  <g id="tail"><path d="M800,100 h120 v10 h-120 z" /></g>
+
+</svg>

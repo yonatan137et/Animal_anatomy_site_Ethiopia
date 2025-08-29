@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Domestic Animals Anatomy — Ethiopia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Domestic Animals Anatomy</h1>
+    <div class="lang-switch">
+      <button id="lang-en" aria-pressed="true">EN</button>
+      <button id="lang-am" aria-pressed="false">AM</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="left">
+      <label for="speciesSelect" id="label-species">Species</label>
+      <select id="speciesSelect">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="sheep">Sheep</option>
+        <option value="goat">Goat</option>
+        <option value="cattle">Cattle</option>
+        <option value="donkey">Donkey</option>
+        <option value="horse">Horse</option>
+        <option value="camel">Camel</option>
+        <option value="chicken">Chicken</option>
+      </select>
+
+      <div class="systems">
+        <button class="system-tab active" data-system="bones">Bones</button>
+        <button class="system-tab" data-system="joints">Joints</button>
+        <button class="system-tab" data-system="muscles">Muscles</button>
+        <button class="system-tab" data-system="organs">Organs</button>
+      </div>
+
+      <input id="searchParts" type="search" placeholder="Search parts…" />
+    </aside>
+
+    <section class="canvas" aria-label="Anatomy canvas">
+      <div id="svgContainer" class="svg-wrap" role="img" aria-live="polite">
+        <!-- SVG loads here -->
+      </div>
+      <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+    </section>
+
+    <aside class="right" aria-label="Part details">
+      <div id="details" class="details empty">
+        <p>Select a part to see details.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made for Ethiopian veterinary education. Offline-capable. © You</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

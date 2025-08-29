@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+
+  <!-- 🧠 Head & Neck -->
+  <g id="masseter" data-origin="zygomatic arch" data-insertion="mandible" data-function="Elevates jaw for chewing">
+    <path d="M100,100 h80 v40 h-80 z" />
+  </g>
+  <g id="temporalis" data-origin="temporal fossa" data-insertion="coronoid process of mandible" data-function="Elevates and retracts mandible">
+    <path d="M100,60 h80 v30 h-80 z" />
+  </g>
+  <g id="digastric" data-origin="occipital bone" data-insertion="mandible" data-function="Depresses mandible">
+    <path d="M100,140 h80 v20 h-80 z" />
+  </g>
+  <g id="brachiocephalicus" data-origin="clavicular intersection" data-insertion="humerus and mastoid process" data-function="Extends shoulder and moves head">
+    <path d="M180,100 h100 v30 h-100 z" />
+  </g>
+  <g id="sternocephalicus" data-origin="sternum" data-insertion="mandible and mastoid" data-function="Flexes head and neck">
+    <path d="M280,100 h80 v30 h-80 z" />
+  </g>
+
+  <!-- 🫁 Thorax & Abdomen -->
+  <g id="pectoralis_superficialis" data-origin="sternum" data-insertion="humerus" data-function="Adducts forelimb">
+    <path d="M400,200 h100 v30 h-100 z" />
+  </g>
+  <g id="pectoralis_profunda" data-origin="sternum and ribs" data-insertion="humerus" data-function="Pulls limb backward">
+    <path d="M400,230 h100 v30 h-100 z" />
+  </g>
+  <g id="external_oblique" data-origin="ribs" data-insertion="linea alba and pelvis" data-function="Compresses abdomen">
+    <path d="M500,200 h120 v40 h-120 z" />
+  </g>
+  <g id="internal_oblique" data-origin="pelvis" data-insertion="ribs and linea alba" data-function="Supports abdominal wall">
+    <path d="M500,240 h120 v40 h-120 z" />
+  </g>
+  <g id="transversus_abdominis" data-origin="lumbar vertebrae" data-insertion="linea alba" data-function="Compresses abdominal contents">
+    <path d="M500,280 h120 v30 h-120 z" />
+  </g>
+  <g id="rectus_abdominis" data-origin="pubis" data-insertion="sternum and ribs" data-function="Flexes trunk">
+    <path d="M620,200 h40 v110 h-40 z" />
+  </g>
+
+  <!-- 🦵 Forelimb -->
+  <g id="deltoid" data-origin="scapula and clavicle" data-insertion="humerus" data-function="Flexes shoulder">
+    <path d="M300,300 h80 v30 h-80 z" />
+  </g>
+  <g id="triceps_brachii" data-origin="scapula and humerus" data-insertion="olecranon of ulna" data-function="Extends elbow">
+    <path d="M300,330 h80 v40 h-80 z" />
+  </g>
+  <g id="biceps_brachii" data-origin="scapula" data-insertion="radius" data-function="Flexes elbow and extends shoulder">
+    <path d="M300,370 h80 v30 h-80 z" />
+  </g>
+  <g id="brachialis" data-origin="humerus" data-insertion="radius and ulna" data-function="Flexes elbow">
+    <path d="M300,400 h80 v20 h-80 z" />
+  </g>
+  <g id="extensor_carpi_radialis" data-origin="humerus" data-insertion="metacarpals" data-function="Extends carpus">
+    <path d="M300,420 h80 v20 h-80 z" />
+  </g>
+  <g id="flexor_carpi_ulnaris" data-origin="humerus and ulna" data-insertion="carpal bones" data-function="Flexes carpus">
+    <path d="M300,440 h80 v20 h-80 z" />
+  </g>
+  <g id="digital_extensors_fore" data-origin="humerus" data-insertion="phalanges" data-function="Extends digits">
+    <path d="M300,460 h80 v20 h-80 z" />
+  </g>
+  <g id="digital_flexors_fore" data-origin="humerus and radius" data-insertion="phalanges" data-function="Flexes digits">
+    <path d="M300,480 h80 v20 h-80 z" />
+  </g>
+
+  <!-- 🐑 Hindlimb -->
+  <g id="gluteal_group" data-origin="ilium and sacrum" data-insertion="femur" data-function="Extends hip">
+    <path d="M700,300 h100 v40 h-100 z" />
+  </g>
+  <g id="biceps_femoris" data-origin="ischium and sacrum" data-insertion="patella, tibia, calcaneus" data-function="Extends hip and hock, flexes stifle">
+    <path d="M700,340 h100 v40 h-100 z" />
+  </g>
+  <g id="semitendinosus" data-origin="ischium" data-insertion="tibia and calcaneus" data-function="Extends hip and hock, flexes stifle">
+    <path d="M700,380 h100 v30 h-100 z" />
+  </g>
+  <g id="semimembranosus" data-origin="ischium" data-insertion="femur and tibia" data-function="Extends hip">
+    <path d="M700,410 h100 v30 h-100 z" />
+  </g>
+  <g id="quadriceps_femoris" data-origin="ilium and femur" data-insertion="patella and tibial tuberosity" data-function="Extends stifle">
+    <path d="M800,340 h80 v60 h-80 z" />
+  </g>
+  <g id="gastrocnemius" data-origin="femur" data-insertion="calcaneus" data-function="Extends hock">
+    <path d="M800,400 h80 v40 h-80 z" />
+  </g
+  <g id="tibialis_cranialis" data-origin="tibia" data-insertion="metatarsals" data-function="Flexes hock">
+    <path d="M800,440 h80 v30 h-80 z" />
+  </g>
+  <g id="digital_extensors_hind" data-origin="femur and tibia" data-insertion="phalanges" data-function="Extends digits">
+    <path d="M800,470 h80 v20 h-80 z" />
+  </g>
+  <g id="digital_flexors_hind" data-origin="tibia and fibula" data-insertion="phalanges" data-function="Flexes digits">
+    <path d="M800,490 h80 v20 h-80 z" />
+  </g>
+
+</svg>

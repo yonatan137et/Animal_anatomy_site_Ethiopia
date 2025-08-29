@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Head & Neck -->
+  <g id="masseter" data-origin="zygomatic_arch" data-insertion="mandible" />
+  <g id="temporalis" data-origin="temporal_fossa" data-insertion="coronoid_process" />
+  <g id="brachiocephalicus" data-origin="clavicular_intersection" data-insertion="humerus" />
+  <g id="sternocephalicus" data-origin="manubrium" data-insertion="mandible" />
+  <g id="splenius" data-origin="nuchal_ligament" data-insertion="mastoid_process" />
+
+  <!-- 🦴 Thorax -->
+  <g id="trapezius" data-origin="nuchal_ligament" data-insertion="scapular_spine" />
+  <g id="rhomboideus" data-origin="nuchal_ligament" data-insertion="scapula_medial" />
+  <g id="serratus_ventralis" data-origin="ribs_cervical_vertebrae" data-insertion="scapula_medial" />
+  <g id="pectoralis_superficialis" data-origin="sternum" data-insertion="humerus" />
+  <g id="pectoralis_profunda" data-origin="sternum" data-insertion="humerus" />
+  <g id="latissimus_dorsi" data-origin="thoracolumbar_fascia" data-insertion="humerus" />
+
+  <!-- 🦵 Forelimb -->
+  <g id="deltoideus" data-origin="scapular_spine" data-insertion="humerus_deltoid_tuberosity" />
+  <g id="supraspinatus" data-origin="supraspinous_fossa" data-insertion="humerus_greater_tubercle" />
+  <g id="infraspinatus" data-origin="infraspinous_fossa" data-insertion="humerus_greater_tubercle" />
+  <g id="subscapularis" data-origin="subscapular_fossa" data-insertion="humerus_lesser_tubercle" />
+  <g id="biceps_brachii" data-origin="supraglenoid_tubercle" data-insertion="radius" />
+  <g id="triceps_brachii" data-origin="scapula_humerus" data-insertion="olecranon" />
+  <g id="extensor_carpi_radialis" data-origin="humerus_lateral_supracondylar_ridge" data-insertion="metacarpal_iii" />
+  <g id="flexor_carpi_ulnaris" data-origin="humerus_ulna" data-insertion="accessory_carpal_bone" />
+  <g id="digital_extensors_fore" data-origin="humerus_radius_ulna" data-insertion="phalanges_fore" />
+  <g id="digital_flexors_fore" data-origin="humerus_radius_ulna" data-insertion="phalanges_fore" />
+
+  <!-- 🦵 Hindlimb -->
+  <g id="gluteus_medius" data-origin="ilium_sacrum" data-insertion="femur_greater_trochanter" />
+  <g id="gluteus_superficialis" data-origin="sacrum_coccygeal_ligaments" data-insertion="femur" />
+  <g id="biceps_femoris" data-origin="sacrum_ischium" data-insertion="patella_tibia_calcaneus" />
+  <g id="semitendinosus" data-origin="ischial_tuberosity" data-insertion="tibia_calcaneus" />
+  <g id="semimembranosus" data-origin="ischium" data-insertion="femur_tibia" />
+  <g id="quadriceps_femoris" data-origin="ilium_femur" data-insertion="patella_tibial_tuberosity" />
+  <g id="gastrocnemius" data-origin="femur" data-insertion="calcaneus" />
+  <g id="digital_extensors_hind" data-origin="femur_tibia_fibula" data-insertion="phalanges_hind" />
+  <g id="digital_flexors_hind" data-origin="tibia_fibula" data-insertion="phalanges_hind" />
+
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Nervous System -->
+  <g id="brain_cerebrum_left" />
+  <g id="brain_cerebrum_right" />
+  <g id="brain_cerebellum" />
+  <g id="brainstem_midbrain" />
+  <g id="brainstem_pons" />
+  <g id="brainstem_medulla" />
+  <g id="spinal_cord_cervical" />
+  <g id="spinal_cord_thoracic" />
+  <g id="spinal_cord_lumbar" />
+  <g id="spinal_cord_sacral" />
+  <g id="spinal_cord_caudal" />
+
+  <!-- 🫁 Respiratory System -->
+  <g id="nasal_cavity" />
+  <g id="pharynx" />
+  <g id="larynx" />
+  <g id="trachea" />
+  <g id="lung_left_cranial" />
+  <g id="lung_left_caudal" />
+  <g id="lung_right_cranial" />
+  <g id="lung_right_middle" />
+  <g id="lung_right_caudal" />
+  <g id="lung_right_accessory" />
+  <g id="bronchi_primary" />
+  <g id="bronchi_secondary" />
+
+  <!-- ❤️ Cardiovascular System -->
+  <g id="heart_right_atrium" />
+  <g id="heart_right_ventricle" />
+  <g id="heart_left_atrium" />
+  <g id="heart_left_ventricle" />
+  <g id="heart_septum" />
+  <g id="valve_tricuspid" />
+  <g id="valve_mitral" />
+  <g id="valve_pulmonary" />
+  <g id="valve_aortic" />
+  <g id="aorta_ascending" />
+  <g id="aorta_arch" />
+  <g id="aorta_descending" />
+  <g id="vena_cava_cranial" />
+  <g id="vena_cava_caudal" />
+  <g id="pulmonary_arteries" />
+  <g id="pulmonary_veins" />
+
+  <!-- 🧠 Digestive System -->
+  <g id="esophagus" />
+  <g id="stomach_fundus" />
+  <g id="stomach_body" />
+  <g id="stomach_pylorus" />
+  <g id="liver_left_lobe" />
+  <g id="liver_right_lobe" />
+  <g id="gallbladder" />
+  <g id="pancreas_left_lobe" />
+  <g id="pancreas_right_lobe" />
+  <g id="pancreas_body" />
+  <g id="spleen" />
+  <g id="duodenum" />
+  <g id="jejunum" />
+  <g id="ileum" />
+  <g id="cecum" />
+  <g id="colon_ascending" />
+  <g id="colon_transverse" />
+  <g id="colon_descending" />
+  <g id="rectum" />
+  <g id="anal_canal" />
+
+  <!-- 🧪 Urinary System -->
+  <g id="kidney_left" />
+  <g id="kidney_right" />
+  <g id="renal_cortex" />
+  <g id="renal_medulla" />
+  <g id="renal_pelvis" />
+  <g id="ureter_left" />
+  <g id="ureter_right" />
+  <g id="urinary_bladder" />
+  <g id="urethra_female" />
+  <g id="urethra_male" />
+
+  <!-- 🧬 Reproductive System — Female -->
+  <g id="ovary_left" />
+  <g id="ovary_right" />
+  <g id="oviduct_left" />
+  <g id="oviduct_right" />
+  <g id="uterine_horns" />
+  <g id="uterine_body" />
+  <g id="cervix" />
+  <g id="vagina" />
+  <g id="vulva" />
+
+  <!-- 🧬 Reproductive System — Male -->
+  <g id="testis_left" />
+  <g id="testis_right" />
+  <g id="epididymis_head" />
+  <g id="epididymis_body" />
+  <g id="epididymis_tail" />
+  <g id="vas_deferens_left" />
+  <g id="vas_deferens_right" />
+  <g id="seminal_vesicle" />
+  <g id="prostate" />
+  <g id="bulbourethral_gland" />
+  <g id="penis_root" />
+  <g id="penis_body" />
+  <g id="penis_glans" />
+
+  <!-- 🧪 Endocrine Glands -->
+  <g id="pituitary_gland" />
+  <g id="pineal_gland" />
+  <g id="thyroid_gland" />
+  <g id="parathyroid_glands" />
+  <g id="adrenal_gland_left" />
+  <g id="adrenal_gland_right" />
+  <g id="pancreatic_islets" />
+  <g id="ovarian_follicles" />
+  <g id="testicular_interstitial_cells" />
+
+  <!-- 👁️ Sense Organs -->
+  <g id="eye_left" />
+  <g id="eye_right" />
+  <g id="retina_left" />
+  <g id="retina_right" />
+  <g id="optic_nerve_left" />
+  <g id="optic_nerve_right" />
+  <g id="ear_external_left" />
+  <g id="ear_middle_left" />
+  <g id="ear_inner_left" />
+  <g id="ear_external_right" />
+  <g id="ear_middle_right" />
+  <g id="ear_inner_right" />
+  <g id="olfactory_epithelium" />
+  <g id="olfactory_bulb" />
+  <g id="taste_buds_tongue" />
+  <g id="tongue_tip" />
+  <g id="tongue_body" />
+  <g id="skin_mechanoreceptors" />
+
+</svg>

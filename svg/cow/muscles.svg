@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Head & Neck Muscles -->
+  <g id="masseter"><path d="M100,100 h60 v40 h-60 z" /></g> <!-- Origin: zygomatic arch; Insertion: mandible -->
+  <g id="temporalis"><path d="M100,60 h60 v30 h-60 z" /></g> <!-- Origin: temporal fossa; Insertion: coronoid process -->
+  <g id="buccinator"><path d="M160,100 h40 v20 h-40 z" /></g> <!-- Origin: maxilla & mandible; Insertion: orbicularis oris -->
+  <g id="sternomandibularis"><path d="M100,140 h80 v20 h-80 z" /></g> <!-- Origin: sternum; Insertion: mandible -->
+  <g id="brachiocephalicus"><path d="M180,140 h100 v20 h-100 z" /></g> <!-- Origin: clavicular intersection; Insertion: mastoid process -->
+
+  <!-- 🦴 Thoracic & Abdominal Muscles -->
+  <g id="trapezius"><path d="M300,100 h100 v40 h-100 z" /></g> <!-- Origin: nuchal ligament; Insertion: scapular spine -->
+  <g id="latissimus_dorsi"><path d="M300,140 h120 v40 h-120 z" /></g> <!-- Origin: thoracolumbar fascia; Insertion: humerus -->
+  <g id="serratus_ventralis"><path d="M420,140 h80 v40 h-80 z" /></g> <!-- Origin: ribs; Insertion: scapula -->
+  <g id="external_intercostals"><path d="M300,180 h200 v20 h-200 z" /></g> <!-- Origin: caudal rib border; Insertion: cranial rib border -->
+  <g id="rectus_abdominis"><path d="M500,200 h60 v80 h-60 z" /></g> <!-- Origin: pubis; Insertion: sternum & costal cartilages -->
+  <g id="external_oblique"><path d="M560,200 h80 v80 h-80 z" /></g> <!-- Origin: ribs; Insertion: linea alba -->
+
+  <!-- 🦵 Forelimb Muscles -->
+  <g id="deltoideus"><path d="M300,280 h60 v40 h-60 z" /></g> <!-- Origin: scapular spine; Insertion: deltoid tuberosity -->
+  <g id="triceps_brachii"><path d="M360,280 h80 v40 h-80 z" /></g> <!-- Origin: scapula & humerus; Insertion: olecranon -->
+  <g id="biceps_brachii"><path d="M300,320 h60 v40 h-60 z" /></g> <!-- Origin: supraglenoid tubercle; Insertion: radius -->
+  <g id="extensor_carpi_radialis"><path d="M300,360 h40 v40 h-40 z" /></g> <!-- Origin: humerus; Insertion: metacarpals -->
+  <g id="flexor_carpi_ulnaris"><path d="M340,360 h40 v40 h-40 z" /></g> <!-- Origin: humerus & ulna; Insertion: accessory carpal bone -->
+  <g id="digital_extensors_fore"><path d="M300,400 h80 v20 h-80 z" /></g> <!-- Origin: humerus; Insertion: phalanges -->
+
+  <!-- 🦵 Hindlimb Muscles -->
+  <g id="gluteus_medius"><path d="M700,200 h100 v40 h-100 z" /></g> <!-- Origin: ilium; Insertion: greater trochanter -->
+  <g id="biceps_femoris"><path d="M700,240 h100 v40 h-100 z" /></g> <!-- Origin: ischial tuberosity; Insertion: patella, tibia -->
+  <g id="semitendinosus"><path d="M700,280 h80 v40 h-80 z" /></g> <!-- Origin: ischial tuberosity; Insertion: tibia -->
+  <g id="quadriceps_femoris"><path d="M780,280 h80 v40 h-80 z" /></g> <!-- Origin: femur & ilium; Insertion: patella -->
+  <g id="gastrocnemius"><path d="M700,320 h60 v60 h-60 z" /></g> <!-- Origin: femur; Insertion: calcaneus -->
+  <g id="digital_extensors_hind"><path d="M700,380 h60 v20 h-60 z" /></g> <!-- Origin: tibia & fibula; Insertion: phalanges -->
+
+  <!-- 🐄 Tail & Perineal Muscles -->
+  <g id="coccygeus"><path d="M800,100 h80 v20 h-80 z" /></g> <!-- Origin: ischial spine; Insertion: caudal vertebrae -->
+  <g id="levator_ani"><path d="M800,120 h80 v20 h-80 z" /></g> <!-- Origin: pubis; Insertion: rectum & anal canal -->
+
+</svg>

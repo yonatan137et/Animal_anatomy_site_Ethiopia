@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+
+  <!-- 🧠 Nervous System -->
+  <g id="brain_cerebrum_left"><path d="M100,100 h40 v30 h-40 z" /></g>
+  <g id="brain_cerebrum_right"><path d="M140,100 h40 v30 h-40 z" /></g>
+  <g id="brain_cerebellum"><path d="M120,130 h40 v20 h-40 z" /></g>
+  <g id="brainstem"><path d="M130,150 h20 v30 h-20 z" /></g>
+  <g id="spinal_cord"><path d="M150,180 h20 v300 h-20 z" /></g>
+
+  <!-- 🫁 Respiratory System -->
+  <g id="nasal_conchae_dorsal"><path d="M200,100 h40 v10 h-40 z" /></g>
+  <g id="pharynx_nasopharynx"><path d="M240,100 h40 v10 h-40 z" /></g>
+  <g id="larynx_epiglottis"><path d="M280,100 h20 v10 h-20 z" /></g>
+  <g id="trachea"><path d="M300,100 h20 v100 h-20 z" /></g>
+  <g id="lungs_left_cranial"><path d="M320,100 h60 v40 h-60 z" /></g>
+  <g id="lungs_right_caudal"><path d="M380,140 h60 v40 h-60 z" /></g>
+
+  <!-- ❤️ Cardiovascular System -->
+  <g id="heart_left_ventricle"><path d="M460,130 h30 v30 h-30 z" /></g>
+  <g id="aorta_arch"><path d="M540,100 h40 v10 h-40 z" /></g>
+  <g id="vena_cava_caudal"><path d="M480,160 h20 v40 h-20 z" /></g>
+
+  <!-- 🧠 Digestive System -->
+  <g id="rumen_dorsal_sac"><path d="M620,100 h60 v40 h-60 z" /></g>
+  <g id="reticulum"><path d="M680,100 h40 v40 h-40 z" /></g>
+  <g id="omasum"><path d="M720,100 h40 v40 h-40 z" /></g>
+  <g id="abomasum_body"><path d="M760,120 h40 v20 h-40 z" /></g>
+  <g id="liver_right_lobe"><path d="M840,100 h40 v30 h-40 z" /></g>
+  <g id="gallbladder"><path d="M820,130 h20 v20 h-20 z" /></g>
+  <g id="pancreas_body"><path d="M880,100 h40 v20 h-40 z" /></g>
+  <g id="spleen"><path d="M920,100 h40 v30 h-40 z" /></g>
+  <g id="jejunum"><path d="M1000,100 h60 v40 h-60 z" /></g>
+  <g id="colon_transverse"><path d="M1180,100 h40 v20 h-40 z" /></g>
+  <g id="rectum"><path d="M1260,100 h40 v30 h-40 z" /></g>
+
+  <!-- 🧪 Urinary System -->
+  <g id="kidney_left"><path d="M1300,100 h40 v30 h-40 z" /></g>
+  <g id="ureter_left"><path d="M1300,130 h10 v40 h-10 z" /></g>
+  <g id="urinary_bladder"><path d="M1320,170 h40 v30 h-40 z" /></g>
+  <g id="urethra_male"><path d="M1340,200 h20 v30 h-20 z" /></g>
+
+  <!-- 🧬 Reproductive System — Female -->
+  <g id="ovary_left"><path d="M1400,100 h20 v20 h-20 z" /></g>
+  <g id="oviduct_left"><path d="M1400,120 h20 v20 h-20 z" /></g>
+  <g id="uterus_body"><path d="M1440,120 h40 v20 h-40 z" /></g>
+  <g id="vagina"><path d="M1440,160 h40 v20 h-40 z" /></g>
+  <g id="vulva"><path d="M1440,180 h40 v20 h-40 z" /></g>
+
+  <!-- 🧬 Reproductive System — Male -->
+  <g id="testis_left"><path d="M1500,100 h30 v20 h-30 z" /></g>
+  <g id="epididymis_left"><path d="M1500,120 h30 v10 h-30 z" /></g>
+  <g id="vas_deferens_left"><path d="M1500,130 h10 v30 h-10 z" /></g>
+  <g id="seminal_vesicle"><path d="M1510,160 h20 v20 h-20 z" /></g>
+  <g id="prostate"><path d="M1530,160 h20 v20 h-20 z" /></g>
+  <g id="bulbourethral_gland"><path d="M1550,160 h20 v20 h-20 z" /></g>
+  <g id="penis_body"><path d="M1500,180 h60 v20 h-60 z" /></g>
+  <g id="penis_glans"><path d="M1560,180 h20 v20 h-20 z" /></g>
+
+</svg>

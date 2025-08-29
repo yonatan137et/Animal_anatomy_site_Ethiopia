@@ -1,0 +1,42 @@
+{
+  "clickHint": "መረጃ ለማግኘት አካላትን ይጫኑ",
+  "language": "ቋንቋ",
+  "function": "ተግባር",
+  "context": "ኢትዮጵያዊ አውታረ እንቅስቃሴ",
+
+  "titleDogBones": "የውሻ አናቶሚ — የአጥንት ስርዓት",
+  "titleDogMuscles": "የውሻ አናቶሚ — የጡንቻ ስርዓት",
+  "titleDogOrgans": "የውሻ አናቶሚ — የውስጣዊ አካላት",
+
+  "titleCatBones": "የድመት አናቶሚ — የአጥንት ስርዓት",
+  "titleCatMuscles": "የድመት አናቶሚ — የጡንቻ ስርዓት",
+  "titleCatOrgans": "የድመት አናቶሚ — የውስጣዊ አካላት",
+
+  "titleHorseBones": "የፈረስ አናቶሚ — የአጥንት ስርዓት",
+  "titleHorseMuscles": "የፈረስ አናቶሚ — የጡንቻ ስርዓት",
+  "titleHorseOrgans": "የፈረስ አናቶሚ — የውስጣዊ አካላት",
+
+  "titleSheepBones": "የበግ አናቶሚ — የአጥንት ስርዓት",
+  "titleSheepMuscles": "የበግ አናቶሚ — የጡንቻ ስርዓት",
+  "titleSheepOrgans": "የበግ አናቶሚ — የውስጣዊ አካላት",
+
+  "titleGoatBones": "የፍየል አናቶሚ — የአጥንት ስርዓት",
+  "titleGoatMuscles": "የፍየል አናቶሚ — የጡንቻ ስርዓት",
+  "titleGoatOrgans": "የፍየል አናቶሚ — የውስጣዊ አካላት",
+
+  "titleCowBones": "የከብት አናቶሚ — የአጥንት ስርዓት",
+  "titleCowMuscles": "የከብት አናቶሚ — የጡንቻ ስርዓት",
+  "titleCowOrgans": "የከብት አናቶሚ — የውስጣዊ አካላት",
+
+  "titleDonkeyBones": "የአህያ አናቶሚ — የአጥንት ስርዓት",
+  "titleDonkeyMuscles": "የአህያ አናቶሚ — የጡንቻ ስርዓት",
+  "titleDonkeyOrgans": "የአህያ አናቶሚ — የውስጣዊ አካላት",
+
+  "titleChickenBones": "የዶሮ አናቶሚ — የአጥንት ስርዓት",
+  "titleChickenMuscles": "የዶሮ አናቶሚ — የጡንቻ ስርዓት",
+  "titleChickenOrgans": "የዶሮ አናቶሚ — የውስጣዊ አካላት",
+
+  "titleCamelBones": "የግመል አናቶሚ — የአጥንት ስርዓት",
+  "titleCamelMuscles": "የግመል አናቶሚ — የጡንቻ ስርዓት",
+  "titleCamelOrgans": "የግመል አናቶሚ — የውስጣዊ አካላት"
+}

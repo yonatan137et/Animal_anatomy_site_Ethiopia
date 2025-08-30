@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cat Muscular Anatomy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    svg {
+      width: 100%;
+      max-width: 1000px;
+      display: block;
+      margin: auto;
+    }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐱 Cat Muscular Anatomy Viewer</h1>
+  <p style="text-align:center;">Hover over each muscle to see its name in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <!-- Embed your SVG directly or use <object> if external -->
+  <object id="muscleSVG" type="image/svg+xml" data="muscles.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    const muscleData = {
+      masseter: { en: "Masseter", am: "ማሴተር" },
+      temporalis: { en: "Temporalis", am: "ቴምፖራሊስ" },
+      digastric: { en: "Digastric", am: "ዲጋስትሪክ" },
+      sternocephalicus: { en: "Sternocephalicus", am: "ስተርኖሴፋሊከስ" },
+      brachiocephalicus: { en: "Brachiocephalicus", am: "ብራኪዮሴፋሊከስ" },
+      pectoralis_superficialis: { en: "Pectoralis Superficialis", am: "ፔክቶራሊስ ሱፐርፊሺያሊስ" },
+      pectoralis_profunda: { en: "Pectoralis Profunda", am: "ፔክቶራሊስ ፕሮፉንዳ" },
+      external_oblique: { en: "External Oblique", am: "ኤክስተርናል ኦብሊክ" },
+      internal_oblique: { en: "Internal Oblique", am: "ኢንተርናል ኦብሊክ" },
+      transversus_abdominis: { en: "Transversus Abdominis", am: "ትራንስቨርሱስ አብዶሚኒስ" },
+      rectus_abdominis: { en: "Rectus Abdominis", am: "ሬክተስ አብዶሚኒስ" },
+      deltoid: { en: "Deltoid", am: "ዴልቶይድ" },
+      triceps_brachii: { en: "Triceps Brachii", am: "ትራይሴፕስ ብራኪይ" },
+      biceps_brachii: { en: "Biceps Brachii", am: "ባይሴፕስ ብራኪይ" },
+      brachialis: { en: "Brachialis", am: "ብራኪያሊስ" },
+      extensor_carpi_radialis: { en: "Extensor Carpi Radialis", am: "ኤክስቴንሰር ካርፒ ሬዲያሊስ" },
+      flexor_carpi_ulnaris: { en: "Flexor Carpi Ulnaris", am: "ፍሌክሰር ካርፒ ኡልናሪስ" },
+      digital_extensors_fore: { en: "Digital Extensors (Forelimb)", am: "ዲጂታል ኤክስቴንሰሮች (እጅ)" },
+      digital_flexors_fore: { en: "Digital Flexors (Forelimb)", am: "ዲጂታል ፍሌክሰሮች (እጅ)" },
+      gluteal_group: { en: "Gluteal Group", am: "ግሉቲያል ቡድን" },
+      biceps_femoris: { en: "Biceps Femoris", am: "ባይሴፕስ ፊሙሪስ" },
+      semitendinosus: { en: "Semitendinosus", am: "ሴሚቴንዲኖሰስ" },
+      semimembranosus: { en: "Semimembranosus", am: "ሴሚሜምብራኖሰስ" },
+      quadriceps_femoris: { en: "Quadriceps Femoris", am: "ኳድሪሴፕስ ፊሙሪስ" },
+      gastrocnemius: { en: "Gastrocnemius", am: "ጋስትሮክኔሚየስ" },
+      tibialis_cranialis: { en: "Tibialis Cranialis", am: "ቲቢያሊስ ክራኒያሊስ" },
+      digital_extensors_hind: { en: "Digital Extensors (Hindlimb)", am: "ዲጂታል ኤክስቴንሰሮች (እግር)" },
+      digital_flexors_hind: { en: "Digital Flexors (Hindlimb)", am: "ዲጂታል ፍሌክሰሮች (እግር)" },
+      coccygeus: { en: "Coccygeus", am: "ኮክሲጅየስ" },
+      levator_ani: { en: "Levator Ani", am: "ሌቫቶር አኒ" }
+    };
+
+    document.getElementById('muscleSVG').addEventListener('load', function () {
+      const svgDoc = this.contentDocument;
+      Object.keys(muscleData).forEach(id => {
+        const element = svgDoc.getElementById(id);
+        if (element) {
+          element.addEventListener('mousemove', e => {
+            tooltip.style.display = 'block';
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            tooltip.innerHTML = `<strong>${muscleData[id].en}</strong><br/>${muscleData[id].am}`;
+          });
+          element.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

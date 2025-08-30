@@ -1,0 +1,491 @@
+{
+  "nervous_system": {
+    "brain_cerebrum_left": {
+      "en": "Left Cerebrum",
+      "am": "የግራ ሰረብራም",
+      "function": "Processes sensory input and controls voluntary movement on the right side of the body"
+    },
+    "brain_cerebrum_right": {
+      "en": "Right Cerebrum",
+      "am": "የቀኝ ሰረብራም",
+      "function": "Processes sensory input and controls voluntary movement on the left side of the body"
+    },
+    "brain_cerebellum": {
+      "en": "Cerebellum",
+      "am": "ሰረበለም",
+      "function": "Coordinates balance, posture, and fine motor control"
+    },
+    "brainstem_midbrain": {
+      "en": "Midbrain",
+      "am": "መካከለኛ አእምሮ",
+      "function": "Relays auditory and visual signals; controls reflexes"
+    },
+    "brainstem_pons": {
+      "en": "Pons",
+      "am": "ፖንስ",
+      "function": "Connects cerebellum to cerebrum; regulates breathing rhythm"
+    },
+    "brainstem_medulla": {
+      "en": "Medulla Oblongata",
+      "am": "ሜዱላ ኦብሎንጋታ",
+      "function": "Controls heart rate, respiration, and autonomic functions"
+    },
+    "spinal_cord_cervical": {
+      "en": "Cervical Spinal Cord",
+      "am": "የአንገት እንባቢ",
+      "function": "Transmits signals to and from the neck and forelimbs"
+    },
+    "spinal_cord_thoracic": {
+      "en": "Thoracic Spinal Cord",
+      "am": "የደረት እንባቢ",
+      "function": "Controls trunk muscles and thoracic organs"
+    },
+    "spinal_cord_lumbar": {
+      "en": "Lumbar Spinal Cord",
+      "am": "የወገብ እንባቢ",
+      "function": "Innervates abdominal wall and hindlimbs"
+    },
+    "spinal_cord_sacral": {
+      "en": "Sacral Spinal Cord",
+      "am": "የሳክራል እንባቢ",
+      "function": "Controls pelvic organs and tail movement"
+    },
+    "spinal_cord_caudal": {
+      "en": "Caudal Spinal Cord",
+      "am": "የኮዳል እንባቢ",
+      "function": "Transmits signals to the tail and caudal structures"
+    }
+  },
+
+  "respiratory_system": {
+    "nasal_conchae_dorsal": {
+      "en": "Dorsal Nasal Conchae",
+      "am": "የላይ ናዛል ኮንሺ",
+      "function": "Warms and humidifies inhaled air"
+    },
+    "nasal_conchae_ventral": {
+      "en": "Ventral Nasal Conchae",
+      "am": "የታች ናዛል ኮንሺ",
+      "function": "Filters and directs airflow through nasal cavity"
+    },
+    "nasal_septum": {
+      "en": "Nasal Septum",
+      "am": "ናዛል ሴፕተም",
+      "function": "Separates left and right nasal passages"
+    },
+    "pharynx_nasopharynx": {
+      "en": "Nasopharynx",
+      "am": "ናዞፋሪንክስ",
+      "function": "Conducts air from nasal cavity to pharynx"
+    },
+    "pharynx_oropharynx": {
+      "en": "Oropharynx",
+      "am": "ኦሮፋሪንክስ",
+      "function": "Passageway for food and air"
+    },
+    "pharynx_laryngopharynx": {
+      "en": "Laryngopharynx",
+      "am": "ላሪንጎፋሪንክስ",
+      "function": "Connects pharynx to larynx and esophagus"
+    },
+    "larynx_epiglottis": {
+      "en": "Epiglottis",
+      "am": "ኤፒግሎቲስ",
+      "function": "Prevents food from entering the trachea during swallowing"
+    },
+    "larynx_thyroid_cartilage": {
+      "en": "Thyroid Cartilage",
+      "am": "ታይሮይድ ካርቲላጅ",
+      "function": "Protects vocal cords and supports larynx"
+    },
+    "larynx_cricoid_cartilage": {
+      "en": "Cricoid Cartilage",
+      "am": "ክሪኮይድ ካርቲላጅ",
+      "function": "Forms the base of the larynx and maintains airway patency"
+    },
+    "larynx_arytenoid_cartilage": {
+      "en": "Arytenoid Cartilage",
+      "am": "አሪተኖይድ ካርቲላጅ",
+      "function": "Controls vocal cord tension and movement"
+    },
+    "trachea_rings": {
+      "en": "Tracheal Rings",
+      "am": "የትራኬያ ቀለበቶች",
+      "function": "Keep the trachea open during respiration"
+    },
+    "trachea_carina": {
+      "en": "Carina",
+      "am": "ካሪና",
+      "function": "Bifurcation point of the trachea into bronchi"
+    },
+    "lung_left_cranial": {
+      "en": "Left Cranial Lung Lobe",
+      "am": "የግራ ክራኒያል የሳንባ ክፍል",
+      "function": "Performs gas exchange in the cranial region"
+    },
+    "lung_left_caudal": {
+      "en": "Left Caudal Lung Lobe",
+      "am": "የግራ ኮዳል የሳንባ ክፍል",
+      "function": "Performs gas exchange in the caudal region"
+    },
+    "lung_right_cranial": {
+      "en": "Right Cranial Lung Lobe",
+      "am": "የቀኝ ክራኒያል የሳንባ ክፍል",
+      "function": "Performs gas exchange in the cranial region"
+    },
+    "lung_right_middle": {
+      "en": "Right Middle Lung Lobe",
+      "am": "የቀኝ መካከለኛ የሳንባ ክፍል",
+      "function": "Performs gas exchange in the middle region"
+    },
+    "lung_right_caudal": {
+      "en": "Right Caudal Lung Lobe",
+      "am": "የቀኝ ኮዳል የሳንባ ክፍል",
+      "function": "Performs gas exchange in the caudal region"
+    },
+    "lung_right_accessory": {
+      "en": "Right Accessory Lung Lobe",
+      "am": "የቀኝ ተጨማሪ የሳንባ ክፍል",
+      "function": "Supports ventilation in the mediastinal region"
+    },
+      "urinary_system": {
+    "kidney_left": {
+      "en": "Left Kidney",
+      "am": "የግራ ኩላሊት",
+      "function": "Filters blood and produces urine"
+    },
+    "kidney_right": {
+      "en": "Right Kidney",
+      "am": "የቀኝ ኩላሊት",
+      "function": "Filters blood and produces urine"
+    },
+    "renal_cortex": {
+      "en": "Renal Cortex",
+      "am": "የኩላሊት ኮርቴክስ",
+      "function": "Contains glomeruli for filtration"
+    },
+    "renal_medulla": {
+      "en": "Renal Medulla",
+      "am": "የኩላሊት ሜዱላ",
+      "function": "Concentrates urine through tubules and loops"
+    },
+    "renal_pelvis": {
+      "en": "Renal Pelvis",
+      "am": "የኩላሊት ፔልቪስ",
+      "function": "Collects urine before it enters the ureter"
+    },
+    "renal_hilus": {
+      "en": "Renal Hilus",
+      "am": "የኩላሊት ሂለስ",
+      "function": "Entry and exit point for vessels, nerves, and ureter"
+    },
+    "ureter_left": {
+      "en": "Left Ureter",
+      "am": "የግራ ዩሬተር",
+      "function": "Transports urine from kidney to bladder"
+    },
+    "ureter_right": {
+      "en": "Right Ureter",
+      "am": "የቀኝ ዩሬተር",
+      "function": "Transports urine from kidney to bladder"
+    },
+    "bladder_apex": {
+      "en": "Bladder Apex",
+      "am": "የሚታወቀ አካል",
+      "function": "Top portion of the bladder; expands during filling"
+    },
+    "bladder_body": {
+      "en": "Bladder Body",
+      "am": "የሚታወቀ አካል",
+      "function": "Stores urine until micturition"
+    },
+    "bladder_neck": {
+      "en": "Bladder Neck",
+      "am": "የሚታወቀ አካል",
+      "function": "Controls outflow of urine into urethra"
+    },
+    "urethra_female": {
+      "en": "Female Urethra",
+      "am": "የሴት ዩሬትራ",
+      "function": "Conducts urine from bladder to exterior in females"
+    },
+    "urethra_male": {
+      "en": "Male Urethra",
+      "am": "የወንድ ዩሬትራ",
+      "function": "Conducts urine and semen from bladder to exterior in males"
+    }
+  },
+
+  "reproductive_female": {
+    "ovary_left": {
+      "en": "Left Ovary",
+      "am": "የግራ ኦቫሪ",
+      "function": "Produces ova and reproductive hormones"
+    },
+    "ovary_right": {
+      "en": "Right Ovary",
+      "am": "የቀኝ ኦቫሪ",
+      "function": "Produces ova and reproductive hormones"
+    },
+    "oviduct_left": {
+      "en": "Left Oviduct",
+      "am": "የግራ የኦቫሪ ቧንቧ",
+      "function": "Transports ova from ovary to uterus"
+    },
+    "oviduct_right": {
+      "en": "Right Oviduct",
+      "am": "የቀኝ የኦቫሪ ቧንቧ",
+      "function": "Transports ova from ovary to uterus"
+    },
+    "infundibulum": {
+      "en": "Infundibulum",
+      "am": "ኢንፉንዲቡለም",
+      "function": "Captures ovulated ova from ovary"
+    },
+    "ampulla": {
+      "en": "Ampulla",
+      "am": "አምፑላ",
+      "function": "Site of fertilization in oviduct"
+    },
+    "isthmus": {
+      "en": "Isthmus",
+      "am": "ኢስትሙስ",
+      "function": "Connects ampulla to uterine horn"
+    },
+    "uterine_horns": {
+      "en": "Uterine Horns",
+      "am": "የማህፀን ቀንዶች",
+      "function": "Site of embryo implantation and development"
+    },
+    "uterine_body": {
+      "en": "Uterine Body",
+      "am": "የማህፀን አካል",
+      "function": "Connects horns to cervix; supports fetal growth"
+    },
+    "cervix": {
+      "en": "Cervix",
+      "am": "ሰርቪክስ",
+      "function": "Barrier between uterus and vagina; opens during parturition"
+    },
+    "vagina_body": {
+      "en": "Vaginal Body",
+      "am": "የወሊድ አካል",
+      "function": "Receives penis during copulation; birth canal"
+    },
+    "labia": {
+      "en": "Labia",
+      "am": "ላቢያ",
+      "function": "Protects external genitalia"
+    },
+    "vestibule": {
+      "en": "Vestibule",
+      "am": "ቬስቲቡል",
+      "function": "Common passage for urine and reproductive tract"
+    }
+  },
+
+  "reproductive_male": {
+    "testis_left": {
+      "en": "Left Testis",
+      "am": "የግራ ወንድ አካል",
+      "function": "Produces sperm and testosterone"
+    },
+    "testis_right": {
+      "en": "Right Testis",
+      "am": "የቀኝ ወንድ አካል",
+      "function": "Produces sperm and testosterone"
+    },
+    "epididymis_head": {
+      "en": "Head of Epididymis",
+      "am": "የኤፒዲዲሚስ ግራ",
+      "function": "Receives sperm from testis"
+    },
+    "epididymis_body": {
+      "en": "Body of Epididymis",
+      "am": "የኤፒዲዲሚስ አካል",
+      "function": "Stores and matures sperm"
+    },
+    "epididymis_tail": {
+      "en": "Tail of Epididymis",
+      "am": "የኤፒዲዲሚስ ጅምላ",
+      "function": "Transports sperm to vas deferens"
+    },
+    "vas_deferens_left": {
+      "en": "Left Vas Deferens",
+      "am": "የግራ የወንድ ቧንቧ",
+      "function": "Carries sperm from epididymis to urethra"
+    },
+    "vas_deferens_right": {
+      "en": "Right Vas Deferens",
+      "am": "የቀኝ የወንድ ቧንቧ",
+      "function": "Carries sperm from epididymis to urethra"
+    },
+    "seminal_vesicle": {
+      "en": "Seminal Vesicle",
+      "am": "ሴሚናል ቬሲክል",
+      "function": "Adds fluid to semen for nourishment"
+    },
+   "prostate": {
+      "en": "Prostate Gland",
+      "am": "ፕሮስቴት ጋላንድ",
+      "function": "Adds enzymes and fluid to semen; supports sperm motility"
+    },
+    "bulbourethral_gland": {
+      "en": "Bulbourethral Gland",
+      "am": "ቡልቦዩሬትራል ጋላንድ",
+      "function": "Secretes mucus to lubricate urethra before ejaculation"
+    },
+    "penis_root": {
+      "en": "Penis Root",
+      "am": "የፔኒስ ሥር",
+      "function": "Anchors penis to pelvic bones"
+    },
+    "penis_body": {
+      "en": "Penis Body",
+      "am": "የፔኒስ አካል",
+      "function": "Conducts urine and semen through urethra"
+    },
+    "penis_glans": {
+      "en": "Glans Penis",
+      "am": "ግላንስ ፔኒስ",
+      "function": "Sensitive tip of penis; involved in copulation"
+    }
+  },
+
+  "endocrine_glands": {
+    "pituitary_gland": {
+      "en": "Pituitary Gland",
+      "am": "ፒቱተሪ ጋላንድ",
+      "function": "Master gland; regulates growth, metabolism, and reproduction"
+    },
+    "pineal_gland": {
+      "en": "Pineal Gland",
+      "am": "ፓይኒያል ጋላንድ",
+      "function": "Secretes melatonin; regulates circadian rhythms"
+    },
+    "thyroid_gland": {
+      "en": "Thyroid Gland",
+      "am": "ታይሮይድ ጋላንድ",
+      "function": "Regulates metabolism and calcium balance"
+    },
+    "parathyroid_glands": {
+      "en": "Parathyroid Glands",
+      "am": "ፓራታይሮይድ ጋላንዶች",
+      "function": "Regulate blood calcium and phosphate levels"
+    },
+    "adrenal_gland_left": {
+      "en": "Left Adrenal Gland",
+      "am": "የግራ አድሬናል ጋላንድ",
+      "function": "Produces stress hormones and regulates metabolism"
+    },
+    "adrenal_gland_right": {
+      "en": "Right Adrenal Gland",
+      "am": "የቀኝ አድሬናል ጋላንድ",
+      "function": "Produces stress hormones and regulates metabolism"
+    },
+    "pancreatic_islets": {
+      "en": "Pancreatic Islets",
+      "am": "የፓንክሪያስ አይስሌትስ",
+      "function": "Secrete insulin and glucagon to regulate blood sugar"
+    },
+    "ovarian_follicles": {
+      "en": "Ovarian Follicles",
+      "am": "የኦቫሪ ፎሊክልስ",
+      "function": "Develop and release ova; produce estrogen"
+    },
+    "testicular_interstitial_cells": {
+      "en": "Testicular Interstitial Cells",
+      "am": "የወንድ አካል ኢንተርስቲሺያል ህዋሶች",
+      "function": "Produce testosterone in the testes"
+    }
+  },
+
+  "sense_organs": {
+    "eye_left": {
+      "en": "Left Eye",
+      "am": "የግራ ዓይን",
+      "function": "Receives visual input from the left field of view"
+    },
+    "eye_right": {
+      "en": "Right Eye",
+      "am": "የቀኝ ዓይን",
+      "function": "Receives visual input from the right field of view"
+    },
+    "retina_left": {
+      "en": "Left Retina",
+      "am": "የግራ ሬቲና",
+      "function": "Converts light into neural signals for vision"
+    },
+    "retina_right": {
+      "en": "Right Retina",
+      "am": "የቀኝ ሬቲና",
+      "function": "Converts light into neural signals for vision"
+    },
+    "optic_nerve_left": {
+      "en": "Left Optic Nerve",
+      "am": "የግራ ኦፕቲክ ነርቭ",
+      "function": "Transmits visual signals from left eye to brain"
+    },
+    "optic_nerve_right": {
+      "en": "Right Optic Nerve",
+      "am": "የቀኝ ኦፕቲክ ነርቭ",
+      "function": "Transmits visual signals from right eye to brain"
+    },
+    "ear_external_left": {
+      "en": "Left External Ear",
+      "am": "የግራ ውጫዊ ጆሮ",
+      "function": "Captures sound waves and directs them inward"
+    },
+    "ear_middle_left": {
+      "en": "Left Middle Ear",
+      "am": "የግራ መካከለኛ ጆሮ",
+      "function": "Amplifies sound vibrations via ossicles"
+    },
+    "ear_inner_left": {
+      "en": "Left Inner Ear",
+      "am": "የግራ ውስጣዊ ጆሮ",
+      "function": "Detects sound and balance via cochlea and vestibular system"
+    },
+    "ear_external_right": {
+      "en": "Right External Ear",
+      "am": "የቀኝ ውጫዊ ጆሮ",
+      "function": "Captures sound waves and directs them inward"
+    },
+    "ear_middle_right": {
+      "en": "Right Middle Ear",
+      "am": "የቀኝ መካከለኛ ጆሮ",
+      "function": "Amplifies sound vibrations via ossicles"
+    },
+    "ear_inner_right": {
+      "en": "Right Inner Ear",
+      "am": "የቀኝ ውስጣዊ ጆሮ",
+      "function": "Detects sound and balance via cochlea and vestibular system"
+    },
+    "olfactory_epithelium": {
+      "en": "Olfactory Epithelium",
+      "am": "የሽታ ኢፒቴሊየም",
+      "function": "Detects airborne odor molecules"
+    },
+    "olfactory_bulb": {
+      "en": "Olfactory Bulb",
+      "am": "የሽታ ቡልብ",
+      "function": "Processes smell signals from nasal cavity"
+    },
+    "taste_buds_tongue": {
+      "en": "Taste Buds (Tongue)",
+      "am": "የምላስ የጣፋጭ ህዋሶች",
+      "function": "Detects taste stimuli (sweet, sour, salty, bitter)"
+    },
+    "tongue_tip": {
+      "en": "Tongue Tip",
+      "am": "የምላስ ጫፍ",
+      "function": "Sensitive to taste and touch"
+    },
+    "tongue_body": {
+      "en": "Tongue Body",
+      "am": "የምላስ አካል",
+      "function": "Manipulates food and aids in vocalization"
+    }
+    }
+    }
+  

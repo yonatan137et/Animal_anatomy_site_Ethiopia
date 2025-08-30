@@ -1,0 +1,67 @@
+{
+  "brain": { "en": "Brain", "am": "አእምሮ", "system": "nervous", "kind": "organ" },
+  "spinal_cord": { "en": "Spinal Cord", "am": "የጀርባ ገመድ", "system": "nervous", "kind": "organ" },
+
+  "heart": { "en": "Heart", "am": "ልብ", "system": "cardiovascular", "kind": "organ" },
+  "aorta": { "en": "Aorta", "am": "አኦርታ", "system": "cardiovascular", "kind": "vessel" },
+  "vena_cava_cranial": { "en": "Cranial Vena Cava", "am": "ክራኒያል ቬና ካቫ", "system": "cardiovascular", "kind": "vessel" },
+  "vena_cava_caudal": { "en": "Caudal Vena Cava", "am": "ኮዳል ቬና ካቫ", "system": "cardiovascular", "kind": "vessel" },
+
+  "trachea": { "en": "Trachea", "am": "ትራኬያ", "system": "respiratory", "kind": "organ" },
+  "lungs_left": { "en": "Left Lung", "am": "የግራ ፍንጭ", "system": "respiratory", "kind": "organ" },
+  "lungs_right": { "en": "Right Lung", "am": "የቀኝ ፍንጭ", "system": "respiratory", "kind": "organ" },
+  "bronchi": { "en": "Bronchi", "am": "ብሮንኪያዎች", "system": "respiratory", "kind": "duct" },
+  "diaphragm": { "en": "Diaphragm", "am": "ዳይፍራግም", "system": "respiratory", "kind": "muscle" },
+
+  "esophagus": { "en": "Esophagus", "am": "ኤሶፋጉስ", "system": "digestive", "kind": "organ" },
+  "stomach": { "en": "Stomach", "am": "ሆድ", "system": "digestive", "kind": "organ" },
+  "small_intestine": { "en": "Small Intestine", "am": "ትንሽ አንጀት", "system": "digestive", "kind": "organ" },
+  "duodenum": { "en": "Duodenum", "am": "ዱዋዴነም", "system": "digestive", "kind": "organ" },
+  "jejunum": { "en": "Jejunum", "am": "ጄጁነም", "system": "digestive", "kind": "organ" },
+  "ileum": { "en": "Ileum", "am": "ኢሊየም", "system": "digestive", "kind": "organ" },
+  "cecum": { "en": "Cecum", "am": "ሲኩም", "system": "digestive", "kind": "organ" },
+  "colon_ascending": { "en": "Ascending Colon", "am": "አሰንዲንግ ኮሎን", "system": "digestive", "kind": "organ" },
+  "colon_transverse": { "en": "Transverse Colon", "am": "ትራንስቨርስ ኮሎን", "system": "digestive", "kind": "organ" },
+  "colon_descending": { "en": "Descending Colon", "am": "ዲሰንዲንግ ኮሎን", "system": "digestive", "kind": "organ" },
+  "rectum": { "en": "Rectum", "am": "ሬክተም", "system": "digestive", "kind": "organ" },
+  "anus": { "en": "Anus", "am": "የትንሽ አንጀት መውጫ", "system": "digestive", "kind": "opening" },
+
+  "pituitary_gland": { "en": "Pituitary Gland", "am": "ፒቱተሪ ጋላንድ", "system": "endocrine", "kind": "gland" },
+  "thyroid_gland": { "en": "Thyroid Gland", "am": "ታይሮይድ ጋላንድ", "system": "endocrine", "kind": "gland" },
+  "adrenal_glands": { "en": "Adrenal Glands", "am": "አድሬናል ጋላንዶች", "system": "endocrine", "kind": "gland" },
+  "pancreas_endocrine": { "en": "Pancreas (Endocrine)", "am": "ፓንክሪያስ (እንዶክሪን)", "system": "endocrine", "kind": "gland" },
+
+  "liver": { "en": "Liver", "am": "ጉበት", "system": "hepatobiliary", "kind": "organ" },
+  "gallbladder": { "en": "Gallbladder", "am": "ጋልብላደር", "system": "hepatobiliary", "kind": "organ" },
+  "bile_ducts": { "en": "Bile Ducts", "am": "የጉበት መተላለፊያዎች", "system": "hepatobiliary", "kind": "duct" },
+  "pancreas_exocrine": { "en": "Pancreas (Exocrine)", "am": "ፓንክሪያስ (ኤክሶክሪን)", "system": "hepatobiliary", "kind": "gland" },
+
+  "kidney_left": { "en": "Left Kidney", "am": "የግራ ኩላሊት", "system": "urinary", "kind": "organ" },
+  "kidney_right": { "en": "Right Kidney", "am": "የቀኝ ኩላሊት", "system": "urinary", "kind": "organ" },
+  "ureters": { "en": "Ureters", "am": "ዩሬተሮች", "system": "urinary", "kind": "duct" },
+  "urinary_bladder": { "en": "Urinary Bladder", "am": "የሽንት ከስተር", "system": "urinary", "kind": "organ" },
+  "urethra": { "en": "Urethra", "am": "ዩሬትራ", "system": "urinary", "kind": "duct" },
+
+  "testes": { "en": "Testes", "am": "እንስኒ", "system": "reproductive", "kind": "organ" },
+  "epididymis": { "en": "Epididymis", "am": "ኤፒዲዲሚስ", "system": "reproductive", "kind": "duct" },
+  "vas_deferens": { "en": "Vas Deferens", "am": "ቫስ ደፈሬንስ", "system": "reproductive", "kind": "duct" },
+   "penis": { "en": "Penis", "am": "ፔኒስ", "system": "reproductive", "kind": "organ" },
+  "prostate_gland": { "en": "Prostate Gland", "am": "ፕሮስቴት ጋላንድ", "system": "reproductive", "kind": "gland" },
+  "ovaries": { "en": "Ovaries", "am": "ኦቫሪዎች", "system": "reproductive", "kind": "organ" },
+  "uterine_tubes": { "en": "Uterine Tubes", "am": "የማህፀን ቱቦች", "system": "reproductive", "kind": "duct" },
+  "uterus": { "en": "Uterus", "am": "ማህፀን", "system": "reproductive", "kind": "organ" },
+  "cervix": { "en": "Cervix", "am": "ሰርቪክስ", "system": "reproductive", "kind": "organ" },
+  "vagina": { "en": "Vagina", "am": "ዓሣን", "system": "reproductive", "kind": "organ" },
+  "vulva": { "en": "Vulva", "am": "ቫልቫ", "system": "reproductive", "kind": "external" },
+
+  "eye_left": { "en": "Left Eye", "am": "የግራ ዓይን", "system": "sense", "kind": "organ" },
+  "eye_right": { "en": "Right Eye", "am": "የቀኝ ዓይን", "system": "sense", "kind": "organ" },
+  "ear_external": { "en": "External Ear", "am": "ውጫዊ ጆሮ", "system": "sense", "kind": "organ" },
+  "ear_middle": { "en": "Middle Ear", "am": "መካከለኛ ጆሮ", "system": "sense", "kind": "organ" },
+  "ear_inner": { "en": "Inner Ear", "am": "ውስጣዊ ጆሮ", "system": "sense", "kind": "organ" },
+  "olfactory_epithelium": { "en": "Olfactory Epithelium", "am": "የሽታ ኢፒተሊየም", "system": "sense", "kind": "tissue" },
+  "tongue": { "en": "Tongue", "am": "ምላስ", "system": "sense", "kind": "organ" },
+  "taste_buds": { "en": "Taste Buds", "am": "የጣዕም ነቃቃዎች", "system": "sense", "kind": "tissue" }
+}
+}
+}

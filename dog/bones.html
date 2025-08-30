@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cat Skeletal Anatomy</title>
+  <style>
+    body { font-family: sans-serif; background: #f0f0f0; padding: 20px; }
+    svg { width: 100%; max-width: 1000px; display: block; margin: auto; }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐱 Cat Skeletal Anatomy Viewer</h1>
+  <p>Hover over each bone to see its name in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="anatomySVG" type="image/svg+xml" data="bones.svg

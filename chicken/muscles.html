@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chicken Anatomy Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    h1 { margin-bottom: 10px; }
+    svg, object {
+      width: 90%;
+      max-width: 1200px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+    #infoBox {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      background: #fff;
+      width: 90%;
+      max-width: 600px;
+      text-align: left;
+    }
+    #regionSelector {
+      margin: 20px 0;
+      padding: 5px;
+    }
+    .highlight {
+      fill: orange !important;
+      stroke: red !important;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐔 Chicken Anatomy Viewer</h1>
+  <p>Select a region and click on a structure to view its name in English and Amharic.</p>
+
+  <select id="regionSelector">
+    <option value="all">All Regions</option>
+    <option value="skull">🧠 Skull</option>
+    <option value="vertebral_column">🦴 Vertebral Column</option>
+    <option value="thoracic_cage">🫁 Thoracic Cage</option>
+    <option value="forelimb">🦵 Forelimb (Wing)</option>
+    <option value="hindlimb">🦵 Hindlimb</option>
+    <option value="head_neck">🧠 Head & Neck Muscles</option>
+    <option value="thoracic">🫁 Thoracic Muscles</option>
+    <option value="wing">🦵 Wing Muscles</option>
+    <option value="hindlimb_muscles">🦵 Hindlimb Muscles</option>
+    <option value="abdominal">🧍 Abdominal Muscles</option>
+    <option value="tail_perineal">🐔 Tail & Perineal Muscles</option>
+  </select>
+
+  <object id="chickenSVG" type="image/svg+xml" data="chicken.svg"></object>
+
+  <div id="infoBox">Click a structure to see details.</div>
+
+  <script>
+    let boneData = {};
+    let muscleData = {};
+
+    Promise.all([
+      fetch('chicken.json').then(r => r.json()),
+      fetch('muscles.json').then(r => r.json())
+    ]).then(([bones, muscles]) => {
+      boneData = bones;
+      muscleData = muscles;
+      setupViewer();
+    });
+
+    function setupViewer() {
+      const obj = document.getElementById('chickenSVG');
+      obj.addEventListener('load', () => {
+        const svgDoc = obj.contentDocument;
+        const allData = { ...boneData, ...muscleData };
+
+        for (const region in allData) {
+          for (const id in allData[region]) {
+            const el = svgDoc.getElementById(id);
+            if (el) {
+              el.style.cursor = 'pointer';
+              el.setAttribute('data-region', region);
+              el.addEventListener('click', () => {
+                highlight(el, svgDoc);
+                const name = allData[region][id];
+                document.getElementById('infoBox').innerHTML =
+                  `<strong>English:</strong> ${name.en}<br><strong>Amharic:</strong> ${name.am}`;
+              });
+            }
+          }
+        }
+
+        document.getElementById('regionSelector').addEventListener('change', e => {
+          const selected = e.target.value;
+          for (const region in allData) {
+            for (const id in allData[region]) {
+              const el = svgDoc.getElementById(id);
+              if (el) {
+                el.style.display = (selected === 'all' || selected === region) ? 'inline' : 'none';
+              }
+            }
+          }
+        });
+      });
+    }
+
+    function highlight(el, svgDoc) {
+      svgDoc.querySelectorAll('.highlight').forEach(e => e.classList.remove('highlight'));
+      el.classList.add('highlight');
+    }
+  </script>
+
+</body>
+</html>

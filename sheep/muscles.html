@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sheep Muscular Anatomy Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    svg {
+      width: 100%;
+      max-width: 1200px;
+      display: block;
+      margin: auto;
+    }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐑 Sheep Muscular Anatomy Viewer</h1>
+  <p style="text-align:center;">Hover over each muscle to see its name, origin, insertion, and function in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="muscleSVG" type="image/svg+xml" data="muscles.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    document.getElementById('muscleSVG').addEventListener('load', function () {
+      const svgDoc = this.contentDocument;
+      const muscles = svgDoc.querySelectorAll('g');
+
+      muscles.forEach(muscle => {
+        const id = muscle.id;
+        const origin = muscle.getAttribute('data-origin') || "—";
+        const insertion = muscle.getAttribute('data-insertion') || "—";
+        const functionText = muscle.getAttribute('data-function') || "—";
+
+        muscle.addEventListener('mousemove', e => {
+          tooltip.style.display = 'block';
+          tooltip.style.left = e.clientX + 10 + 'px';
+          tooltip.style.top = e.clientY + 10 + 'px';
+          tooltip.innerHTML = `
+            <strong>${id.replace(/_/g, ' ')}</strong><br/>
+            <em>Origin:</em> ${origin}<br/>
+            <em>Insertion:</em> ${insertion}<br/>
+            <em>Function:</em> ${functionText}
+          `;
+        });
+
+        muscle.addEventListener('mouseleave', () => {
+          tooltip.style.display = 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

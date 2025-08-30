@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sheep Skeletal Anatomy Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 0;
+    }
+    h1 { font-size: 24px; margin-bottom: 10px; }
+    p { font-size: 14px; margin-bottom: 16px; }
+    .viewer {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    object {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .tooltip {
+      position: fixed;
+      background: #fff;
+      border: 1px solid #aaa;
+      padding: 8px;
+      font-size: 14px;
+      display: none;
+      z-index: 1000;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .highlight [fill] { fill: #ffe082 !important; }
+    .highlight [stroke] { stroke: #ff6f00 !important; stroke-width: 2px !important; }
+  </style>
+</head>
+<body>
+
+  <h1>🐑 Sheep Skeletal Anatomy Viewer</h1>
+  <p>Hover over each bone to see its name in English and Amharic.</p>
+
+  <div class="viewer">
+    <object id="sheepSVG" type="image/svg+xml" data="bones.svg"></object>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    const obj = document.getElementById('sheepSVG');
+    let idMap = {};
+    let svgDoc = null;
+
+    fetch('bones.json')
+      .then(res => res.json())
+      .then(data => {
+        idMap = Object.assign({}, ...Object.values(data).map(group =>
+          Object.entries(group).map(([id, val]) => ({ [id]: val }))
+        ).flat());
+      });
+
+    obj.addEventListener('load', () => {
+      svgDoc = obj.contentDocument;
+      if (!svgDoc) return;
+
+      svgDoc.querySelectorAll('g[id]').forEach(el => {
+        el.style.cursor = 'pointer';
+        el.addEventListener('mouseenter', e => showTooltip(e, el));
+        el.addEventListener('mouseleave', hideTooltip);
+        el.addEventListener('mousemove', moveTooltip);
+      });
+    });
+
+    function showTooltip(evt, el) {
+      const id = el.id;
+      const info = idMap[id] || {};
+      const en = info.en || id.replace(/_/g, ' ');
+      const am = info.am || '';
+      tooltip.innerHTML = `<b>English:</b> ${en}<br><b>Amharic:</b> ${am}`;
+      tooltip.style.display = 'block';
+      highlight(el);
+      moveTooltip(evt);
+    }
+
+    function moveTooltip(evt) {
+      tooltip.style.left = evt.clientX + 12 + 'px';
+      tooltip.style.top = evt.clientY + 12 + 'px';
+    }
+
+    function hideTooltip() {
+      tooltip.style.display = 'none';
+      svgDoc.querySelectorAll('.highlight').forEach(el => el.classList.remove('highlight'));
+    }
+
+    function highlight(el) {
+      el.classList.add('highlight');
+    }
+  </script>
+
+</body>
+</html>

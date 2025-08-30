@@ -1,0 +1,132 @@
+{
+  "esophagus": {
+    "en": "Esophagus",
+    "am": "ኤሶፋጉስ",
+    "system": "Digestive",
+    "function": "Transports food to stomach"
+  },
+  "stomach": {
+    "en": "Stomach",
+    "am": "ሆድ",
+    "system": "Digestive",
+    "function": "Initial digestion and storage"
+  },
+  "small_intestine": {
+    "en": "Small Intestine",
+    "am": "ትንሽ አንጀት",
+    "system": "Digestive",
+    "function": "Absorbs nutrients"
+  },
+  "large_intestine": {
+    "en": "Large Intestine",
+    "am": "ትልቅ አንጀት",
+    "system": "Digestive",
+    "function": "Absorbs water and forms feces"
+  },
+  "rectum": {
+    "en": "Rectum",
+    "am": "ሬክተም",
+    "system": "Digestive",
+    "function": "Stores feces before excretion"
+  },
+  "liver": {
+    "en": "Liver",
+    "am": "ጉበት",
+    "system": "Digestive",
+    "function": "Metabolism and detoxification"
+  },
+  "gallbladder": {
+    "en": "Gallbladder",
+    "am": "የመጥፎ ካንኪ",
+    "system": "Digestive",
+    "function": "Stores and releases bile"
+  },
+  "pancreas": {
+    "en": "Pancreas",
+    "am": "ፓንክሪያስ",
+    "system": "Digestive",
+    "function": "Secretes digestive enzymes and insulin"
+  },
+
+  "trachea": {
+    "en": "Trachea",
+    "am": "ትራኬያ",
+    "system": "Respiratory",
+    "function": "Air passage to lungs"
+  },
+  "lungs": {
+    "en": "Lungs",
+    "am": "አፍንጫ",
+    "system": "Respiratory",
+    "function": "Gas exchange"
+  },
+  "diaphragm": {
+    "en": "Diaphragm",
+    "am": "ዳይፍራግም",
+    "system": "Respiratory",
+    "function": "Main muscle of respiration"
+  },
+
+  "kidneys": {
+    "en": "Kidneys",
+    "am": "ኩላሊት",
+    "system": "Urinary",
+    "function": "Filter blood and produce urine"
+  },
+  "ureters": {
+    "en": "Ureters",
+    "am": "ዩሬተር",
+    "system": "Urinary",
+    "function": "Transport urine to bladder"
+  },
+  "bladder": {
+    "en": "Urinary Bladder",
+    "am": "ሚዛን ኩላሊት",
+    "system": "Urinary",
+    "function": "Stores urine"
+  },
+
+  "testes": {
+    "en": "Testes",
+    "am": "አንደኛ ወንድ አካል",
+    "system": "Reproductive",
+    "function": "Produce sperm and testosterone"
+  },
+  "ovaries": {
+    "en": "Ovaries",
+    "am": "አንደኛ ሴት አካል",
+    "system": "Reproductive",
+    "function": "Produce eggs and hormones"
+  },
+  "uterus": {
+    "en": "Uterus",
+    "am": "ማህፀን",
+    "system": "Reproductive",
+    "function": "Supports fetal development"
+  },
+
+  "spleen": {
+    "en": "Spleen",
+    "am": "አንጀት አጠገብ አካል",
+    "system": "Lymphatic",
+    "function": "Filters blood and supports immunity"
+  },
+  "adrenal_glands": {
+    "en": "Adrenal Glands",
+    "am": "አድሬናል ጋላንድ",
+    "system": "Endocrine",
+    "function": "Produce stress hormones"
+  },
+  "thyroid": {
+    "en": "Thyroid Gland",
+    "am": "ታይሮይድ ጋላንድ",
+    "system": "Endocrine",
+    "function": "Regulates metabolism"
+  },
+  "lymph_nodes": {
+    "en": "Lymph Nodes",
+    "am": "ሊምፍ ኖድስ",
+    "system": "Lymphatic",
+    "function": "Filter lymph and fight infection"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "head_neck": {
+    "masseter": { "en": "Masseter", "am": "ማሴተር", "origin": "Zygomatic arch", "insertion": "Mandible" },
+    "temporalis": { "en": "Temporalis", "am": "ቴምፖራሊስ", "origin": "Temporal fossa", "insertion": "Coronoid process" },
+    "buccinator": { "en": "Buccinator", "am": "ቡክሲኔተር", "origin": "Maxilla and mandible", "insertion": "Orbicularis oris" },
+    "sternocephalicus": { "en": "Sternocephalicus", "am": "ስተርኖሴፋሊከስ", "origin": "Sternum (manubrium)", "insertion": "Mandible/Mastoid region" },
+    "brachiocephalicus": { "en": "Brachiocephalicus", "am": "ብራኪዮሴፋሊከስ", "origin": "Clavicular intersection", "insertion": "Mastoid process" },
+    "omotransversarius": { "en": "Omotransversarius", "am": "ኦሞትራንስቨራሲየስ", "origin": "Scapula (spine/acromion region)", "insertion": "Atlas transverse process" }
+  },
+
+  "thorax_abdomen": {
+    "trapezius_cervical": { "en": "Cervical Trapezius", "am": "የአንገት ትራፔዚየስ", "origin": "Nuchal ligament", "insertion": "Scapular spine" },
+    "trapezius_thoracic": { "en": "Thoracic Trapezius", "am": "የደረት ትራፔዚየስ", "origin": "Thoracic midline (supraspinous ligament)", "insertion": "Scapular spine" },
+    "latissimus_dorsi": { "en": "Latissimus dorsi", "am": "ላቲሲሙስ ዶርሲ", "origin": "Thoracolumbar fascia", "insertion": "Humerus (teres major tuberosity area)" },
+    "serratus_ventralis": { "en": "Serratus ventralis", "am": "ሴራተስ ቬንትራሊስ", "origin": "Ribs and cervical vertebrae", "insertion": "Medial scapula" },
+    "external_intercostals": { "en": "External intercostals", "am": "ውጫዊ ኢንተርኮስታልስ", "origin": "Caudal border of rib", "insertion": "Cranial border of next rib" },
+    "internal_intercostals": { "en": "Internal intercostals", "am": "ውስጣዊ ኢንተርኮስታልስ", "origin": "Cranial border of rib", "insertion": "Caudal border of previous rib" },
+    "rectus_abdominis": { "en": "Rectus abdominis", "am": "ሬክተስ አብዶሚኒስ", "origin": "Pubis", "insertion": "Sternum and costal cartilages" },
+    "external_oblique": { "en": "External abdominal oblique", "am": "ውጫዊ የሆድ ኦብሊክ", "origin": "Ribs and thoracolumbar fascia", "insertion": "Linea alba" },
+    "internal_oblique": { "en": "Internal abdominal oblique", "am": "ውስጣዊ የሆድ ኦብሊክ", "origin": "Tuber coxae and inguinal area", "insertion": "Linea alba" },
+    "transversus_abdominis": { "en": "Transversus abdominis", "am": "ትራንስቨርሱስ አብዶሚኒስ", "origin": "Lumbar transverse processes and ribs", "insertion": "Linea alba" }
+  },
+
+  "forelimb": {
+    "deltoideus": { "en": "Deltoideus", "am": "ዴልቶይዲየስ", "origin": "Scapular spine", "insertion": "Deltoid tuberosity (humerus)" },
+    "supraspinatus": { "en": "Supraspinatus", "am": "ሱፕራስፒናቱስ", "origin": "Supraspinous fossa", "insertion": "Greater tubercle (humerus)" },
+    "infraspinatus": { "en": "Infraspinatus", "am": "ኢንፍራስፒናቱስ", "origin": "Infraspinous fossa", "insertion": "Greater tubercle (humerus)" },
+    "subscapularis": { "en": "Subscapularis", "am": "ሱብስካፑላሪስ", "origin": "Subscapular fossa", "insertion": "Lesser tubercle (humerus)" },
+    "teres_major": { "en": "Teres major", "am": "ቴሬስ ማጄር", "origin": "Caudal scapula", "insertion": "Teres major tuberosity (humerus)" },
+    "biceps_brachii": { "en": "Biceps brachii", "am": "ባይሴፕስ ብራኪይ", "origin": "Supraglenoid tubercle (scapula)", "insertion": "Radius (and proximal ulna)" },
+    "triceps_brachii_long": { "en": "Triceps brachii (long head)", "am": "ትራይሴፕስ ብራኪይ (ረዥም)", "origin": "Caudal scapula", "insertion": "Olecranon" },
+    "triceps_brachii_lateral": { "en": "Triceps brachii (lateral head)", "am": "ትራይሴፕስ ብራኪይ (ጎን)", "origin": "Humerus (lateral)", "insertion": "Olecranon" },
+    "triceps_brachii_medial": { "en": "Triceps brachii (medial head)", "am": "ትራይሴፕስ ብራኪይ (ውስጣዊ)", "origin": "Humerus (medial)", "insertion": "Olecranon" },
+    "extensor_carpi_radialis": { "en": "Extensor carpi radialis", "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ", "origin": "Lateral supracondylar ridge (humerus)", "insertion": "Metacarpal III" },
+    "flexor_carpi_ulnaris": { "en": "Flexor carpi ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ", "origin": "Humerus and ulna", "insertion": "Accessory carpal bone" },
+    "common_digital_extensor_fore": { "en": "Common digital extensor (forelimb)", "am": "የፊት ዲጂታል ኤክስቴንሰር", "origin": "Lateral epicondyle (humerus)", "insertion": "Extensor processes of phalanges" },
+    "superficial_digital_flexor_fore": { "en": "Superficial digital flexor (forelimb)", "am": "የፊት ዲጂታል ፍሌክሰር (ውጫዊ)", "origin": "Medial epicondyle (humerus)", "insertion": "Palmar aspects of middle phalanges" },
+    "deep_digital_flexor_fore": { "en": "Deep digital flexor (forelimb)", "am": "የፊት ዲጂታል ፍሌክሰር (ውስጣዊ)", "origin": "Humerus, radius, ulna", "insertion": "Flexor surface of distal phalanx" }
+  },
+
+  "hindlimb": {
+    "gluteus_medius": { "en": "Gluteus medius", "am": "ግሉቲየስ ሜዲየስ", "origin": "Ilium", "insertion": "Greater trochanter (femur)" },
+    "gluteus_superficialis": { "en": "Gluteus superficialis", "am": "ግሉቲየስ ሱፐርፊሺያሊስ", "origin": "Sacrum and ligaments", "insertion": "Femur" },
+    "biceps_femoris": { "en": "Biceps femoris", "am": "ባይሴፕስ ፊሞሪስ", "origin": "Ischial tuberosity (and sacrum)", "insertion": "Patella, tibia, calcaneus" },
+    "semitendinosus": { "en": "Semitendinosus", "am": "ሴሚቴንዲኖሱስ", "origin": "Ischial tuberosity", "insertion": "Tibia and calcaneus" },
+    "semimembranosus": { "en": "Semimembranosus", "am": "ሴሚሜምብራኖሱስ", "origin": "Ischium", "insertion": "Femur and tibia" },
+    "quadriceps_femoris": { "en": "Quadriceps femoris", "am": "ኳድሪሴፕስ ፊሞሪስ", "origin": "Ilium and femur", "insertion": "Patella and tibial tuberosity" },
+    "sartorius": { "en": "Sartorius", "am": "ሳርቶሪየስ", "origin": "Ilium", "insertion": "Tibia" },
+    "gracilis": { "en": "Gracilis", "am": "ግራሲሊስ", "origin": "Pelvic symphysis", "insertion": "Tibia (and calcaneal tendon)" },
+    "adductor": { "en": "Adductor", "am": "አድዱክተር", "origin": "Pubis and ischium", "insertion": "Femur" },
+    "gastrocnemius": { "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ", "origin": "Femoral supracondylar region", "insertion": "Calcaneus" },
+    "soleus": { "en": "Soleus", "am": "ሶሊየስ", "origin": "Proximal tibia/fibula", "insertion": "Calcaneus" },
+    "superficial_digital_flexor_hind": { "en": "Superficial digital flexor (hindlimb)", "am": "የኋላ ዲጂታል ፍሌክሰር (ውጫዊ)", "origin": "Femur (supracondylar fossa)", "insertion": "Calcaneus and middle phalanges" },
+    "deep_digital_flexor_hind": { "en": "Deep digital flexor (hindlimb)", "am": "የኋላ ዲጂታል ፍሌክሰር (ውስጣዊ)", "origin": "Tibia and fibula", "insertion": "Flexor surface of distal phalanx" },
+    "long_digital_extensor": { "en": "Long digital extensor", "am": "ረዥም ዲጂታል ኤክስቴንሰር", "origin": "Femur (extensor fossa)", "insertion": "Extensor processes of phalanges" },
+    "peroneus_tertius": { "en": "Peroneus tertius", "am": "ፐሮኒየስ ተርሺየስ", "origin": "Femur (extensor fossa)", "insertion": "Tarsus and metatarsus" }
+  },
+
+  "perineal": {
+    "coccygeus": { "en": "Coccygeus", "am": "ኮክሲጄስ", "origin": "Ischial spine", "insertion": "Caudal vertebrae" },
+    "levator_ani": { "en": "Levator ani", "am": "ሌቫተር አኒ", "origin": "Pubis", "insertion": "Rectum and anal canal" },
+    "external_anal_sphincter": { "en": "External anal sphincter", "am": "ውጫዊ የአንጀት ስፊንክተር", "origin": "Perineal body", "insertion": "Anal canal (encircles)" },
+    "bulbospongiosus": { "en": "Bulbospongiosus", "am": "ቡልቦስፖንጂዮሱስ", "origin": "Perineal body", "insertion": "Bulb of penis/vestibule" },
+    "ischiocavernosus": { "en": "Ischiocavernosus", "am": "ኢሽዮካቨርኖሱስ", "origin": "Ischial tuberosity", "insertion": "Crus of penis/clitoris" }
+  }
+}

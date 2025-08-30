@@ -1,0 +1,193 @@
+{
+  "skull": {
+    "en": "Skull",
+    "am": "የራስ አጥንት",
+    "system": "Head",
+    "notes": "Protects brain; attachment for beak muscles"
+  },
+  "mandible": {
+    "en": "Mandible",
+    "am": "መንኮላ",
+    "system": "Head",
+    "notes": "Lower jaw; supports feeding"
+  },
+  "maxilla": {
+    "en": "Maxilla",
+    "am": "ማክሲላ",
+    "system": "Head",
+    "notes": "Upper jaw; part of beak"
+  },
+  "nasal": {
+    "en": "Nasal Bone",
+    "am": "የአፍንጫ አጥንት",
+    "system": "Head",
+    "notes": "Supports nasal cavity"
+  },
+  "zygomatic": {
+    "en": "Zygomatic Bone",
+    "am": "ዚጎማቲክ አጥንት",
+    "system": "Head",
+    "notes": "Forms cheek region"
+  },
+  "frontal": {
+    "en": "Frontal Bone",
+    "am": "ፍሮንታል አጥንት",
+    "system": "Head",
+    "notes": "Forehead region"
+  },
+  "occipital": {
+    "en": "Occipital Bone",
+    "am": "ኦክሲፒታል አጥንት",
+    "system": "Head",
+    "notes": "Back of skull; foramen magnum"
+  },
+
+  "vertebrae_cervical": {
+    "en": "Cervical Vertebrae",
+    "am": "ከራስ በታች አጥንቶች",
+    "system": "Vertebral Column",
+    "notes": "Neck flexibility"
+  },
+  "vertebrae_thoracic": {
+    "en": "Thoracic Vertebrae",
+    "am": "የደረት አጥንቶች",
+    "system": "Vertebral Column",
+    "notes": "Rib articulation"
+  },
+  "vertebrae_lumbar": {
+    "en": "Lumbar Vertebrae",
+    "am": "የጀርባ አጥንቶች",
+    "system": "Vertebral Column",
+    "notes": "Support lower back"
+  },
+  "sacrum": {
+    "en": "Sacrum",
+    "am": "ሳክራም",
+    "system": "Vertebral Column",
+    "notes": "Fused vertebrae; pelvic support"
+  },
+  "vertebrae_caudal": {
+    "en": "Caudal Vertebrae",
+    "am": "የጅምላ አጥንቶች",
+    "system": "Vertebral Column",
+    "notes": "Tail mobility"
+  },
+
+  "ribs": {
+    "en": "Ribs",
+    "am": "አስካላ",
+    "system": "Thorax",
+    "notes": "Protect thoracic organs"
+  },
+  "sternum": {
+    "en": "Sternum",
+    "am": "ስተርናም",
+    "system": "Thorax",
+    "notes": "Attachment for flight muscles"
+  },
+  "costal_cartilage": {
+    "en": "Costal Cartilage",
+    "am": "የአስካላ ካርቲላጅ",
+    "system": "Thorax",
+    "notes": "Connects ribs to sternum"
+  },
+
+  "scapula": {
+    "en": "Scapula",
+    "am": "ስካፑላ",
+    "system": "Forelimb",
+    "notes": "Shoulder blade"
+  },
+  "humerus": {
+    "en": "Humerus",
+    "am": "ሁመረስ",
+    "system": "Forelimb",
+    "notes": "Upper wing bone"
+  },
+  "radius": {
+    "en": "Radius",
+    "am": "ሬዲየስ",
+    "system": "Forelimb",
+    "notes": "Forearm bone (cranial)"
+  },
+  "ulna": {
+    "en": "Ulna",
+    "am": "ኡልና",
+    "system": "Forelimb",
+    "notes": "Forearm bone (caudal)"
+  },
+  "carpals": {
+    "en": "Carpals",
+    "am": "ካርፓልስ",
+    "system": "Forelimb",
+    "notes": "Wrist bones"
+  },
+  "metacarpals": {
+    "en": "Metacarpals",
+    "am": "ሜታካርፓልስ",
+    "system": "Forelimb",
+    "notes": "Palm bones"
+  },
+  "phalanges_fore": {
+    "en": "Phalanges (Forelimb)",
+    "am": "ፋላንጅስ (እጅ)",
+    "system": "Forelimb",
+    "notes": "Wing digits"
+  },
+
+  "pelvis": {
+    "en": "Pelvis",
+    "am": "ፔልቪስ",
+    "system": "Hindlimb",
+    "notes": "Hip bones"
+  },
+  "femur": {
+    "en": "Femur",
+    "am": "ፊሙር",
+    "system": "Hindlimb",
+    "notes": "Thigh bone"
+  },
+  "patella": {
+    "en": "Patella",
+    "am": "ፓቴላ",
+    "system": "Hindlimb",
+    "notes": "Kneecap"
+  },
+  "tibia": {
+    "en": "Tibia",
+    "am": "ቲቢያ",
+    "system": "Hindlimb",
+    "notes": "Shin bone"
+  },
+  "fibula": {
+    "en": "Fibula",
+    "am": "ፊቡላ",
+    "system": "Hindlimb",
+    "notes": "Thin lateral bone"
+  },
+  "tarsals": {
+    "en": "Tarsals",
+    "am": "ታርሳልስ",
+    "system": "Hindlimb",
+    "notes": "Ankle bones"
+  },
+  "metatarsals": {
+    "en": "Metatarsals",
+    "am": "ሜታታርሳልስ",
+    "system": "Hindlimb",
+    "notes": "Foot bones"
+  },
+  "phalanges_hind": {
+    "en": "Phalanges (Hindlimb)",
+    "am": "ፋላንጅስ (እግር)",
+    "system": "Hindlimb",
+    "notes": "Toe bones"
+  },
+
+  "tail": {
+    "en": "Tail",
+    "am": "ጅምላ",
+    "system": "Caudal",
+    "notes": "Balance and display"
+  }
+}

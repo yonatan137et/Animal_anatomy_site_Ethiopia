@@ -1,0 +1,177 @@
+{
+  "skull": {
+    "skull_frontal": { "en": "Frontal Bone", "am": "ፍሮንታል አጥንት", "kind": "bone" },
+    "skull_parietal": { "en": "Parietal Bone", "am": "ፓራየታል አጥንት", "kind": "bone" },
+    "skull_occipital": { "en": "Occipital Bone", "am": "ኦክሲፒታል አጥንት", "kind": "bone" },
+    "skull_temporal": { "en": "Temporal Bone", "am": "ቴምፖራል አጥንት", "kind": "bone" },
+    "nasal_bone": { "en": "Nasal Bone", "am": "ናዛል አጥንት", "kind": "bone" },
+    "maxilla": { "en": "Maxilla", "am": "ማክሲላ", "kind": "bone" },
+    "mandible": { "en": "Mandible", "am": "ማንዲብል", "kind": "bone" },
+    "zygomatic_arch": { "en": "Zygomatic Arch", "am": "ዚጎማቲክ አርች", "kind": "bone" },
+    "incisive_bone": { "en": "Incisive Bone", "am": "ኢንሲሲቭ አጥንት", "kind": "bone" }
+  },
+
+  "vertebral_column": {
+    "vertebrae_cervical": { "en": "Cervical Vertebrae (C1–C7)", "am": "ሰርቪካል አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_thoracic": { "en": "Thoracic Vertebrae (T1–T12)", "am": "ቶራሲክ አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_lumbar": { "en": "Lumbar Vertebrae (L1–L7)", "am": "ሉምባር አከርካሪዎች", "kind": "bone_group" },
+    "sacrum": { "en": "Sacrum", "am": "ሳክረም", "kind": "bone" },
+    "vertebrae_caudal": { "en": "Caudal Vertebrae (~15–21)", "am": "ኮዳል አከርካሪዎች", "kind": "bone_group" }
+  },
+
+  "thoracic_cage": {
+    "ribs_left": { "en": "Ribs (Left)", "am": "የጎድን አጥንቶች (ግራ)", "kind": "bone_group" },
+    "ribs_right": { "en": "Ribs (Right)", "am": "የጎድን አጥንቶች (ቀኝ)", "kind": "bone_group" },
+    "sternum": { "en": "Sternum", "am": "ስተርነም", "kind": "bone" },
+    "costal_cartilage": { "en": "Costal Cartilage", "am": "ኮስታል ካርቲላጅ", "kind": "cartilage" }
+  },
+
+  "forelimb_left": {
+    "scapula_left": { "en": "Scapula (Left)", "am": "ስካፒውላ (ግራ)", "kind": "bone" },
+    "humerus_left": { "en": "Humerus (Left)", "am": "ሁሜረስ (ግራ)", "kind": "bone" },
+    "radius_left": { "en": "Radius (Left)", "am": "ሬዲየስ (ግራ)", "kind": "bone" },
+    "ulna_left": { "en": "Ulna (Left)", "am": "ኡልና (ግራ)", "kind": "bone" },
+    "carpal_bones_left": { "en": "Carpal Bones (Left)", "am": "ካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metacarpal_bones_left": { "en": "Metacarpal Bones (Left)", "am": "ሜታካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_fore_left": { "en": "Proximal Phalanx (Forelimb)", "am": "ፕሮክሲማል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "middle_phalanx_fore_left": { "en": "Middle Phalanx (Forelimb)", "am": "ሚድል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "distal_phalanx_fore_left": { "en": "Distal Phalanx (Forelimb)", "am": "ዲስታል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "sesamoid_bones_fore_left": { "en": "Sesamoid Bones (Forelimb)", "am": "ሴሳሞይድ አጥንቶች (ፊት እጅ)", "kind": "bone_group" }
+  },
+
+  "hindlimb_left": {
+    "pelvis_left": { "en": "Pelvis (Left)", "am": "ፔልቪስ (ግራ)", "kind": "bone" },
+    "femur_left": { "en": "Femur (Left)", "am": "ፈሙር (ግራ)", "kind": "bone" },
+    "patella_left": { "en": "Patella (Left)", "am": "ፓቴላ (ግራ)", "kind": "bone" },
+    "tibia_left": { "en": "Tibia (Left)", "am": "ቲቢያ (ግራ)", "kind": "bone" },
+    "fibula_left": { "en": "Fibula (Left)", "am": "ፊቡላ (ግራ)", "kind": "bone" },
+    "tarsal_bones_left": { "en": "Tarsal Bones (Left)", "am": "ታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metatarsal_bones_left": { "en": "Metatarsal Bones (Left)", "am": "ሜታታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_hind_left": { "en": "Proximal Phalanx (Hindlimb)", "am": "ፕሮክሲማል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    "middle_phalanx_hind_left": { "en": "Middle Phalanx (Hindlimb)", "am": "ሚድል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    "distal_phalanx_hind_left": { "en": "Distal Phalanx (Hindlimb)", "am": "ዲስታል ፋላን{
+  "skull": {
+    "skull_frontal": { "en": "Frontal Bone", "am": "ፍሮንታል አጥንት", "kind": "bone" },
+    "skull_parietal": { "en": "Parietal Bone", "am": "ፓራየታል አጥንት", "kind": "bone" },
+    "skull_occipital": { "en": "Occipital Bone", "am": "ኦክሲፒታል አጥንት", "kind": "bone" },
+    "skull_temporal": { "en": "Temporal Bone", "am": "ቴምፖራል አጥንት", "kind": "bone" },
+    "nasal_bone": { "en": "Nasal Bone", "am": "ናዛል አጥንት", "kind": "bone" },
+    "maxilla": { "en": "Maxilla", "am": "ማክሲላ", "kind": "bone" },
+    "mandible": { "en": "Mandible", "am": "ማንዲብል", "kind": "bone" },
+    "zygomatic_arch": { "en": "Zygomatic Arch", "am": "ዚጎማቲክ አርች", "kind": "bone" },
+    "incisive_bone": { "en": "Incisive Bone", "am": "ኢንሲሲቭ አጥንት", "kind": "bone" }
+  },
+
+  "vertebral_column": {
+    "vertebrae_cervical": { "en": "Cervical Vertebrae (C1–C7)", "am": "ሰርቪካል አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_thoracic": { "en": "Thoracic Vertebrae (T1–T12)", "am": "ቶራሲክ አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_lumbar": { "en": "Lumbar Vertebrae (L1–L7)", "am": "ሉምባር አከርካሪዎች", "kind": "bone_group" },
+    "sacrum": { "en": "Sacrum", "am": "ሳክረም", "kind": "bone" },
+    "vertebrae_caudal": { "en": "Caudal Vertebrae (~15–21)", "am": "ኮዳል አከርካሪዎች", "kind": "bone_group" }
+  },
+
+  "thoracic_cage": {
+    "ribs_left": { "en": "Ribs (Left)", "am": "የጎድን አጥንቶች (ግራ)", "kind": "bone_group" },
+    "ribs_right": { "en": "Ribs (Right)", "am": "የጎድን አጥንቶች (ቀኝ)", "kind": "bone_group" },
+    "sternum": { "en": "Sternum", "am": "ስተርነም", "kind": "bone" },
+    "costal_cartilage": { "en": "Costal Cartilage", "am": "ኮስታል ካርቲላጅ", "kind": "cartilage" }
+  },
+
+  "forelimb_left": {
+    "scapula_left": { "en": "Scapula (Left)", "am": "ስካፒውላ (ግራ)", "kind": "bone" },
+    "humerus_left": { "en": "Humerus (Left)", "am": "ሁሜረስ (ግራ)", "kind": "bone" },
+    "radius_left": { "en": "Radius (Left)", "am": "ሬዲየስ (ግራ)", "kind": "bone" },
+    "ulna_left": { "en": "Ulna (Left)", "am": "ኡልና (ግራ)", "kind": "bone" },
+    "carpal_bones_left": { "en": "Carpal Bones (Left)", "am": "ካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metacarpal_bones_left": { "en": "Metacarpal Bones (Left)", "am": "ሜታካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_fore_left": { "en": "Proximal Phalanx (Forelimb)", "am": "ፕሮክሲማል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "middle_phalanx_fore_left": { "en": "Middle Phalanx (Forelimb)", "am": "ሚድል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "distal_phalanx_fore_left": { "en": "Distal Phalanx (Forelimb)", "am": "ዲስታል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "sesamoid_bones_fore_left": { "en": "Sesamoid Bones (Forelimb)", "am": "ሴሳሞይድ አጥንቶች (ፊት እጅ)", "kind": "bone_group" }
+  },
+
+  "hindlimb_left": {
+    "pelvis_left": { "en": "Pelvis (Left)", "am": "ፔልቪስ (ግራ)", "kind": "bone" },
+    "femur_left": { "en": "Femur (Left)", "am": "ፈሙር (ግራ)", "kind": "bone" },
+    "patella_left": { "en": "Patella (Left)", "am": "ፓቴላ (ግራ)", "kind": "bone" },
+    "tibia_left": { "en": "Tibia (Left)", "am": "ቲቢያ (ግራ)", "kind": "bone" },
+    "fibula_left": { "en": "Fibula (Left)", "am": "ፊቡላ (ግራ)", "kind": "bone" },
+    "tarsal_bones_left": { "en": "Tarsal Bones (Left)", "am": "ታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metatarsal_bones_left": { "en": "Metatarsal Bones (Left)", "am": "ሜታታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_hind_left": { "en": "Proximal Phalanx (Hindlimb)", "am": "ፕሮክሲማል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    "middle_phalanx_hind_left": { "en": "Middle Phalanx (Hindlimb)", "am": "ሚድል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    {
+  "skull": {
+    "skull_frontal": { "en": "Frontal Bone", "am": "ፍሮንታል አጥንት", "kind": "bone" },
+    "skull_parietal": { "en": "Parietal Bone", "am": "ፓራየታል አጥንት", "kind": "bone" },
+    "skull_occipital": { "en": "Occipital Bone", "am": "ኦክሲፒታል አጥንት", "kind": "bone" },
+    "skull_temporal": { "en": "Temporal Bone", "am": "ቴምፖራል አጥንት", "kind": "bone" },
+    "nasal_bone": { "en": "Nasal Bone", "am": "ናዛል አጥንት", "kind": "bone" },
+    "maxilla": { "en": "Maxilla", "am": "ማክሲላ", "kind": "bone" },
+    "mandible": { "en": "Mandible", "am": "ማንዲብል", "kind": "bone" },
+    "zygomatic_arch": { "en": "Zygomatic Arch", "am": "ዚጎማቲክ አርች", "kind": "bone" },
+    "incisive_bone": { "en": "Incisive Bone", "am": "ኢንሲሲቭ አጥንት", "kind": "bone" }
+  },
+
+  "vertebral_column": {
+    "vertebrae_cervical": { "en": "Cervical Vertebrae (C1–C7)", "am": "ሰርቪካል አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_thoracic": { "en": "Thoracic Vertebrae (T1–T12)", "am": "ቶራሲክ አከርካሪዎች", "kind": "bone_group" },
+    "vertebrae_lumbar": { "en": "Lumbar Vertebrae (L1–L7)", "am": "ሉምባር አከርካሪዎች", "kind": "bone_group" },
+    "sacrum": { "en": "Sacrum", "am": "ሳክረም", "kind": "bone" },
+    "vertebrae_caudal": { "en": "Caudal Vertebrae (~15–21)", "am": "ኮዳል አከርካሪዎች", "kind": "bone_group" }
+  },
+
+  "thoracic_cage": {
+    "ribs_left": { "en": "Ribs (Left)", "am": "የጎድን አጥንቶች (ግራ)", "kind": "bone_group" },
+    "ribs_right": { "en": "Ribs (Right)", "am": "የጎድን አጥንቶች (ቀኝ)", "kind": "bone_group" },
+    "sternum": { "en": "Sternum", "am": "ስተርነም", "kind": "bone" },
+    "costal_cartilage": { "en": "Costal Cartilage", "am": "ኮስታል ካርቲላጅ", "kind": "cartilage" }
+  },
+
+  "forelimb_left": {
+    "scapula_left": { "en": "Scapula (Left)", "am": "ስካፒውላ (ግራ)", "kind": "bone" },
+    "humerus_left": { "en": "Humerus (Left)", "am": "ሁሜረስ (ግራ)", "kind": "bone" },
+    "radius_left": { "en": "Radius (Left)", "am": "ሬዲየስ (ግራ)", "kind": "bone" },
+    "ulna_left": { "en": "Ulna (Left)", "am": "ኡልና (ግራ)", "kind": "bone" },
+    "carpal_bones_left": { "en": "Carpal Bones (Left)", "am": "ካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metacarpal_bones_left": { "en": "Metacarpal Bones (Left)", "am": "ሜታካርፓል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_fore_left": { "en": "Proximal Phalanx (Forelimb)", "am": "ፕሮክሲማል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "middle_phalanx_fore_left": { "en": "Middle Phalanx (Forelimb)", "am": "ሚድል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "distal_phalanx_fore_left": { "en": "Distal Phalanx (Forelimb)", "am": "ዲስታል ፋላንክስ (ፊት እጅ)", "kind": "bone" },
+    "sesamoid_bones_fore_left": { "en": "Sesamoid Bones (Forelimb)", "am": "ሴሳሞይድ አጥንቶች (ፊት እጅ)", "kind": "bone_group" }
+  },
+
+  "hindlimb_left": {
+    "pelvis_left": { "en": "Pelvis (Left)", "am": "ፔልቪስ (ግራ)", "kind": "bone" },
+    "femur_left": { "en": "Femur (Left)", "am": "ፈሙር (ግራ)", "kind": "bone" },
+    "patella_left": { "en": "Patella (Left)", "am": "ፓቴላ (ግራ)", "kind": "bone" },
+    "tibia_left": { "en": "Tibia (Left)", "am": "ቲቢያ (ግራ)", "kind": "bone" },
+    "fibula_left": { "en": "Fibula (Left)", "am": "ፊቡላ (ግራ)", "kind": "bone" },
+    "tarsal_bones_left": { "en": "Tarsal Bones (Left)", "am": "ታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "metatarsal_bones_left": { "en": "Metatarsal Bones (Left)", "am": "ሜታታርሳል አጥንቶች (ግራ)", "kind": "bone_group" },
+    "proximal_phalanx_hind_left": { "en": "Proximal Phalanx (Hindlimb)", "am": "ፕሮክሲማል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    "middle_phalanx_hind_left": { "en": "Middle Phalanx (Hindlimb)", "am": "ሚድል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+        "distal_phalanx_hind_left": { "en": "Distal Phalanx (Hindlimb)", "am": "ዲስታል ፋላንክስ (ኋላ እግር)", "kind": "bone" },
+    "sesamoid_bones_hind_left": { "en": "Sesamoid Bones (Hindlimb)", "am": "ሴሳሞይድ አጥንቶች (ኋላ እግር)", "kind": "bone_group" }
+  },
+
+  "joints": {
+    "atlanto_occipital_joint": { "en": "Atlanto-Occipital Joint", "am": "አትላንቶ-ኦክሲፒታል ጉዳት", "kind": "joint" },
+    "cervicothoracic_joint": { "en": "Cervicothoracic Joint", "am": "ሰርቪኮቶራሲክ ጉዳት", "kind": "joint" },
+    "thoracolumbar_joint": { "en": "Thoracolumbar Joint", "am": "ቶራኮሉምባር ጉዳት", "kind": "joint" },
+    "lumbosacral_joint": { "en": "Lumbosacral Joint", "am": "ሉምቦሳክራል ጉዳት", "kind": "joint" },
+    "sacroiliac_joint": { "en": "Sacroiliac Joint", "am": "ሳክሮኢሊያክ ጉዳት", "kind": "joint" },
+    "shoulder_joint_left": { "en": "Shoulder Joint (Left)", "am": "የትከሻ ጉዳት (ግራ)", "kind": "joint" },
+    "elbow_joint_left": { "en": "Elbow Joint (Left)", "am": "የዘንድ ጉዳት (ግራ)", "kind": "joint" },
+    "carpal_joint_left": { "en": "Carpal Joint (Left)", "am": "የካርፓል ጉዳት (ግራ)", "kind": "joint" },
+    "fetlock_joint_fore_left": { "en": "Fetlock Joint (Forelimb)", "am": "ፊት ፍትሎክ ጉዳት", "kind": "joint" },
+    "pastern_joint_fore_left": { "en": "Pastern Joint (Forelimb)", "am": "ፊት ፓስተርን ጉዳት", "kind": "joint" },
+    "coffin_joint_fore_left": { "en": "Coffin Joint (Forelimb)", "am": "ፊት ኮፊን ጉዳት", "kind": "joint" },
+    "hip_joint_left": { "en": "Hip Joint (Left)", "am": "የወገብ ጉዳት (ግራ)", "kind": "joint" },
+    "stifle_joint_left": { "en": "Stifle Joint (Left)", "am": "የጉልበት ጉዳት (ግራ)", "kind": "joint" },
+    "hock_joint_left": { "en": "Hock Joint (Left)", "am": "የሆክ ጉዳት (ግራ)", "kind": "joint" },
+    "fetlock_joint_hind_left": { "en": "Fetlock Joint (Hindlimb)", "am": "ኋላ ፍትሎክ ጉዳት", "kind": "joint" },
+    "pastern_joint_hind_left": { "en": "Pastern Joint (Hindlimb)", "am": "ኋላ ፓስተርን ጉዳት", "kind": "joint" },
+    "coffin_joint_hind_left": { "en": "Coffin Joint (Hindlimb)", "am": "ኋላ ኮፊን ጉዳት", "kind": "joint" }
+  }
+}

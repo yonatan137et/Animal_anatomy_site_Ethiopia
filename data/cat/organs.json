@@ -1,0 +1,260 @@
+{
+  "nervous_system": {
+    "cerebrum": {
+      "en": "Cerebrum",
+      "am": "ሴሬብረም",
+      "function": "Perception, learning, memory, and voluntary motor control"
+    },
+    "cerebellum": {
+      "en": "Cerebellum",
+      "am": "ሴሬቤለም",
+      "function": "Coordinates balance, posture, and fine motor movements"
+    },
+    "brainstem": {
+      "en": "Brainstem",
+      "am": "የአእምሮ ግንድ",
+      "function": "Controls autonomic functions including breathing and heart rate"
+    },
+    "olfactory_bulbs": {
+      "en": "Olfactory Bulbs",
+      "am": "የሽታ ቡልቦች",
+      "function": "Primary processing of olfactory (smell) information"
+    },
+    "optic_chiasm": {
+      "en": "Optic Chiasm",
+      "am": "ኦፕቲክ ኪያዝም",
+      "function": "Decussation of optic nerve fibers for binocular vision"
+    }
+  },
+
+  "spinal_cord": {
+    "cervical_spinal_cord": {
+      "en": "Cervical Spinal Cord",
+      "am": "የአንገት የጀርባ ገመድ",
+      "function": "Neural pathways for neck and forelimbs"
+    },
+    "thoracic_spinal_cord": {
+      "en": "Thoracic Spinal Cord",
+      "am": "የደረት የጀርባ ገመድ",
+      "function": "Neural pathways for trunk and intercostal muscles"
+    },
+    "lumbar_spinal_cord": {
+      "en": "Lumbar Spinal Cord",
+      "am": "የወገብ የጀርባ ገመድ",
+      "function": "Neural pathways for abdomen and hindlimbs"
+    },
+    "sacral_spinal_cord": {
+      "en": "Sacral Spinal Cord",
+      "am": "የሳክራል የጀርባ ገመድ",
+      "function": "Controls pelvic organs and tail base"
+    },
+    "caudal_spinal_cord": {
+      "en": "Caudal Spinal Cord",
+      "am": "የኮዳል የጀርባ ገመድ",
+      "function": "Innervation of tail"
+    }
+  },
+
+  "respiratory_system": {
+    "nasal_cavity": {
+      "en": "Nasal Cavity",
+      "am": "የአፍንጫ ጉድጓድ",
+      "function": "Filters, warms, and humidifies inspired air"
+    },
+    "larynx": {
+      "en": "Larynx",
+      "am": "ላሪንክስ",
+      "function": "Voice production and airway protection"
+    },
+    "trachea": {
+      "en": "Trachea",
+      "am": "ትራኬያ",
+      "function": "Conducts air between larynx and lungs"
+    },
+    "left_lung": {
+      "en": "Left Lung",
+      "am": "ግራ ሳንባ",
+      "function": "Gas exchange (oxygen uptake, carbon dioxide removal)"
+    },
+    "right_lung": {
+      "en": "Right Lung",
+      "am": "ቀኝ ሳንባ",
+      "function": "Gas exchange (oxygen uptake, carbon dioxide removal)"
+    }
+  },
+
+  "cardiovascular_system": {
+    "left_atrium": {
+      "en": "Left Atrium",
+      "am": "የግራ ኤትሪየም",
+      "function": "Receives oxygenated blood from pulmonary veins"
+    },
+    "right_atrium": {
+      "en": "Right Atrium",
+      "am": "የቀኝ ኤትሪየም",
+      "function": "Receives deoxygenated blood from systemic veins"
+    },
+    "left_ventricle": {
+      "en": "Left Ventricle",
+      "am": "የግራ ቬንትሪክል",
+      "function": "Pumps oxygenated blood into the aorta"
+    },
+    "right_ventricle": {
+      "en": "Right Ventricle",
+      "am": "የቀኝ ቬንትሪክል",
+      "function": "Pumps deoxygenated blood to the lungs"
+    },
+    "aortic_arch": {
+      "en": "Aortic Arch",
+      "am": "የአኦርታ ቀስት",
+      "function": "Distributes oxygenated blood to systemic arteries"
+    },
+    "pulmonary_artery": {
+      "en": "Pulmonary Artery",
+      "am": "የሳንባ ደም ቧንቧ",
+      "function": "Carries blood from right ventricle to lungs"
+    }
+  },
+
+  "digestive_system": {
+    "esophagus": {
+      "en": "Esophagus",
+      "am": "ኤሶፋጉስ",
+      "function": "Transports food from pharynx to stomach"
+    },
+    "cardia": {
+      "en": "Cardia",
+      "am": "ካርዲያ",
+      "function": "Stomach entrance; prevents reflux"
+    },
+    "fundus": {
+      "en": "Fundus",
+      "am": "ፉንዱስ",
+      "function": "Stomach dome; reservoir and initial digestion"
+    },
+    "body": {
+      "en": "Stomach Body",
+      "am": "የሆድ አካል",
+      "function": "Mixes food with gastric secretions"
+    },
+    "pylorus": {
+      "en": "Pylorus",
+      "am": "ፒሎረስ",
+      "function": "Regulates gastric emptying into the duodenum"
+    },
+    "small_intestine": {
+      "en": "Small Intestine",
+      "am": "ትንሽ አንጀት",
+      "function": "Digestion and absorption of nutrients"
+    },
+    "large_intestine": {
+      "en": "Large Intestine",
+      "am": "ትልቅ አንጀት",
+      "function": "Water absorption and feces formation"
+    },
+    "liver_left_lobe": {
+      "en": "Liver Left Lobe",
+      "am": "የጉበት ግራ ክፍል",
+      "function": "Metabolism, detoxification, bile production"
+    },
+    "liver_right_lobe": {
+      "en": "Liver Right Lobe",
+      "am": "የጉበት ቀኝ ክፍል",
+      "function": "Metabolism, detoxification, bile production"
+    },
+    "caudate_lobe": {
+      "en": "Caudate Lobe",
+      "am": "ኮዴት ክፍል",
+      "function": "Liver subdivision contributing to hepatic functions"
+    },
+    "quadrate_lobe": {
+      "en": "Quadrate Lobe",
+      "am": "ኳድሬት ክፍል",
+      "function": "Liver subdivision contributing to hepatic functions"
+    },
+    "pancreas": {
+      "en": "Pancreas",
+      "am": "ፓንክሪያስ",
+      "function": "Secretes digestive enzymes and hormones (insulin, glucagon)"
+    },
+    "spleen": {
+      "en": "Spleen",
+      "am": "ስፕሊን",
+      "function": "Filters blood, recycles RBCs, and supports immunity"
+    }
+  },
+
+  "urinary_system": {
+    "renal_cortex": {
+      "en": "Renal Cortex",
+      "am": "የኩላሊት ኮርቴክስ",
+      "function": "Houses glomeruli for blood filtration"
+    },
+    "renal_medulla": {
+      "en": "Renal Medulla",
+      "am": "የኩላሊት ሜዱላ",
+      "function": "Concentrates urine via loops and collecting ducts"
+    },
+    "renal_pelvis": {
+      "en": "Renal Pelvis",
+      "am": "የኩላሊት ፔልቪስ",
+      "function": "Collects urine from calyces to ureter"
+    },
+    "ureters": {
+      "en": "Ureters",
+      "am": "ዩሬተሮች",
+      "function": "Transport urine from kidneys to bladder"
+    },
+    "bladder": {
+      "en": "Urinary Bladder",
+      "am": "የሽንት ከስተር",
+      "function": "Stores urine until micturition"
+    }
+  },
+
+  "reproductive_system": {
+    "testes": {
+      "en": "Testes",
+      "am": "እንስኒ",
+      "function": "Produce spermatozoa and testosterone (male)"
+    },
+    "ovaries": {
+      "en": "Ovaries",
+      "am": "ኦቫሪዎች",
+      "function": "Produce ova, estrogen, and progesterone (female)"
+    },
+    "uterine_horns": {
+      "en": "Uterine Horns",
+      "am": "የማህፀን ቀንዶች",
+      "function": "Fetal development sites in multiparous species"
+    },
+    "uterine_body": {
+      "en": "Uterine Body",
+      "am": "የማህፀን አካል",
+      "function": "Connects horns to cervix; supports gestation"
+    },
+    "cervix": {
+      "en": "Cervix",
+      "am": "ሰርቪክስ",
+      "function": "Barrier and gateway between uterus and vagina"
+    }
+  },
+
+  "endocrine_system": {
+    "left_thyroid_lobe": {
+      "en": "Left Thyroid Lobe",
+      "am": "የግራ የታይሮይድ ክፍል",
+      "function": "Secretes thyroid hormones to regulate metabolism"
+    },
+    "right_thyroid_lobe": {
+      "en": "Right Thyroid Lobe",
+      "am": "የቀኝ የታይሮይድ ክፍል",
+      "function": "Secretes thyroid hormones to regulate metabolism"
+    },
+    "adrenal_glands": {
+      "en": "Adrenal Glands",
+      "am": "አድሬናል ጋላንዶች",
+      "function": "Produce corticosteroids, catecholamines, and mineralocorticoids"
+    }
+  }
+}

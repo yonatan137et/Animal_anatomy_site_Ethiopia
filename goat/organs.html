@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Goat Internal Organ Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    svg {
+      width: 100%;
+      max-width: 1400px;
+      display: block;
+      margin: auto;
+    }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐐 Goat Internal Organ Viewer</h1>
+  <p style="text-align:center;">Hover over each organ to see its name in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="organSVG" type="image/svg+xml" data="organs.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    const organData = {
+      brain_cerebrum_left: { en: "Left Cerebrum", am: "የግራ ሰረብራም" },
+      brain_cerebrum_right: { en: "Right Cerebrum", am: "የቀኝ ሰረብራም" },
+      brain_cerebellum: { en: "Cerebellum", am: "ሰረበለም" },
+      brainstem: { en: "Brainstem", am: "የአእምሮ ቅርፅ" },
+      spinal_cord: { en: "Spinal Cord", am: "የጀርባ አገናኝ" },
+      nasal_conchae_dorsal: { en: "Dorsal Nasal Conchae", am: "የአፍንጫ ኮንኬ ከፍተኛ" },
+      pharynx_nasopharynx: { en: "Nasopharynx", am: "ናሶፋሪንክስ" },
+      larynx_epiglottis: { en: "Epiglottis", am: "ኤፒግሎቲስ" },
+      trachea: { en: "Trachea", am: "ትራኬያ" },
+      lungs_left_cranial: { en: "Left Cranial Lung Lobe", am: "የግራ ክፍተኛ የሳንባ ክፍል" },
+      lungs_right_caudal: { en: "Right Caudal Lung Lobe", am: "የቀኝ ዝቅተኛ የሳንባ ክፍል" },
+      heart_left_ventricle: { en: "Left Ventricle", am: "የግራ ቬንትሪክል" },
+      aorta_arch: { en: "Aortic Arch", am: "የአኦርታ ቅርፅ" },
+      vena_cava_caudal: { en: "Caudal Vena Cava", am: "ዝቅተኛ ቬና ካቫ" },
+      rumen_dorsal_sac: { en: "Rumen (Dorsal Sac)", am: "ሩመን (ከፍተኛ ክፍል)" },
+      reticulum: { en: "Reticulum", am: "ሬቲኩላም" },
+      omasum: { en: "Omasum", am: "ኦማሰም" },
+      abomasum_body: { en: "Abomasum", am: "አቦማሰም" },
+      liver_right_lobe: { en: "Right Liver Lobe", am: "የቀኝ የጉበት ክፍል" },
+      gallbladder: { en: "Gallbladder", am: "ጋልብላደር" },
+      pancreas_body: { en: "Pancreas", am: "ፓንክሪያስ" },
+      spleen: { en: "Spleen", am: "ስፕሊን" },
+      jejunum: { en: "Jejunum", am: "ጀጁነም" },
+      colon_transverse: { en: "Transverse Colon", am: "ትራንስቨርስ ኮሎን" },
+      rectum: { en: "Rectum", am: "ሬክተም" },
+      kidney_left: { en: "Left Kidney", am: "የግራ ኩላሊት" },
+      ureter_left: { en: "Left Ureter", am: "የግራ ዩሬተር" },
+      urinary_bladder: { en: "Urinary Bladder", am: "የሽንት ከስክስ" },
+      urethra_male: { en: "Male Urethra", am: "የወንድ ዩሬትራ" },
+      ovary_left: { en: "Left Ovary", am: "የግራ ኦቫሪ" },
+      oviduct_left: { en: "Left Oviduct", am: "የግራ ኦቪዱክት" },
+      uterus_body: { en: "Uterus Body", am: "የማህፀን አካል" },
+      vagina: { en: "Vagina", am: "ዓሣ" },
+      vulva: { en: "Vulva", am: "ቫልቫ" },
+      testis_left: { en: "Left Testis", am: "የግራ አንደኛ ወንድ አካል" },
+      epididymis_left: { en: "Left Epididymis", am: "የግራ ኤፒዲዲሚስ" },
+      vas_deferens_left: { en: "Left Vas Deferens", am: "የግራ ቫስ ዴፈሬንስ" },
+      seminal_vesicle: { en: "Seminal Vesicle", am: "ሴሚናል ቬሲክል" },
+      prostate: { en: "Prostate", am: "ፕሮስቴት" },
+      bulbourethral_gland: { en: "Bulbourethral Gland", am: "ቡልቦዩሬትራል ጋላንድ" },
+      penis_body: { en: "Penis Body", am: "የፒኒስ አካል" },
+      penis_glans: { en: "Penis Glans", am: "ግላንስ" }
+    };
+
+    document.getElementById('organSVG').addEventListener('load', function () {
+      const svgDoc = this.contentDocument;
+      Object.keys(organData).forEach(id => {
+        const el = svgDoc.getElementById(id);
+        if (el) {
+          el.addEventListener('mousemove', e => {
+            tooltip.style.display = 'block';
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            tooltip.innerHTML = `<strong>${organData[id].en}</strong><br/>${organData[id].am}`;
+          });
+          el.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

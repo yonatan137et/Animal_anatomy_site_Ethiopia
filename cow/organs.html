@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cow Organ Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    svg {
+      width: 100%;
+      max-width: 1400px;
+      display: block;
+      margin: auto;
+    }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      max-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐄 Cow Organ Viewer</h1>
+  <p style="text-align:center;">Hover over each organ to see its name in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="organSVG" type="image/svg+xml" data="organs.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    const organData = {
+      brain_cerebrum_left: { en: "Left Cerebrum", am: "የግራ ሰረብራም" },
+      brain_cerebrum_right: { en: "Right Cerebrum", am: "የቀኝ ሰረብራም" },
+      brain_cerebellum: { en: "Cerebellum", am: "ሰረበለም" },
+      brainstem_midbrain: { en: "Midbrain", am: "መካከለኛ አእምሮ" },
+      brainstem_pons: { en: "Pons", am: "ፖንስ" },
+      brainstem_medulla: { en: "Medulla Oblongata", am: "ሜዱላ ኦብሎንጋታ" },
+      spinal_cord_cervical: { en: "Cervical Spinal Cord", am: "የአንገት የጀርባ አገናኝ" },
+      spinal_cord_thoracic: { en: "Thoracic Spinal Cord", am: "የደረት የጀርባ አገናኝ" },
+      spinal_cord_lumbar: { en: "Lumbar Spinal Cord", am: "የጀርባ የጀርባ አገናኝ" },
+      spinal_cord_sacral: { en: "Sacral Spinal Cord", am: "የሳክራል የጀርባ አገናኝ" },
+      spinal_cord_caudal: { en: "Caudal Spinal Cord", am: "ዝቅተኛ የጀርባ አገናኝ" },
+      lung_left_cranial: { en: "Left Cranial Lung Lobe", am: "የግራ ክፍተኛ የሳንባ ክፍል" },
+      lung_right_accessory: { en: "Right Accessory Lung Lobe", am: "የቀኝ አክሰሰሪ የሳንባ ክፍል" },
+      heart_left_ventricle: { en: "Left Ventricle", am: "የግራ ቬንትሪክል" },
+      aorta_arch: { en: "Aortic Arch", am: "የአኦርታ ቅርፅ" },
+      vena_cava_caudal: { en: "Caudal Vena Cava", am: "ዝቅተኛ ቬና ካቫ" },
+      rumen_dorsal_sac: { en: "Rumen (Dorsal Sac)", am: "ሩመን (ከፍተኛ ክፍል)" },
+      reticulum_folds: { en: "Reticulum Folds", am: "የሬቲኩላም እንቅስቃሴዎች" },
+      omasum_laminae: { en: "Omasum Laminae", am: "የኦማሰም ላሚኔ" },
+      abomasum_body: { en: "Abomasum Body", am: "የአቦማሰም አካል" },
+      liver_right_lobe: { en: "Right Liver Lobe", am: "የቀኝ የጉበት ክፍል" },
+      pancreas_body: { en: "Pancreas Body", am: "የፓንክሪያስ አካል" },
+      spleen_parenchyma: { en: "Spleen Parenchyma", am: "የስፕሊን ፓሬንክማ" },
+      jejunum: { en: "Jejunum", am: "ጀጁነም" },
+      colon_transverse: { en: "Transverse Colon", am: "ትራንስቨርስ ኮሎን" },
+      rectum: { en: "Rectum", am: "ሬክተም" },
+      kidney_left: { en: "Left Kidney", am: "የግራ ኩላሊት" },
+      ureter_left: { en: "Left Ureter", am: "የግራ ዩሬተር" },
+      bladder_body: { en: "Urinary Bladder", am: "የሽንት ከስክስ" },
+      urethra_male: { en: "Male Urethra", am: "የወንድ ዩሬትራ" },
+      ovary_left: { en: "Left Ovary", am: "የግራ ኦቫሪ" },
+      uterine_body: { en: "Uterus Body", am: "የማህፀን አካል" }
+    };
+
+    document.getElementById('organSVG').addEventListener('load', function () {
+      const svgDoc = this.contentDocument;
+      Object.keys(organData).forEach(id => {
+        const el = svgDoc.getElementById(id);
+        if (el) {
+          el.addEventListener('mousemove', e => {
+            tooltip.style.display = 'block';
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            const o = organData[id];
+            tooltip.innerHTML = `<strong>${o.en}</strong><br/>${o.am}`;
+          });
+          el.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+{
+  "nervous_system": {
+    "brain": { "en": "Brain", "am": "አንጎል", "kind": "organ" },
+    "spinal_cord": { "en": "Spinal Cord", "am": "የጀርባ አገናኝ", "kind": "organ" }
+  },
+
+  "sensory_organs": {
+    "eye": { "en": "Eye", "am": "ዓይን", "kind": "organ" },
+    "ear_external": { "en": "External Ear", "am": "ውጫዊ ጆሮ", "kind": "organ" },
+    "ear_middle": { "en": "Middle Ear", "am": "መካከለኛ ጆሮ", "kind": "organ" },
+    "ear_inner": { "en": "Inner Ear", "am": "ውስጣዊ ጆሮ", "kind": "organ" },
+    "olfactory_bulb": { "en": "Olfactory Bulb", "am": "የሽታ ባልብ", "kind": "organ" },
+    "tongue": { "en": "Tongue", "am": "ምላስ", "kind": "organ" }
+  },
+
+  "respiratory_system": {
+    "nasal_cavity": { "en": "Nasal Cavity", "am": "ናዛል ጉድጓድ", "kind": "organ" },
+    "pharynx": { "en": "Pharynx", "am": "ፋሪንክስ", "kind": "organ" },
+    "larynx": { "en": "Larynx", "am": "ላሪንክስ", "kind": "organ" },
+    "trachea": { "en": "Trachea", "am": "ትራኬያ", "kind": "organ" },
+    "syrinx": { "en": "Syrinx", "am": "ሲሪንክስ", "kind": "organ" },
+    "lungs_left": { "en": "Lung (Left)", "am": "የፍት ወፍራም", "kind": "organ" },
+    "lungs_right": { "en": "Lung (Right)", "am": "የቀኝ ወፍራም", "kind": "organ" },
+    "air_sacs": { "en": "Air Sacs", "am": "የአየር ቦርሳዎች", "kind": "organ" }
+  },
+
+  "cardiovascular_system": {
+    "heart": { "en": "Heart", "am": "ልብ", "kind": "organ" },
+    "aorta": { "en": "Aorta", "am": "አኦርታ", "kind": "vessel" },
+    "vena_cava_cranial": { "en": "Cranial Vena Cava", "am": "ክራኒያል ቬና ካቫ", "kind": "vessel" },
+    "vena_cava_caudal": { "en": "Caudal Vena Cava", "am": "ኮዳል ቬና ካቫ", "kind": "vessel" },
+    "pulmonary_artery": { "en": "Pulmonary Artery", "am": "የወፍራም ደረት ምስክር", "kind": "vessel" },
+    "pulmonary_vein": { "en": "Pulmonary Vein", "am": "የወፍራም ምስክር ስር", "kind": "vessel" }
+  },
+
+  "endocrine_system": {
+    "pituitary_gland": { "en": "Pituitary Gland", "am": "ፒቱተሪ ጋላንድ", "kind": "gland" },
+    "thyroid_gland": { "en": "Thyroid Gland", "am": "ታይሮይድ ጋላንድ", "kind": "gland" },
+    "parathyroid_glands": { "en": "Parathyroid Glands", "am": "ፓራታይሮይድ ጋላንዶች", "kind": "gland" },
+    "adrenal_glands": { "en": "Adrenal Glands", "am": "አድሬናል ጋላንዶች", "kind": "gland" },
+    "pancreas_endocrine": { "en": "Pancreas (Endocrine)", "am": "ፓንክሪያስ (ኤንዶክሪን)", "kind": "gland" }
+  },
+
+  "digestive_system": {
+    "oral_cavity": { "en": "Oral Cavity", "am": "የአፍ ጉድጓድ", "kind": "organ" },
+    "esophagus": { "en": "Esophagus", "am": "ኤሶፋጉስ", "kind": "organ" },
+    "crop": { "en": "Crop", "am": "ክሮፕ", "kind": "organ" },
+    "proventriculus": { "en": "Proventriculus", "am": "ፕሮቬንትሪኩላስ", "kind": "organ" },
+    "gizzard": { "en": "Gizzard", "am": "ጊዛርድ", "kind": "organ" },
+    "small_intestine": { "en": "Small Intestine", "am": "ትንሽ አንጀት", "kind": "organ" },
+    "ceca_left": { "en": "Cecum (Left)", "am": "ሲካም (ግራ)", "kind": "organ" },
+    "ceca_right": { "en": "Cecum (Right)", "am": "ሲካም (ቀኝ)", "kind": "organ" },
+    "colon": { "en": "Colon", "am": "ኮሎን", "kind": "organ" },
+    "cloaca": { "en": "Cloaca", "am": "ክሎአካ", "kind": "organ" },
+    "liver": { "en": "Liver", "am": "ጉበት", "kind": "organ" },
+    "gallbladder": { "en": "Gallbladder", "am": "የመጥፎ ነጭ ቦርሳ", "kind": "organ" },
+    "pancreas_exocrine": { "en": "Pancreas (Exocrine)", "am": "ፓንክሪያስ (ኤክሶክሪን)", "kind": "gland" }
+  },
+
+  "urinary_system": {
+    "kidney_left": { "en": "Kidney (Left)", "am": "ኩላሊት (ግራ)", "kind": "organ" },
+    "kidney_right": { "en": "Kidney (Right)", "am": "ኩላሊት (ቀኝ)", "kind": "organ" },
+    "ureters": { "en": "Ureters", "am": "ዩሬተርስ", "kind": "organ" },
+    "urinary_diverticulum": { "en": "Urinary Diverticulum", "am": "የሽንት ዲቨርቲኩላም", "kind": "organ" }
+  },
+
+    "reproductive_male": {
+    "testes_left": { "en": "Testis (Left)", "am": "የግራ ወንድ አንጀት", "kind": "organ" },
+    "testes_right": { "en": "Testis (Right)", "am": "የቀኝ ወንድ አንጀት", "kind": "organ" },
+    "vas_deferens": { "en": "Vas Deferens", "am": "ቫስ ዴፈሬንስ", "kind": "organ" },
+    "cloacal_papillae": { "en": "Cloacal Papillae", "am": "የክሎአካ ፓፒላይ", "kind": "organ" }
+  },
+
+  "reproductive_female": {
+    "ovary_left": { "en": "Ovary (Left)", "am": "የግራ አንደኛ አንጀት", "kind": "organ" },
+    "infundibulum": { "en": "Infundibulum", "am": "ኢንፉንዲቡላም", "kind": "organ" },
+    "magnum": { "en": "Magnum", "am": "ማግነም", "kind": "organ" },
+    "isthmus": { "en": "Isthmus", "am": "ኢስትሙስ", "kind": "organ" },
+    "shell_gland": { "en": "Shell Gland", "am": "የእንቁላል ቅርፅ ጋላንድ", "kind": "organ" },
+    "vagina": { "en": "Vagina", "am": "ወሲብ", "kind": "organ" }
+  },
+
+  "body_cavities": {
+    "cranial_cavity": { "en": "Cranial Cavity", "am": "የአንጎል ጉድጓድ", "kind": "cavity" },
+    "thoracic_cavity": { "en": "Thoracic Cavity", "am": "የደረት ጉድጓድ", "kind": "cavity" },
+    "abdominal_cavity": { "en": "Abdominal Cavity", "am": "የሆድ ጉድጓድ", "kind": "cavity" },
+    "pelvic_cavity": { "en": "Pelvic Cavity", "am": "የወገብ ጉድጓድ", "kind": "cavity" }
+  }
+}

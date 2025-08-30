@@ -1,0 +1,56 @@
+{
+  "skull": {
+    "cranium": { "en": "Cranium", "am": "ክሬንየም" },
+    "mandible": { "en": "Mandible", "am": "ማንዲብል" },
+    "maxilla": { "en": "Maxilla", "am": "ማክሲላ" },
+    "premaxilla": { "en": "Premaxilla", "am": "ፕሪማክሲላ" },
+    "nasal_bone": { "en": "Nasal Bone", "am": "ናዛል አጥንት" },
+    "frontal_bone": { "en": "Frontal Bone", "am": "ፍሮንታል አጥንት" },
+    "parietal_bone": { "en": "Parietal Bone", "am": "ፓሪታል አጥንት" },
+    "occipital_bone": { "en": "Occipital Bone", "am": "ኦክሲፒታል አጥንት" },
+    "quadrate_bone": { "en": "Quadrate Bone", "am": "ኳድሬት አጥንት" },
+    "jugal_arch": { "en": "Jugal Arch", "am": "ጁጋል ቅርፅ" },
+    "sclerotic_ring": { "en": "Sclerotic Ring", "am": "ስክለሮቲክ ቀለብ" }
+  },
+
+  "vertebral_column": {
+    "cervical_vertebrae": { "en": "Cervical Vertebrae", "am": "የአንገት አጥንቶች" },
+    "thoracic_vertebrae": { "en": "Thoracic Vertebrae", "am": "የደረት አጥንቶች" },
+    "lumbar_vertebrae": { "en": "Lumbar Vertebrae", "am": "የወገብ አጥንቶች" },
+    "sacral_vertebrae": { "en": "Sacral Vertebrae", "am": "የሳክራል አጥንቶች" },
+    "caudal_vertebrae": { "en": "Caudal Vertebrae", "am": "የጅምላ አጥንቶች" },
+    "synsacrum": { "en": "Synsacrum", "am": "ሲንሳክረም" },
+    "pygostyle": { "en": "Pygostyle", "am": "ፒጎስታይል" }
+  },
+
+  "thoracic_cage": {
+    "sternum": { "en": "Sternum", "am": "ስተርነም" },
+    "carina_keel": { "en": "Carina (Keel)", "am": "ካሪና (ኪል)" },
+    "ribs": { "en": "Ribs", "am": "ሬብስ" },
+    "uncinate_processes": { "en": "Uncinate Processes", "am": "አንሲኔት ሂደቶች" }
+  },
+
+  "forelimb": {
+    "scapula": { "en": "Scapula", "am": "ስካፑላ" },
+    "coracoid": { "en": "Coracoid", "am": "ኮራኮይድ" },
+    "furcula": { "en": "Furcula", "am": "ፉርኩላ" },
+    "humerus": { "en": "Humerus", "am": "ሁመረስ" },
+    "radius": { "en": "Radius", "am": "ሬዲየስ" },
+    "ulna": { "en": "Ulna", "am": "ኡልና" },
+    "carpometacarpus": { "en": "Carpometacarpus", "am": "ካርፖሜታካርፑስ" },
+    "phalanges_wing": { "en": "Wing Phalanges", "am": "የክንፍ ፋላንጅስ" }
+  },
+
+  "hindlimb": {
+    "ilium": { "en": "Ilium", "am": "ኢሊየም" },
+    "ischium": { "en": "Ischium", "am": "ኢሽየም" },
+    "pubis": { "en": "Pubis", "am": "ፑቢስ" },
+    "femur": { "en": "Femur", "am": "ፊሙር" },
+    "patella": { "en": "Patella", "am": "ፓቴላ" },
+    "tibiotarsus": { "en": "Tibiotarsus", "am": "ቲቢዮታርሱስ" },
+    "fibula": { "en": "Fibula", "am": "ፊቡላ" },
+    "tarsometatarsus": { "en": "Tarsometatarsus", "am": "ታርሶሜታታርሱስ" },
+    "phalanges_foot": { "en": "Foot Phalanges", "am": "የእግር ፋላንጅስ" },
+    "hallux": { "en": "Hallux", "am": "ሃሉክስ" }
+  }
+}

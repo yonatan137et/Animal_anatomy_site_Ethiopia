@@ -1,0 +1,40 @@
+{
+  "nervous": {
+    "brain_cerebrum_left": { "en": "Left Cerebrum", "am": "የግራ ሰረብራም", "kind": "organ" },
+    "brainstem_pons": { "en": "Pons", "am": "ፖንስ", "kind": "structure" },
+    "spinal_cord_thoracic": { "en": "Thoracic Spinal Cord", "am": "ቶራሲክ የአንጀት አገናኝ", "kind": "organ" }
+  },
+  "respiratory": {
+    "nasal_cavity": { "en": "Nasal Cavity", "am": "የአፍንጫ ጉድጓድ", "kind": "organ" },
+    "lung_right_caudal": { "en": "Right Caudal Lung Lobe", "am": "ቀኝ ኮዳል የፍንጭ ክፍል", "kind": "organ" }
+  },
+  "cardiovascular": {
+    "heart_left_ventricle": { "en": "Left Ventricle", "am": "የግራ ቬንትሪክል", "kind": "organ" },
+    "aorta_arch": { "en": "Aortic Arch", "am": "የአኦርታ ቀስት", "kind": "vessel" }
+  },
+  "digestive": {
+    "stomach_pylorus": { "en": "Pylorus", "am": "ፒሎረስ", "kind": "organ" },
+    "colon_transverse": { "en": "Transverse Colon", "am": "ትራንስቨርስ ኮሎን", "kind": "organ" }
+  },
+  "urinary": {
+    "kidney_left": { "en": "Left Kidney", "am": "የግራ ኩላሊት", "kind": "organ" },
+    "urethra_female": { "en": "Female Urethra", "am": "የሴት ዩሬትራ", "kind": "duct" }
+  },
+  "reproductive_female": {
+    "uterine_horns": { "en": "Uterine Horns", "am": "የማህፀን ቀንዶች", "kind": "organ" },
+    "vulva": { "en": "Vulva", "am": "ቫልቫ", "kind": "external" }
+  },
+  "reproductive_male": {
+    "testis_right": { "en": "Right Testis", "am": "ቀኝ ወንድ አንጀት", "kind": "organ" },
+    "penis_glans": { "en": "Glans Penis", "am": "ግላንስ ፒኒስ", "kind": "external" }
+  },
+  "endocrine": {
+    "pituitary_gland": { "en": "Pituitary Gland", "am": "ፒቱተሪ ጋላንድ", "kind": "gland" },
+    "adrenal_gland_left": { "en": "Left Adrenal Gland", "am": "የግራ አድሬናል ጋላንድ", "kind": "gland" }
+  },
+  "sense_organs": {
+    "eye_left": { "en": "Left Eye", "am": "የግራ ዓይን", "kind": "organ" },
+    "ear_inner_right": { "en": "Right Inner Ear", "am": "ቀኝ ውስጣዊ ጆሮ", "kind": "organ" },
+    "olfactory_bulb": { "en": "Olfactory Bulb", "am": "ኦልፋክቶሪ ቡልብ", "kind": "structure" }
+  }
+}

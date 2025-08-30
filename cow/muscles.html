@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cow Muscle Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    svg {
+      width: 100%;
+      max-width: 1400px;
+      display: block;
+      margin: auto;
+    }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      max-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐄 Cow Muscle Viewer</h1>
+  <p style="text-align:center;">Hover over each muscle to see its name, origin, and insertion in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="muscleSVG" type="image/svg+xml" data="muscles.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    const muscleData = {
+      masseter: { en: "Masseter", am: "ማሴተር", origin: "Zygomatic arch", insertion: "Mandible" },
+      temporalis: { en: "Temporalis", am: "ቴምፖራሊስ", origin: "Temporal fossa", insertion: "Coronoid process" },
+      buccinator: { en: "Buccinator", am: "ቡክሲኔተር", origin: "Maxilla & mandible", insertion: "Orbicularis oris" },
+      sternomandibularis: { en: "Sternomandibularis", am: "ስተርኖማንዲቡላሪስ", origin: "Sternum", insertion: "Mandible" },
+      brachiocephalicus: { en: "Brachiocephalicus", am: "ብራኪዮሴፋሊከስ", origin: "Clavicular intersection", insertion: "Mastoid process" },
+
+      trapezius: { en: "Trapezius", am: "ትራፔዚየስ", origin: "Nuchal ligament", insertion: "Scapular spine" },
+      latissimus_dorsi: { en: "Latissimus dorsi", am: "ላቲሲሙስ ዶርሲ", origin: "Thoracolumbar fascia", insertion: "Humerus" },
+      serratus_ventralis: { en: "Serratus ventralis", am: "ሴራተስ ቬንትራሊስ", origin: "Ribs", insertion: "Scapula" },
+      external_intercostals: { en: "External intercostals", am: "ውጫዊ ኢንተርኮስታልስ", origin: "Caudal rib border", insertion: "Cranial rib border" },
+      rectus_abdominis: { en: "Rectus abdominis", am: "ሬክተስ አብዶሚኒስ", origin: "Pubis", insertion: "Sternum & costal cartilages" },
+      external_oblique: { en: "External oblique", am: "ውጫዊ ኦብሊክ", origin: "Ribs", insertion: "Linea alba" },
+
+      deltoideus: { en: "Deltoideus", am: "ዴልቶይዲየስ", origin: "Scapular spine", insertion: "Deltoid tuberosity" },
+      triceps_brachii: { en: "Triceps brachii", am: "ትራይሴፕስ ብራኪይ", origin: "Scapula & humerus", insertion: "Olecranon" },
+      biceps_brachii: { en: "Biceps brachii", am: "ባይሴፕስ ብራኪይ", origin: "Supraglenoid tubercle", insertion: "Radius" },
+      extensor_carpi_radialis: { en: "Extensor carpi radialis", am: "ኤክስቴንሰር ካርፒ ሬዲያሊስ", origin: "Humerus", insertion: "Metacarpals" },
+      flexor_carpi_ulnaris: { en: "Flexor carpi ulnaris", am: "ፍሌክሰር ካርፒ ኡልናሪስ", origin: "Humerus & ulna", insertion: "Accessory carpal bone" },
+      digital_extensors_fore: { en: "Forelimb digital extensors", am: "የፊት እግር ዲጂታል ኤክስቴንሰሮች", origin: "Humerus", insertion: "Phalanges" },
+
+      gluteus_medius: { en: "Gluteus medius", am: "ግሉቲየስ ሜዲየስ", origin: "Ilium", insertion: "Greater trochanter" },
+      biceps_femoris: { en: "Biceps femoris", am: "ባይሴፕስ ፊሞሪስ", origin: "Ischial tuberosity", insertion: "Patella, tibia" },
+      semitendinosus: { en: "Semitendinosus", am: "ሴሚቴንዲኖሰስ", origin: "Ischial tuberosity", insertion: "Tibia" },
+      quadriceps_femoris: { en: "Quadriceps femoris", am: "ኳድሪሴፕስ ፊሞሪስ", origin: "Femur & ilium", insertion: "Patella" },
+      gastrocnemius: { en: "Gastrocnemius", am: "ጋስትሮክኔሚየስ", origin: "Femur", insertion: "Calcaneus" },
+      digital_extensors_hind: { en: "Hindlimb digital extensors", am: "የኋላ እግር ዲጂታል ኤክስቴንሰሮች", origin: "Tibia & fibula", insertion: "Phalanges" },
+
+      coccygeus: { en: "Coccygeus", am: "ኮክሲጄስ", origin: "Ischial spine", insertion: "Caudal vertebrae" },
+      levator_ani: { en: "Levator ani", am: "ሌቫተር አኒ", origin: "Pubis", insertion: "Rectum & anal canal" }
+    };
+
+    document.getElementById('muscleSVG').addEventListener('load', function () {
+      const svgDoc = this.contentDocument;
+      Object.keys(muscleData).forEach(id => {
+        const el = svgDoc.getElementById(id);
+        if (el) {
+          el.addEventListener('mousemove', e => {
+            tooltip.style.display = 'block';
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            const m = muscleData[id];
+            tooltip.innerHTML = `<strong>${m.en}</strong><br/>${m.am}<br/><em>Origin:</em> ${m.origin}<br/><em>Insertion:</em> ${m.insertion}`;
+          });
+          el.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

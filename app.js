@@ -1,75 +1,124 @@
-document.addEventListener("DOMContentLoaded", () => {
+const svgContainer = document.getElementById("svgContainer");
+const tooltip = document.getElementById("tooltip");
+const details = document.getElementById("details");
+const speciesSelect = document.getElementById("speciesSelect");
+const systemTabs = document.querySelectorAll(".system-tab");
+const searchInput = document.getElementById("searchParts");
+const langButtons = document.querySelectorAll(".lang-switch button");
+
+let currentLang = "en";
+let labels = {};
+let partsData = {};
+
+function loadLabels(lang) {
+  fetch(`../labels/${lang}.json`)
+    .then(res => res.json())
+    .then(data => {
+      labels = data;
+      updateLabels();
+    });
+}
+
+function loadData() {
   const species = document.body.dataset.species;
   const system = document.body.dataset.system;
-  const svgPath = `../svg/${species}/${system}.svg`;
-  const dataPath = `../data/${species}/${system}.json`;
-  const langSelector = document.getElementById("languageSelector");
-  let currentLang = "en";
-  let anatomyData = {};
-  let uiLabels = {};
+  fetch(`../data/${species}/${system}.json`)
+    .then(res => res.json())
+    .then(data => {
+      partsData = data;
+    });
+}
 
-  // Load UI labels
-  function loadLabels(lang) {
-    fetch(`../i18n/ui.${lang}.json`)
-      .then(res => res.json())
-      .then(labels => {
-        uiLabels = labels;
-        document.getElementById("title").textContent = labels[`title${capitalize(species)}${capitalize(system)}`] || `${capitalize(species)} — ${capitalize(system)}`;
-        document.getElementById("clickHint").textContent = labels.clickHint;
-        document.getElementById("languageLabel").textContent = labels.language;
-      });
-  }
+function loadSVG() {
+  const species = document.body.dataset.species;
+  const system = document.body.dataset.system;
+  fetch(`../svg/${species}/${system}.svg`)
+    .then(res => res.text())
+    .then(svg => {
+      svgContainer.innerHTML = svg;
+      attachSVGListeners();
+    });
+}
 
-  // Load anatomy data
-  function loadData() {
-    fetch(dataPath)
-      .then(res => res.json())
-      .then(data => {
-        anatomyData = data;
-      });
-  }
-
-  // Load SVG and attach click handlers
-  function loadSVG() {
-    fetch(svgPath)
-      .then(res => res.text())
-      .then(svgText => {
-        document.getElementById("svgContainer").innerHTML = svgText;
-        const svg = document.querySelector("#svgContainer svg");
-        Object.keys(anatomyData).forEach(id => {
-          const part = svg.getElementById(id);
-          if (part) {
-            part.style.cursor = "pointer";
-            part.addEventListener("click", () => showInfo(id));
-          }
-        });
-      });
-  }
-
-  // Show info box
-  function showInfo(id) {
-    const info = anatomyData[id];
-    if (!info) return;
-    document.getElementById("infoBox").innerHTML = `
-      <h2>${info.name[currentLang]}</h2>
-      <p><strong>${uiLabels.function}:</strong> ${info.function[currentLang]}</p>
-      <p><strong>${uiLabels.context}:</strong> ${info.context[currentLang]}</p>
-    `;
-  }
-
-  // Language switching
-  langSelector.addEventListener("change", (e) => {
-    currentLang = e.target.value;
-    loadLabels(currentLang);
+function attachSVGListeners() {
+  const regions = svgContainer.querySelectorAll("[data-id]");
+  regions.forEach(region => {
+    region.addEventListener("click", () => showDetails(region.dataset.id));
+    region.addEventListener("mouseenter", () => showTooltip(region.dataset.id));
+    region.addEventListener("mouseleave", () => hideTooltip());
   });
+}
 
-  // Capitalize helper
-  function capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  }
+function showTooltip(id) {
+  const label = labels[id] || id;
+  tooltip.textContent = label;
+  tooltip.hidden = false;
+}
 
-  // Initialize
+function hideTooltip() {
+  tooltip.hidden = true;
+}
+
+function showDetails(id) {
+  const label = labels[id] || id;
+  const info = partsData[id] || {};
+  details.innerHTML = `
+    <h2>${label}</h2>
+    <p>${info.description || "No description available."}</p>
+  `;
+  details.classList.remove("empty");
+}
+
+function updateLabels() {
+  const regions = svgContainer.querySelectorAll("[data-id]");
+  regions.forEach(region => {
+    const label = labels[region.dataset.id];
+    if (label) region.setAttribute("aria-label", label);
+  });
+}
+
+function reloadViewer() {
   loadLabels(currentLang);
   loadData();
   loadSVG();
+}
+
+// Language switch
+langButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+    langButtons.forEach(b => b.setAttribute("aria-pressed", "false"));
+    btn.setAttribute("aria-pressed", "true");
+    currentLang = btn.id === "lang-en" ? "en" : "am";
+    reloadViewer();
+  });
 });
+
+// Species switch
+speciesSelect.addEventListener("change", e => {
+  document.body.dataset.species = e.target.value;
+  reloadViewer();
+});
+
+// System switch
+systemTabs.forEach(btn => {
+  btn.addEventListener("click", () => {
+    systemTabs.forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    document.body.dataset.system = btn.dataset.system;
+    reloadViewer();
+  });
+});
+
+// Search filter
+searchInput.addEventListener("input", () => {
+  const query = searchInput.value.toLowerCase();
+  const regions = svgContainer.querySelectorAll("[data-id]");
+  regions.forEach(region => {
+    const label = labels[region.dataset.id]?.toLowerCase() || "";
+    region.style.opacity = label.includes(query) ? "1" : "0.2";
+  });
+});
+
+// Initial load
+reloadViewer();
+

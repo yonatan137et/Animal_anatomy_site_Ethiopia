@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Nervous System -->
+  <g id="brain" />
+  <g id="spinal_cord" />
+
+  <!-- 👁️ Sensory Organs -->
+  <g id="eye" />
+  <g id="ear_external" />
+  <g id="ear_middle" />
+  <g id="ear_inner" />
+  <g id="olfactory_bulb" />
+  <g id="tongue" />
+
+  <!-- 🫁 Respiratory System -->
+  <g id="nasal_cavity" />
+  <g id="pharynx" />
+  <g id="larynx" />
+  <g id="trachea" />
+  <g id="lungs_left" />
+  <g id="lungs_right" />
+  <g id="bronchi" />
+  <g id="diaphragm" />
+
+  <!-- ❤️ Cardiovascular System -->
+  <g id="heart" />
+  <g id="aorta" />
+  <g id="vena_cava_cranial" />
+  <g id="vena_cava_caudal" />
+  <g id="pulmonary_artery" />
+  <g id="pulmonary_vein" />
+
+  <!-- 🧠 Endocrine System -->
+  <g id="pituitary_gland" />
+  <g id="thyroid_gland" />
+  <g id="parathyroid_glands" />
+  <g id="adrenal_glands" />
+  <g id="pancreas_endocrine" />
+
+  <!-- 🧪 Digestive System -->
+  <g id="oral_cavity" />
+  <g id="esophagus" />
+  <g id="rumen" />
+  <g id="reticulum" />
+  <g id="omasum" />
+  <g id="abomasum" />
+  <g id="small_intestine" />
+  <g id="cecum" />
+  <g id="colon" />
+  <g id="rectum" />
+  <g id="liver" />
+  <g id="gallbladder" />
+  <g id="pancreas_exocrine" />
+
+  <!-- 🧫 Urinary System -->
+  <g id="kidney_left" />
+  <g id="kidney_right" />
+  <g id="ureter_left" />
+  <g id="ureter_right" />
+  <g id="urinary_bladder" />
+  <g id="urethra" />
+
+  <!-- 🧬 Reproductive System (Male) -->
+  <g id="testes" />
+  <g id="epididymis" />
+  <g id="vas_deferens" />
+  <g id="prostate_gland" />
+  <g id="penis" />
+  <g id="prepuce" />
+  <g id="bulbourethral_glands" />
+  <g id="seminal_vesicles" />
+
+  <!-- 🧬 Reproductive System (Female) -->
+  <g id="ovaries" />
+  <g id="oviducts" />
+  <g id="uterus" />
+  <g id="cervix" />
+  <g id="vagina" />
+  <g id="vulva" />
+
+  <!-- 🧍 Body Cavities -->
+  <g id="cranial_cavity" />
+  <g id="thoracic_cavity" />
+  <g id="abdominal_cavity" />
+  <g id="pelvic_cavity" />
+
+</svg>

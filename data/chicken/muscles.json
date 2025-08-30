@@ -1,0 +1,107 @@
+{
+  "head_neck": {
+    "masseter": { "en": "Masseter", "am": "ማሴተር", "kind": "muscle" },
+    "temporalis": { "en": "Temporalis", "am": "ቴምፖራሊስ", "kind": "muscle" },
+    "depressor_mandibulae": { "en": "Depressor Mandibulae", "am": "ደፕሬሰር ማንዲቡላይ", "kind": "muscle" },
+    "splenius_capitis": { "en": "Splenius Capitis", "am": "ስፕሊኒየስ ካፒቲስ", "kind": "muscle" },
+    "longus_colli": { "en": "Longus Colli", "am": "ሎንጉስ ኮሊ", "kind": "muscle" },
+    "tracheolateralis": { "en": "Tracheolateralis", "am": "ትራኬዮላተራሊስ", "kind": "muscle" },
+    "complexus": { "en": "Complexus", "am": "ኮምፕሌክሱስ", "kind": "muscle" }
+  },
+
+  "thoracic": {
+    "pectoralis_major": { "en": "Pectoralis Major", "am": "ፔክቶራሊስ ማጄር", "kind": "muscle" },
+    "pectoralis_minor": { "en": "Pectoralis Minor", "am": "ፔክቶራሊስ ማይነር", "kind": "muscle" },
+    "supracoracoideus": { "en": "Supracoracoideus", "am": "ሱፕራኮራኮይዲየስ", "kind": "muscle" },
+    "serratus_ventralis": { "en": "Serratus Ventralis", "am": "ሴራተስ ቬንትራሊስ", "kind": "muscle" },
+    "intercostals_external": { "en": "External Intercostals", "am": "ውጫዊ ኢንተርኮስታልስ", "kind": "muscle" },
+    "intercostals_internal": { "en": "Internal Intercostals", "am": "ውስጣዊ ኢንተርኮስታልስ", "kind": "muscle" },
+    "latissimus_dorsi": { "en": "Latissimus Dorsi", "am": "ላቲሲሙስ ዶርሲ", "kind": "muscle" }
+  },
+
+  "wing": {
+    "deltoideus": { "en": "Deltoideus", "am": "ዴልቶይዲየስ", "kind": "muscle" },
+    "biceps_brachii": { "en": "Biceps Brachii", "am": "ባይሴፕስ ብራኪይ", "kind": "muscle" },
+    "triceps_brachii": { "en": "Triceps Brachii", "am": "ትራይሴፕስ ብራኪይ", "kind": "muscle" },
+    "brachialis": { "en": "Brachialis", "am": "ብራኪያሊስ", "kind": "muscle" },
+    "extensor_carpi_radialis": { "en": "Extensor Carpi Radialis", "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ", "kind": "muscle" },
+    "flexor_carpi_ulnaris": { "en": "Flexor Carpi Ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ", "kind": "muscle" },
+    "flexor_digitorum_superficialis_wing": { "en": "Flexor Digitorum Superficialis (Wing)", "am": "ሱፐርፊሺያል ዲጂቶረም ፍሌክሰር (ክንፍ)", "kind": "muscle" },
+    "flexor_digitorum_profundus_wing": { "en": "Flexor Digitorum Profundus (Wing)", "am": "ፕሮፉንዱስ ዲጂቶረም ፍሌክሰር (ክንፍ)", "kind": "muscle" },
+    "extensor_digitorum_wing": { "en": "Extensor Digitorum (Wing)", "am": "ኤክስቴንሰር ዲጂቶረም (ክንፍ)", "kind": "muscle" }
+  },
+
+  "hindlimb": {
+    "gluteus_medius": { "en": "Gluteus Medius", "am": "ግሉቲየስ ሜዲየስ", "kind": "muscle" },
+    "gluteus_maximus": { "en": "Gluteus Maximus", "am": "ግሉቲየስ ማክሲሙስ", "kind": "muscle" },
+    "biceps_femoris": { "en": "Biceps Femoris", "am": "ባይሴፕስ ፈሞሪስ", "kind": "muscle" },
+    "semitendinosus": { "en": "Semitendinosus", "am": "ሴሚቴንዲኖሱስ", "kind": "muscle" },
+    "semimembranosus": { "en": "Semimembranosus", "am": "ሴሚሜምብራኖሱስ", "kind": "muscle" },
+    "quadriceps_femoris": { "en": "Quadriceps Femoris", "am": "ኳድሪሴፕስ ፈሞሪስ", "kind": "muscle" },
+    "sartorius": { "en": "Sartorius", "am": "ሳርቶሪየስ", "kind": "muscle" },
+    "gracilis": { "en": "Gracilis", "am": "ግራሲሊስ", "kind": "muscle" },
+    "gastrocnemius": { "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ", "kind": "muscle" },
+    "flexor_digitorum_superficialis_hind": { "en": "Flexor Digitorum Superficialis (Hindlimb)", "am": "ሱፐርፊሺያል ዲጂቶረም ፍሌክሰር (ኋላ እግር)", "kind": "muscle" },
+    "flexor_digitorum_profundus_hind": { "en": "Flexor Digitorum Profundus (Hindlimb)", "am": "ፕሮፉንዱስ ዲጂቶረም ፍሌክሰር (ኋላ እግር)", "kind": "muscle" },
+   {
+  "head_neck": {
+    "masseter": { "en": "Masseter", "am": "ማሴተር", "kind": "muscle" },
+    "temporalis": { "en": "Temporalis", "am": "ቴምፖራሊስ", "kind": "muscle" },
+    "depressor_mandibulae": { "en": "Depressor Mandibulae", "am": "ደፕሬሰር ማንዲቡላይ", "kind": "muscle" },
+    "splenius_capitis": { "en": "Splenius Capitis", "am": "ስፕሊኒየስ ካፒቲስ", "kind": "muscle" },
+    "longus_colli": { "en": "Longus Colli", "am": "ሎንጉስ ኮሊ", "kind": "muscle" },
+    "tracheolateralis": { "en": "Tracheolateralis", "am": "ትራኬዮላተራሊስ", "kind": "muscle" },
+    "complexus": { "en": "Complexus", "am": "ኮምፕሌክሱስ", "kind": "muscle" }
+  },
+
+  "thoracic": {
+    "pectoralis_major": { "en": "Pectoralis Major", "am": "ፔክቶራሊስ ማጄር", "kind": "muscle" },
+    "pectoralis_minor": { "en": "Pectoralis Minor", "am": "ፔክቶራሊስ ማይነር", "kind": "muscle" },
+    "supracoracoideus": { "en": "Supracoracoideus", "am": "ሱፕራኮራኮይዲየስ", "kind": "muscle" },
+    "serratus_ventralis": { "en": "Serratus Ventralis", "am": "ሴራተስ ቬንትራሊስ", "kind": "muscle" },
+    "intercostals_external": { "en": "External Intercostals", "am": "ውጫዊ ኢንተርኮስታልስ", "kind": "muscle" },
+    "intercostals_internal": { "en": "Internal Intercostals", "am": "ውስጣዊ ኢንተርኮስታልስ", "kind": "muscle" },
+    "latissimus_dorsi": { "en": "Latissimus Dorsi", "am": "ላቲሲሙስ ዶርሲ", "kind": "muscle" }
+  },
+
+  "wing": {
+    "deltoideus": { "en": "Deltoideus", "am": "ዴልቶይዲየስ", "kind": "muscle" },
+    "biceps_brachii": { "en": "Biceps Brachii", "am": "ባይሴፕስ ብራኪይ", "kind": "muscle" },
+    "triceps_brachii": { "en": "Triceps Brachii", "am": "ትራይሴፕስ ብራኪይ", "kind": "muscle" },
+    "brachialis": { "en": "Brachialis", "am": "ብራኪያሊስ", "kind": "muscle" },
+    "extensor_carpi_radialis": { "en": "Extensor Carpi Radialis", "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ", "kind": "muscle" },
+    "flexor_carpi_ulnaris": { "en": "Flexor Carpi Ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ", "kind": "muscle" },
+    "flexor_digitorum_superficialis_wing": { "en": "Flexor Digitorum Superficialis (Wing)", "am": "ሱፐርፊሺያል ዲጂቶረም ፍሌክሰር (ክንፍ)", "kind": "muscle" },
+    "flexor_digitorum_profundus_wing": { "en": "Flexor Digitorum Profundus (Wing)", "am": "ፕሮፉንዱስ ዲጂቶረም ፍሌክሰር (ክንፍ)", "kind": "muscle" },
+    "extensor_digitorum_wing": { "en": "Extensor Digitorum (Wing)", "am": "ኤክስቴንሰር ዲጂቶረም (ክንፍ)", "kind": "muscle" }
+  },
+
+  "hindlimb": {
+    "gluteus_medius": { "en": "Gluteus Medius", "am": "ግሉቲየስ ሜዲየስ", "kind": "muscle" },
+    "gluteus_maximus": { "en": "Gluteus Maximus", "am": "ግሉቲየስ ማክሲሙስ", "kind": "muscle" },
+    "biceps_femoris": { "en": "Biceps Femoris", "am": "ባይሴፕስ ፈሞሪስ", "kind": "muscle" },
+    "semitendinosus": { "en": "Semitendinosus", "am": "ሴሚቴንዲኖሱስ", "kind": "muscle" },
+    "semimembranosus": { "en": "Semimembranosus", "am": "ሴሚሜምብራኖሱስ", "kind": "muscle" },
+    "quadriceps_femoris": { "en": "Quadriceps Femoris", "am": "ኳድሪሴፕስ ፈሞሪስ", "kind": "muscle" },
+    "sartorius": { "en": "Sartorius", "am": "ሳርቶሪየስ", "kind": "muscle" },
+    "gracilis": { "en": "Gracilis", "am": "ግራሲሊስ", "kind": "muscle" },
+    "gastrocnemius": { "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ", "kind": "muscle" },
+    "flexor_digitorum_superficialis_hind": { "en": "Flexor Digitorum Superficialis (Hindlimb)", "am": "ሱፐርፊሺያል ዲጂቶረም ፍሌክሰር (ኋላ እግር)", "kind": "muscle" },
+    "flexor_digitorum_profundus_hind": { "en": "Flexor Digitorum Profundus (Hindlimb)", "am": "ፕሮፉንዱስ ዲጂቶረም ፍሌክሰር (ኋላ እግር)", "kind": "muscle" },
+       "extensor_digitorum_longus": { "en": "Extensor Digitorum Longus", "am": "ኤክስቴንሰር ዲጂቶረም ሎንጉስ", "kind": "muscle" }
+  },
+
+  "abdominal": {
+    "external_abdominal_oblique": { "en": "External Abdominal Oblique", "am": "ውጫዊ አብዶሚናል ኦብሊክ", "kind": "muscle" },
+    "internal_abdominal_oblique": { "en": "Internal Abdominal Oblique", "am": "ውስጣዊ አብዶሚናል ኦብሊክ", "kind": "muscle" },
+    "transversus_abdominis": { "en": "Transversus Abdominis", "am": "ትራንስቨርሱስ አብዶሚኒስ", "kind": "muscle" },
+    "rectus_abdominis": { "en": "Rectus Abdominis", "am": "ሬክተስ አብዶሚኒስ", "kind": "muscle" }
+  },
+
+  "tail_perineal": {
+    "coccygeus": { "en": "Coccygeus", "am": "ኮክሲጄየስ", "kind": "muscle" },
+    "levator_ani": { "en": "Levator Ani", "am": "ሌቫተር አኒ", "kind": "muscle" },
+    "sphincter_ani_externus": { "en": "External Anal Sphincter", "am": "ውጫዊ የአናል ስፊንክተር", "kind": "muscle" },
+    "cloacal_sphincter": { "en": "Cloacal Sphincter", "am": "የክሎአካል ስፊንክተር", "kind": "muscle" }
+  }
+}

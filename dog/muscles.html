@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dog Muscular Anatomy</title>
+  <style>
+    body { font-family: sans-serif; background: #f0f0f0; padding: 20px; }
+    svg { width: 100%; max-width: 1000px; display: block; margin: auto; }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 14px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐶 Dog Muscular Anatomy Viewer</h1>
+  <p>Hover over each muscle to see its name in English and Amharic.</p>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <object id="anatomySVG" type="image/svg+xml" data="muscles.svg"></object>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    const muscleData = {
+      "masseter": { "en": "Masseter", "am": "ማሴተር" },
+      "temporalis": { "en": "Temporalis", "am": "ቴምፖራሊስ" },
+      "sternocephalicus": { "en": "Sternocephalicus", "am": "ስተርኖሴፋሊከስ" },
+      "brachiocephalicus": { "en": "Brachiocephalicus", "am": "ብራኪዮሴፋሊከስ" },
+      "trapezius": { "en": "Trapezius", "am": "ትራፔዚየስ" },
+      "latissimus_dorsi": { "en": "Latissimus Dorsi", "am": "ላቲሲሙስ ዶርሲ" },
+      "pectoralis": { "en": "Pectoralis", "am": "ፔክቶራሊስ" },
+      "external_oblique": { "en": "External Oblique", "am": "ውጫዊ ኦብሊክ" },
+      "rectus_abdominis": { "en": "Rectus Abdominis", "am": "ሬክተስ አብዶሚኒስ" },
+      "deltoid": { "en": "Deltoid", "am": "ዴልቶይድ" },
+      "triceps_brachii": { "en": "Triceps Brachii", "am": "ትራይሴፕስ ብራኪይ" },
+      "biceps_brachii": { "en": "Biceps Brachii", "am": "ባይሴፕስ ብራኪይ" },
+      "extensor_carpi_radialis": { "en": "Extensor Carpi Radialis", "am": "ኤክስቴንሰር ካርፒ ራዲያሊስ" },
+      "flexor_carpi_ulnaris": { "en": "Flexor Carpi Ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ" },
+      "gluteal": { "en": "Gluteal Muscles", "am": "ግሉቲያል ጡንቻዎች" },
+      "biceps_femoris": { "en": "Biceps Femoris", "am": "ባይሴፕስ ፊሞሪስ" },
+      "semitendinosus": { "en": "Semitendinosus", "am": "ሴሚቴንዲኖሰስ" },
+      "quadriceps_femoris": { "en": "Quadriceps Femoris", "am": "ኳድሪሴፕስ ፊሞሪስ" },
+      "gastrocnemius": { "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ" },
+      "tibialis_cranialis": { "en": "Tibialis Cranialis", "am": "ቲቢያሊስ ክራኒያሊስ" },
+      "coccygeus": { "en": "Coccygeus", "am": "ኮክሲጅየስ" },
+      "levator_ani": { "en": "Levator Ani", "am": "ሌቫቶር አኒ" }
+    };
+
+    document.getElementById('anatomySVG').addEventListener('load', () => {
+      const svgDoc = document.getElementById('anatomySVG').contentDocument;
+      Object.keys(muscleData).forEach(id => {
+        const el = svgDoc.getElementById(id);
+        if (el) {
+          el.addEventListener('mousemove', e => {
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            tooltip.innerHTML = `<strong>${muscleData[id].en}</strong><br>${muscleData[id].am}`;
+            tooltip.style.display = 'block';
+          });
+          el.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

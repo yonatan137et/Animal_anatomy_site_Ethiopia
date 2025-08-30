@@ -1,0 +1,232 @@
+{
+  "nervous_system": {
+    "brain_cerebrum_left": {
+      "en": "Left Cerebrum",
+      "am": "ግራ ሴሬብረም",
+      "function": "Controls voluntary movement, sensory processing, and cognition"
+    },
+    "brain_cerebrum_right": {
+      "en": "Right Cerebrum",
+      "am": "ቀኝ ሴሬብረም",
+      "function": "Controls voluntary movement, sensory processing, and cognition"
+    },
+    "brain_cerebellum": {
+      "en": "Cerebellum",
+      "am": "ሴሬቤለም",
+      "function": "Coordinates balance and fine motor control"
+    },
+    "brainstem": {
+      "en": "Brainstem",
+      "am": "የአእምሮ ግንድ",
+      "function": "Regulates autonomic functions like breathing and heart rate"
+    },
+    "spinal_cord": {
+      "en": "Spinal Cord",
+      "am": "የጀርባ ገመድ",
+      "function": "Transmits neural signals between brain and body"
+    }
+  },
+
+  "respiratory_system": {
+    "nasal_conchae_dorsal": {
+      "en": "Dorsal Nasal Conchae",
+      "am": "የአፍንጫ ኮንቺያ ከፍተኛ",
+      "function": "Warms and filters inhaled air"
+    },
+    "pharynx_nasopharynx": {
+      "en": "Nasopharynx",
+      "am": "ናዞፋሪንክስ",
+      "function": "Connects nasal cavity to pharynx"
+    },
+    "larynx_epiglottis": {
+      "en": "Epiglottis",
+      "am": "ኤፒግሎቲስ",
+      "function": "Prevents food from entering trachea"
+    },
+    "trachea": {
+      "en": "Trachea",
+      "am": "ትራኬያ",
+      "function": "Conducts air to lungs"
+    },
+    "lungs_left_cranial": {
+      "en": "Left Cranial Lung Lobe",
+      "am": "የግራ ሳንባ ክራኒያል ክፍል",
+      "function": "Gas exchange"
+    },
+    "lungs_right_caudal": {
+      "en": "Right Caudal Lung Lobe",
+      "am": "የቀኝ ሳንባ ኮዳል ክፍል",
+      "function": "Gas exchange"
+    }
+  },
+
+  "cardiovascular_system": {
+    "heart_left_ventricle": {
+      "en": "Left Ventricle",
+      "am": "የግራ ቬንትሪክል",
+      "function": "Pumps oxygenated blood to body"
+    },
+    "aorta_arch": {
+      "en": "Aortic Arch",
+      "am": "የአኦርታ ቀስት",
+      "function": "Distributes blood to systemic circulation"
+    },
+    "vena_cava_caudal": {
+      "en": "Caudal Vena Cava",
+      "am": "ኮዳል ቬና ካቫ",
+      "function": "Returns deoxygenated blood to heart"
+    }
+  },
+
+  "digestive_system": {
+    "rumen_dorsal_sac": {
+      "en": "Rumen (Dorsal Sac)",
+      "am": "ሩመን ከፍተኛ ሳንባ",
+      "function": "Ferments plant material via microbes"
+    },
+    "reticulum": {
+      "en": "Reticulum",
+      "am": "ሬቲኩላም",
+      "function": "Traps foreign objects; initiates regurgitation"
+    },
+    "omasum": {
+      "en": "Omasum",
+      "am": "ኦማሰም",
+      "function": "Absorbs water and nutrients"
+    },
+    "abomasum_body": {
+      "en": "Abomasum",
+      "am": "አቦማሰም",
+      "function": "Secretes digestive enzymes"
+    },
+    "liver_right_lobe": {
+      "en": "Liver Right Lobe",
+      "am": "የጉበት ቀኝ ክፍል",
+      "function": "Metabolism, detoxification, bile production"
+    },
+    "gallbladder": {
+      "en": "Gallbladder",
+      "am": "ጋልብላደር",
+      "function": "Stores and releases bile"
+    },
+    "pancreas_body": {
+      "en": "Pancreas",
+      "am": "ፓንክሪያስ",
+      "function": "Secretes digestive enzymes and hormones"
+    },
+    "spleen": {
+      "en": "Spleen",
+      "am": "ስፕሊን",
+      "function": "Filters blood and supports immunity"
+    },
+    "jejunum": {
+      "en": "Jejunum",
+      "am": "ጄጁነም",
+      "function": "Absorbs nutrients"
+    },
+    "colon_transverse": {
+      "en": "Transverse Colon",
+      "am": "ኮሎን አካባቢ",
+      "function": "Absorbs water and forms feces"
+    },
+    "rectum": {
+      "en": "Rectum",
+      "am": "ሬክተም",
+      "function": "Stores feces before defecation"
+    }
+  },
+
+  "urinary_system": {
+    "kidney_left": {
+      "en": "Left Kidney",
+      "am": "ግራ ኩላሊት",
+      "function": "Filters blood and produces urine"
+    },
+    "ureter_left": {
+      "en": "Left Ureter",
+      "am": "ግራ ዩሬተር",
+      "function": "Transports urine to bladder"
+    },
+    "urinary_bladder": {
+      "en": "Urinary Bladder",
+      "am": "የሽንት ከስተር",
+      "function": "Stores urine until excretion"
+    },
+    "urethra_male": {
+      "en": "Male Urethra",
+      "am": "የወንድ ዩሬትራ",
+      "function": "Conducts urine and semen out of body"
+    }
+  },
+
+  "reproductive_system_female": {
+    "ovary_left": {
+      "en": "Left Ovary",
+      "am": "ግራ ኦቫሪ",
+      "function": "Produces ova and hormones"
+    },
+    "oviduct_left": {
+      "en": "Left Oviduct",
+      "am": "ግራ ኦቪዱክት",
+      "function": "Transports ova to uterus"
+    },
+    "uterus_body": {
+      "en": "Uterus Body",
+      "am": "የማህፀን አካል",
+      "function": "Supports fetal development"
+    },
+    "vagina": {
+      "en": "Vagina",
+      "am": "ዓሣንት",
+      "function": "Birth canal and copulatory organ"
+    },
+    "vulva": {
+      "en": "Vulva",
+      "am": "ቫልቫ",
+      "function": "External genitalia"
+    }
+  },
+
+  "reproductive_system_male": {
+    "testis_left": {
+      "en": "Left Testis",
+      "am": "ግራ እንስኒ",
+      "function": "Produces sperm and testosterone"
+    },
+    "epididymis_left": {
+      "en": "Left Epididymis",
+      "am": "ግራ ኤፒዲዲሚስ",
+      "function": "Stores and matures sperm"
+    },
+        "vas_deferens_left": {
+      "en": "Left Vas Deferens",
+      "am": "ግራ ቫስ ደፈሬንስ",
+      "function": "Transports sperm from epididymis to urethra"
+    },
+    "seminal_vesicle": {
+      "en": "Seminal Vesicle",
+      "am": "ሴሚናል ቬሲክል",
+      "function": "Secretes fluid that nourishes sperm"
+    },
+    "prostate": {
+      "en": "Prostate Gland",
+      "am": "ፕሮስቴት ጋላንድ",
+      "function": "Adds enzymes and fluid to semen"
+    },
+    "bulbourethral_gland": {
+      "en": "Bulbourethral Gland",
+      "am": "ቡልቦዩሬትራል ጋላንድ",
+      "function": "Secretes mucus for lubrication"
+    },
+    "penis_body": {
+      "en": "Penis Body",
+      "am": "የፔኒስ አካል",
+      "function": "Copulatory organ; conducts semen and urine"
+    },
+    "penis_glans": {
+      "en": "Penis Glans",
+      "am": "ግላንስ ፔኒስ",
+      "function": "Sensitive tip of penis; aids in copulation"
+    }
+  }
+}

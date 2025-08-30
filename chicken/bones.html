@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chicken Skeletal Anatomy Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8f8f8;
+      padding: 20px;
+      margin: 0;
+      color: #111;
+    }
+    h1 { font-size: 24px; margin-bottom: 10px; }
+    p { font-size: 14px; margin-bottom: 16px; }
+
+    .viewer {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    object {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .tooltip {
+      position: fixed;
+      background: #fff;
+      border: 1px solid #aaa;
+      padding: 8px 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      display: none;
+      pointer-events: none;
+      z-index: 1000;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      max-width: 300px;
+    }
+    .tooltip b { display: inline-block; min-width: 70px; }
+
+    .highlight [fill] { fill: #ffe082 !important; }
+    .highlight [stroke] { stroke: #ff6f00 !important; stroke-width: 2px !important; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1113; color: #eee; }
+      .viewer { background: #16191d; border-color: #2b3036; }
+      .tooltip { background: #1d2126; color: #eaeaea; border-color: #2b3036; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐔 Chicken Skeletal Anatomy Viewer</h1>
+  <p>Hover over each bone to view its name in English and Amharic, along with anatomical notes.</p>
+
+  <div class="viewer">
+    <object id="chickenSVG" type="image/svg+xml" data="bones.chicken.svg"></object>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+    const obj = document.getElementById('chickenSVG');
+    let idMap = {};
+    let svgDoc = null;
+    let lastTarget = null;
+
+    fetch('bones.chicken.json')
+      .then(res => res.json())
+      .then(data => {
+        idMap = Object.assign({}, ...Object.values(data).map(group =>
+          Object.entries(group).map(([id, val]) => ({ [id]: val }))
+        ).flat());
+      });
+
+    obj.addEventListener('load', () => {
+      svgDoc = obj.contentDocument;
+      if (!svgDoc) return;
+
+      svgDoc.querySelectorAll('g[id]').forEach(el => {
+        el.style.cursor = 'pointer';
+        el.setAttribute('tabindex', '0');
+        el.setAttribute('role', 'img');
+
+        el.addEventListener('mouseenter', e => showTooltip(e, el));
+        el.addEventListener('mouseleave', () => {
+          if (lastTarget !== el) unhighlight(el);
+          hideTooltip();
+        });
+        el.addEventListener('mousemove', moveTooltip);
+
+        el.addEventListener('click', e => {
+          e.preventDefault();
+          toggleSelect(el, e);
+        });
+      });
+
+      svgDoc.addEventListener('click', () => {
+        if (lastTarget) {
+          unhighlight(lastTarget);
+          lastTarget = null;
+        }
+        hideTooltip();
+      });
+    });
+
+    function getLabels(el) {
+      const id = el.id || '';
+      const info = idMap[id];
+      const en = info?.en || id.replace(/_/g, ' ');
+      const am = info?.am || '';
+      const note = info?.note || '';
+      return { en, am, note };
+    }
+
+    function showTooltip(evt, el) {
+      const { en, am, note } = getLabels(el);
+      highlight(el);
+
+      const lines = [
+        `<b>English:</b> ${en}`,
+        am ? `<b>Amharic:</b> ${am}` : '',
+        note ? `<b>Note:</b> ${note}` : ''
+      ].filter(Boolean);
+
+      tooltip.innerHTML = lines.join('<br>');
+      tooltip.style.display = 'block';
+      moveTooltip(evt);
+    }
+
+    function moveTooltip(evt) {
+      const pad = 12;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const rect = tooltip.getBoundingClientRect();
+
+      let left = evt.clientX + pad;
+      let top = evt.clientY + pad;
+
+      if (left + rect.width + 8 > vw) left = vw - rect.width - 8;
+      if (top + rect.height + 8 > vh) top = vh - rect.height - 8;
+
+      tooltip.style.left = left + 'px';
+      tooltip.style.top = top + 'px';
+    }
+
+    function hideTooltip() {
+      tooltip.style.display = 'none';
+    }
+
+    function highlight(el) {
+      el.classList.add('highlight');
+    }
+
+    function unhighlight(el) {
+      el.classList.remove('highlight');
+    }
+
+    function toggleSelect(el, evt) {
+      if (lastTarget && lastTarget !== el) unhighlight(lastTarget);
+      if (el === lastTarget) {
+        unhighlight(el);
+        hideTooltip();
+        lastTarget = null;
+      } else {
+        highlight(el);
+        showTooltip(evt, el);
+        lastTarget = el;
+      }
+    }
+  </script>
+
+</body>
+</html>

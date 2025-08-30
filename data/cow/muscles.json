@@ -1,0 +1,106 @@
+{
+  "masseter": {
+    "en": "Masseter", "am": "ማሴተር",
+    "origin": "Zygomatic arch", "insertion": "Mandible"
+  },
+  "temporalis": {
+    "en": "Temporalis", "am": "ቴምፖራሊስ",
+    "origin": "Temporal fossa", "insertion": "Coronoid process"
+  },
+  "buccinator": {
+    "en": "Buccinator", "am": "ቡክሲኔተር",
+    "origin": "Maxilla & mandible", "insertion": "Orbicularis oris"
+  },
+  "sternomandibularis": {
+    "en": "Sternomandibularis", "am": "ስተርኖማንዲቡላሪስ",
+    "origin": "Sternum", "insertion": "Mandible"
+  },
+  "brachiocephalicus": {
+    "en": "Brachiocephalicus", "am": "ብራኪዮሴፋሊከስ",
+    "origin": "Clavicular intersection", "insertion": "Mastoid process"
+  },
+
+  "trapezius": {
+    "en": "Trapezius", "am": "ትራፔዚየስ",
+    "origin": "Nuchal ligament", "insertion": "Scapular spine"
+  },
+  "latissimus_dorsi": {
+    "en": "Latissimus dorsi", "am": "ላቲሲሙስ ዶርሲ",
+    "origin": "Thoracolumbar fascia", "insertion": "Humerus"
+  },
+  "serratus_ventralis": {
+    "en": "Serratus ventralis", "am": "ሴራተስ ቬንትራሊስ",
+    "origin": "Ribs", "insertion": "Scapula"
+  },
+  "external_intercostals": {
+    "en": "External intercostals", "am": "ውጫዊ ኢንተርኮስታልስ",
+    "origin": "Caudal rib border", "insertion": "Cranial rib border"
+  },
+  "rectus_abdominis": {
+    "en": "Rectus abdominis", "am": "ሬክተስ አብዶሚኒስ",
+    "origin": "Pubis", "insertion": "Sternum & costal cartilages"
+  },
+  "external_oblique": {
+    "en": "External oblique", "am": "ውጫዊ ኦብሊክ",
+    "origin": "Ribs", "insertion": "Linea alba"
+  },
+
+  "deltoideus": {
+    "en": "Deltoideus", "am": "ዴልቶይዲየስ",
+    "origin": "Scapular spine", "insertion": "Deltoid tuberosity"
+  },
+  "triceps_brachii": {
+    "en": "Triceps brachii", "am": "ትራይሴፕስ ብራኪይ",
+    "origin": "Scapula & humerus", "insertion": "Olecranon"
+  },
+  "biceps_brachii": {
+    "en": "Biceps brachii", "am": "ባይሴፕስ ብራኪይ",
+    "origin": "Supraglenoid tubercle", "insertion": "Radius"
+  },
+  "extensor_carpi_radialis": {
+    "en": "Extensor carpi radialis", "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ",
+    "origin": "Humerus", "insertion": "Metacarpals"
+  },
+  "flexor_carpi_ulnaris": {
+    "en": "Flexor carpi ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ",
+    "origin": "Humerus & ulna", "insertion": "Accessory carpal bone"
+  },
+  "digital_extensors_fore": {
+    "en": "Forelimb digital extensors", "am": "የፊት እግር ዲጂታል ኤክስቴንሰሮች",
+    "origin": "Humerus", "insertion": "Phalanges"
+  },
+
+  "gluteus_medius": {
+    "en": "Gluteus medius", "am": "ግሉቲየስ ሜዲየስ",
+    "origin": "Ilium", "insertion": "Greater trochanter"
+  },
+  "biceps_femoris": {
+    "en": "Biceps femoris", "am": "ባይሴፕስ ፊሞሪስ",
+    "origin": "Ischial tuberosity", "insertion": "Patella, tibia"
+  },
+  "semitendinosus": {
+    "en": "Semitendinosus", "am": "ሴሚቴንዲኖሰስ",
+    "origin": "Ischial tuberosity", "insertion": "Tibia"
+  },
+  "quadriceps_femoris": {
+    "en": "Quadriceps femoris", "am": "ኳድሪሴፕስ ፊሞሪስ",
+    "origin": "Femur & ilium", "insertion": "Patella"
+  },
+  "gastrocnemius": {
+    "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ",
+    "origin": "Femur", "insertion": "Calcaneus"
+  },
+  "digital_extensors_hind": {
+    "en": "Hindlimb digital extensors", "am": "የኋላ እግር ዲጂታል ኤክስቴንሰሮች",
+    "origin": "Tibia & fibula", "insertion": "Phalanges"
+  },
+
+  "coccygeus": {
+    "en": "Coccygeus", "am": "ኮክሲጄስ",
+    "origin": "Ischial spine", "insertion": "Caudal vertebrae"
+  },
+  "levator_ani": {
+    "en": "Levator ani", "am": "ሌቫተር አኒ",
+    "origin": "Pubis", "insertion": "Rectum & anal canal"
+  }
+}

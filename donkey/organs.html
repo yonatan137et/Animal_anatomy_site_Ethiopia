@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Donkey Internal Organs Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans", Arial, sans-serif;
+      background: #f4f4f4;
+      color: #111;
+      padding: 20px;
+      margin: 0;
+    }
+    h1 { font-size: 24px; margin: 0 0 10px; }
+    p { margin: 0 0 16px; color: #333; }
+
+    .viewer {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    object#donkeyOrgans { width: 100%; height: auto; display: block; }
+
+    .tooltip {
+      position: fixed;
+      background: #fff;
+      color: #111;
+      border: 1px solid #bbb;
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 1.25;
+      pointer-events: none;
+      display: none;
+      z-index: 1000;
+      max-width: 320px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .tooltip b { display: inline-block; min-width: 70px; }
+
+    .highlight [fill] { fill: #aed581 !important; }
+    .highlight [stroke] { stroke: #558b2f !important; stroke-width: 2px !important; }
+
+    .notice {
+      max-width: 1200px;
+      margin: 10px auto 0;
+      color: #555;
+      font-size: 13px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1113; color: #e6e6e6; }
+      .viewer { background: #16191d; border-color: #2b3036; }
+      p { color: #cfcfcf; }
+      .tooltip { background: #1d2126; color: #eaeaea; border-color: #2b3036; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🫏 Donkey Internal Organs Viewer</h1>
+  <p>Hover or tap an organ to view its name in English and Amharic, and its system classification.</p>
+
+  <div class="viewer">
+    <object id="donkeyOrgans" type="image/svg+xml" data="organs.donkey.svg" aria-label="Donkey organ diagram"></object>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+  <div class="notice">Tip: Use Tab/Shift+Tab to navigate organs; press Enter or Space to toggle highlight.</div>
+
+  <script>
+    (function () {
+      const tooltip = document.getElementById('tooltip');
+      const obj = document.getElementById('donkeyOrgans');
+
+      let idIndex = {};
+      let svgDoc = null;
+      let lastTarget = null;
+
+      fetch('organs.donkey.json')
+        .then(r => r.json())
+        .then(data => { idIndex = flattenMap(data); })
+        .catch(() => { idIndex = {}; });
+
+      obj.addEventListener('load', () => {
+        svgDoc = obj.contentDocument;
+        if (!svgDoc) return;
+
+        svgDoc.querySelectorAll('g[id]').forEach(el => {
+          el.style.cursor = 'pointer';
+          el.setAttribute('tabindex', '0');
+          el.setAttribute('role', 'img');
+
+          el.addEventListener('mouseenter', e => showTooltip(e, el));
+          el.addEventListener('mouseleave', () => {
+            if (lastTarget !== el) unhighlight(el);
+            hideTooltip();
+          });
+          el.addEventListener('mousemove', moveTooltip);
+
+          el.addEventListener('focus', e => showTooltip(e, el));
+          el.addEventListener('blur', () => {
+            if (lastTarget !== el) unhighlight(el);
+            hideTooltip();
+          });
+          el.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              toggleSelect(el, e);
+            }
+          });
+
+          el.addEventListener('click', e => {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleSelect(el, e);
+          });
+        });
+
+        svgDoc.addEventListener('click', () => {
+          if (lastTarget) {
+            unhighlight(lastTarget);
+            lastTarget = null;
+          }
+          hideTooltip();
+        });
+      });
+
+      function flattenMap(grouped) {
+        const out = {};
+        for (const section in grouped) {
+          const entries = grouped[section];
+          for (const id in entries) out[id] = entries[id];
+        }
+        return out;
+      }
+
+      function getLabels(el) {
+        const id = el.id || '';
+        const info = idIndex[id];
+        const en = info?.en || id.replaceAll('_', ' ');
+        const am = info?.am || '';
+        const system = info?.system || '';
+        return { id, en, am, system };
+      }
+
+      function showTooltip(evt, el) {
+        const { en, am, system } = getLabels(el);
+        highlight(el);
+
+        const lines = [
+          `<b>English:</b> ${escapeHTML(en)}`,
+          am ? `<b>Amharic:</b> ${escapeHTML(am)}` : '',
+          system ? `<b>System:</b> ${escapeHTML(system)}` : ''
+        ].filter(Boolean);
+
+        tooltip.innerHTML = lines.join('<br>');
+        tooltip.style.display = 'block';
+        moveTooltip(evt);
+      }
+
+      function moveTooltip(evt) {
+        if (!tooltip || tooltip.style.display === 'none') return;
+        const pad = 12;
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const rect = tooltip.getBoundingClientRect();
+
+        let left = (evt.clientX ?? 0) + pad;
+        let top  = (evt.clientY ?? 0) + pad;
+
+        if (left + rect.width + 8 > vw) left = vw - rect.width - 8;
+        if (top + rect.height + 8 > vh) top = vh - rect.height - 8;
+
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = top + 'px';
+      }
+
+      function hideTooltip() { tooltip.style.display = 'none'; }
+      function highlight(el) { el.classList.add('highlight'); }
+      function unhighlight(el) { el.classList.remove('highlight'); }
+
+      function toggleSelect(el, evt) {
+        if (lastTarget && lastTarget !== el) unhighlight(lastTarget);
+        if (el === lastTarget) {
+          unhighlight(el);
+          hideTooltip();
+          lastTarget = null;
+        } else {
+          highlight(el);
+          showTooltip(evt, el);
+          lastTarget = el;
+        }
+      }
+
+      function escapeHTML(s) {
+        return String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+    })();
+  </script>
+</body>
+</html>

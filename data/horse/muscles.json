@@ -1,0 +1,103 @@
+{
+  "head_neck": {
+    "masseter": {
+      "en": "Masseter", "am": "ማሴተር", "origin": "zygomatic_arch", "insertion": "mandible", "kind": "muscle"
+    },
+    "temporalis": {
+      "en": "Temporalis", "am": "ቴምፖራሊስ", "origin": "temporal_fossa", "insertion": "coronoid_process", "kind": "muscle"
+    },
+    "brachiocephalicus": {
+      "en": "Brachiocephalicus", "am": "ብራኪዮሴፋሊከስ", "origin": "clavicular_intersection", "insertion": "humerus", "kind": "muscle"
+    },
+    "sternocephalicus": {
+      "en": "Sternocephalicus", "am": "ስተርኖሴፋሊከስ", "origin": "manubrium", "insertion": "mandible", "kind": "muscle"
+    },
+    "splenius": {
+      "en": "Splenius", "am": "ስፕሊኒየስ", "origin": "nuchal_ligament", "insertion": "mastoid_process", "kind": "muscle"
+    }
+  },
+
+  "thorax": {
+    "trapezius": {
+      "en": "Trapezius", "am": "ትራፔዚየስ", "origin": "nuchal_ligament", "insertion": "scapular_spine", "kind": "muscle"
+    },
+    "rhomboideus": {
+      "en": "Rhomboideus", "am": "ሮምቦይዲየስ", "origin": "nuchal_ligament", "insertion": "scapula_medial", "kind": "muscle"
+    },
+    "serratus_ventralis": {
+      "en": "Serratus Ventralis", "am": "ሴራተስ ቬንትራሊስ", "origin": "ribs_cervical_vertebrae", "insertion": "scapula_medial", "kind": "muscle"
+    },
+    "pectoralis_superficialis": {
+      "en": "Pectoralis Superficialis", "am": "ፔክቶራሊስ ሱፐርፊሺያሊስ", "origin": "sternum", "insertion": "humerus", "kind": "muscle"
+    },
+    "pectoralis_profunda": {
+      "en": "Pectoralis Profunda", "am": "ፔክቶራሊስ ፕሮፉንዳ", "origin": "sternum", "insertion": "humerus", "kind": "muscle"
+    },
+    "latissimus_dorsi": {
+      "en": "Latissimus Dorsi", "am": "ላቲሲሙስ ዶርሲ", "origin": "thoracolumbar_fascia", "insertion": "humerus", "kind": "muscle"
+    }
+  },
+
+  "forelimb": {
+    "deltoideus": {
+      "en": "Deltoideus", "am": "ዴልቶይዲየስ", "origin": "scapular_spine", "insertion": "humerus_deltoid_tuberosity", "kind": "muscle"
+    },
+    "supraspinatus": {
+      "en": "Supraspinatus", "am": "ሱፕራስፒናተስ", "origin": "supraspinous_fossa", "insertion": "humerus_greater_tubercle", "kind": "muscle"
+    },
+    "infraspinatus": {
+      "en": "Infraspinatus", "am": "ኢንፍራስፒናተስ", "origin": "infraspinous_fossa", "insertion": "humerus_greater_tubercle", "kind": "muscle"
+    },
+    "subscapularis": {
+      "en": "Subscapularis", "am": "ሰብስካፑላሪስ", "origin": "subscapular_fossa", "insertion": "humerus_lesser_tubercle", "kind": "muscle"
+    },
+    "biceps_brachii": {
+      "en": "Biceps Brachii", "am": "ባይሴፕስ ብራኪይ", "origin": "scapula_supraglenoid_tubercle", "insertion": "radius", "kind": "muscle"
+    },
+    "triceps_brachii": {
+      "en": "Triceps Brachii", "am": "ትራይሴፕስ ብራኪይ", "origin": "scapula_humerus", "insertion": "olecranon", "kind": "muscle"
+    },
+    "extensor_carpi_radialis": {
+      "en": "Extensor Carpi Radialis", "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ", "origin": "humerus_lateral_supracondylar_ridge", "insertion": "metacarpal_iii", "kind": "muscle"
+    },
+    "flexor_carpi_ulnaris": {
+      "en": "Flexor Carpi Ulnaris", "am": "ፍሌክሰር ካርፒ ኡልናሪስ", "origin": "humerus_ulna", "insertion": "accessory_carpal_bone", "kind": "muscle"
+    },
+    "digital_extensors_fore": {
+      "en": "Digital Extensors (Forelimb)", "am": "ዲጂታል ኤክስቴንሰሮች (ፊት እጅ)", "origin": "humerus_radius_ulna", "insertion": "phalanges_fore", "kind": "muscle"
+    },
+    "digital_flexors_fore": {
+      "en": "Digital Flexors (Forelimb)", "am": "ዲጂታል ፍሌክሰሮች (ፊት እጅ)", "origin": "humerus_radius_ulna", "insertion": "phalanges_fore", "kind": "muscle"
+    }
+  },
+
+  "hindlimb": {
+    "gluteus_medius": {
+      "en": "Gluteus Medius", "am": "ግሉቲየስ ሜዲየስ", "origin": "ilium_sacrum", "insertion": "femur_greater_trochanter", "kind": "muscle"
+    },
+    "gluteus_superficialis": {
+      "en": "Gluteus Superficialis", "am": "ግሉቲየስ ሱፐርፊሺያሊስ", "origin": "sacrum_coccygeal_ligaments", "insertion": "femur", "kind": "muscle"
+    },
+    "biceps_femoris": {
+      "en": "Biceps Femoris", "am": "ባይሴፕስ ፈሞሪስ", "origin": "sacrum_ischium", "insertion": "patella_tibia_calcaneus", "kind": "muscle"
+    },
+    "semitendinosus": {
+      "en": "Semitendinosus", "am": "ሴሚቴንዲኖሰስ", "origin": "ischial_tuberosity", "insertion": "tibia_calcaneus", "kind": "muscle"
+    },
+        "semimembranosus": {
+      "en": "Semimembranosus", "am": "ሴሚሜምብራኖሰስ", "origin": "ischium", "insertion": "femur_tibia", "kind": "muscle"
+    },
+    "quadriceps_femoris": {
+      "en": "Quadriceps Femoris", "am": "ኳድሪሴፕስ ፈሞሪስ", "origin": "ilium_femur", "insertion": "patella_tibial_tuberosity", "kind": "muscle"
+    },
+    "gastrocnemius": {
+      "en": "Gastrocnemius", "am": "ጋስትሮክኔሚየስ", "origin": "femur", "insertion": "calcaneus", "kind": "muscle"
+    },
+    "digital_extensors_hind": {
+      "en": "Digital Extensors (Hindlimb)", "am": "ዲጂታል ኤክስቴንሰሮች (ኋላ እግር)", "origin": "femur_tibia_fibula", "insertion": "phalanges_hind", "kind": "muscle"
+    },
+    "digital_flexors_hind": {
+      "en": "Digital Flexors (Hindlimb)", "am": "ዲጂታል ፍሌክሰሮች (ኋላ እግር)", "origin": "tibia_fibula", "insertion": "phalanges_hind", "kind": "muscle"
+    }
+  }
+}

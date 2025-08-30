@@ -1,0 +1,115 @@
+{
+  "nervous_system": {
+    "brain": {
+      "en": "Brain", "am": "አእምሮ",
+      "function": "Central control of sensory, motor, and cognitive functions"
+    },
+    "spinal_cord": {
+      "en": "Spinal Cord", "am": "የጀርባ አገናኝ",
+      "function": "Transmits neural signals between brain and body"
+    }
+  },
+
+  "sensory_organs": {
+    "eye": {
+      "en": "Eye", "am": "ዓይን",
+      "function": "Receives visual stimuli and enables sight"
+    },
+    "olfactory_bulb": {
+      "en": "Olfactory Bulb", "am": "የሽታ አባላት",
+      "function": "Processes smell signals from nasal cavity"
+    },
+    "tongue": {
+      "en": "Tongue", "am": "ምላስ",
+      "function": "Taste perception and food manipulation"
+    }
+  },
+
+  "respiratory_system": {
+    "trachea": {
+      "en": "Trachea", "am": "ትራኬያ",
+      "function": "Conducts air to bronchi and lungs"
+    },
+    "diaphragm": {
+      "en": "Diaphragm", "am": "ዳያፍሬጅም",
+      "function": "Primary muscle for respiration"
+    }
+  },
+
+  "cardiovascular_system": {
+    "heart": {
+      "en": "Heart", "am": "ልብ",
+      "function": "Pumps blood through circulatory system"
+    },
+    "aorta": {
+      "en": "Aorta", "am": "አኦርታ",
+      "function": "Main artery carrying oxygenated blood from heart"
+    }
+  },
+
+  "endocrine_system": {
+    "pituitary_gland": {
+      "en": "Pituitary Gland", "am": "ፒቱተሪ ጋላንድ",
+      "function": "Master gland regulating other endocrine glands"
+    },
+    "adrenal_glands": {
+      "en": "Adrenal Glands", "am": "አድሬናል ጋላንዶች",
+      "function": "Produce stress hormones and regulate metabolism"
+    }
+  },
+
+  "digestive_system": {
+    "rumen": {
+      "en": "Rumen", "am": "ሩመን",
+      "function": "Fermentation chamber for microbial digestion"
+    },
+    "abomasum": {
+      "en": "Abomasum", "am": "አቦማሱም",
+      "function": "True glandular stomach for enzymatic digestion"
+    }
+  },
+
+  "urinary_system": {
+    "kidney_left": {
+      "en": "Left Kidney", "am": "የግራ ኩላሊት",
+      "function": "Filters blood and produces urine"
+    },
+    "urinary_bladder": {
+      "en": "Urinary Bladder", "am": "የሽንት ከስተር",
+      "function": "Stores urine before excretion"
+    }
+  },
+
+  "reproductive_male": {
+    "testes": {
+      "en": "Testes", "am": "ወንድ ዘር አባላት",
+      "function": "Produce sperm and testosterone"
+    },
+    "penis": {
+      "en": "Penis", "am": "ፔኒስ",
+      "function": "Delivers sperm and urine"
+    }
+  },
+
+  "reproductive_female": {
+    "ovaries": {
+      "en": "Ovaries", "am": "አንድ ዘር አባላት",
+      "function": "Produce ova and hormones"
+    },
+    "uterus": {
+      "en": "Uterus", "am": "ማህፀን",
+      "function": "Supports fetal development during pregnancy"
+    }
+  },
+
+  "body_cavities": {
+    "thoracic_cavity": {
+      "en": "Thoracic Cavity", "am": "የደረት ቅርፅ",
+      "function": "Houses heart and lungs"
+    },
+    "abdominal_cavity": {
+      "en": "Abdominal Cavity", "am": "የሆድ ቅርፅ",
+      "function": "Contains digestive and urinary organs"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Horse Organ Systems Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    svg {
+      width: 90%;
+      max-width: 1200px;
+      margin-top: 20px;
+    }
+    #infoBox {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      width: 90%;
+      max-width: 600px;
+      text-align: left;
+    }
+    .highlight {
+      fill: orange !important;
+      stroke: red !important;
+      stroke-width: 2px;
+    }
+    #systemSelector {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐴 Horse Organ Systems Viewer</h1>
+  <p>Select an organ to view its name in English and Amharic.</p>
+
+  <select id="systemSelector">
+    <option value="all">All Systems</option>
+    <option value="nervous_system">🧠 Nervous System</option>
+    <option value="cardiovascular_system">🫀 Cardiovascular System</option>
+    <option value="respiratory_system">🫁 Respiratory System</option>
+    <option value="digestive_system">🍽 Digestive System</option>
+    <option value="endocrine_system">🧪 Endocrine System</option>
+    <option value="hepatobiliary_system">🧫 Hepatobiliary System</option>
+    <option value="urinary_system">🚰 Urinary System</option>
+    <option value="reproductive_system">🧬 Reproductive System</option>
+    <option value="sense_organs">👁 Sense Organs</option>
+  </select>
+
+  <!-- Embed your SVG -->
+  <object id="organSVG" type="image/svg+xml" data="organs.svg"></object>
+
+  <div id="infoBox">Click an organ to see details.</div>
+
+  <script>
+    let organData = {};
+
+    fetch('organs.json')
+      .then(response => response.json())
+      .then(data => {
+        organData = data;
+        setupListeners();
+      });
+
+    function setupListeners() {
+      const svgObject = document.getElementById('organSVG');
+      svgObject.addEventListener('load', () => {
+        const svgDoc = svgObject.contentDocument;
+        for (const system in organData) {
+          for (const id in organData[system]) {
+            const organ = svgDoc.getElementById(id);
+            if (organ) {
+              organ.style.cursor = 'pointer';
+              organ.setAttribute('data-system', system);
+              organ.addEventListener('click', () => showInfo(id, organ));
+            }
+          }
+        }
+
+        document.getElementById('systemSelector').addEventListener('change', filterSystems);
+      });
+    }
+
+    function showInfo(id, element) {
+      const system = element.getAttribute('data-system');
+      const data = organData[system][id];
+      document.querySelectorAll('.highlight').forEach(el => el.classList.remove('highlight'));
+      element.classList.add('highlight');
+
+      const en = data.en || id;
+      const am = data.am || '';
+
+      document.getElementById('infoBox').innerHTML = `
+        <strong>${en}</strong> (${am})
+      `;
+    }
+
+    function filterSystems() {
+      const selected = document.getElementById('systemSelector').value;
+      const svgDoc = document.getElementById('organSVG').contentDocument;
+      if (!svgDoc) return;
+
+      for (const system in organData) {
+        for (const id in organData[system]) {
+          const organ = svgDoc.getElementById(id);
+          if (organ) {
+            organ.style.display = (selected === 'all' || system === selected) ? 'inline' : 'none';
+          }
+        }
+      }
+
+      document.getElementById('infoBox').innerHTML = "Click an organ to see details.";
+    }
+  </script>
+
+</body>
+</html>

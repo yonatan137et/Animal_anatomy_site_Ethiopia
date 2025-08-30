@@ -1,0 +1,156 @@
+{
+  "masseter": {
+    "en": "Masseter",
+    "am": "ማሴተር",
+    "region": "Head & Neck",
+    "notes": "Major jaw-closing muscle; mastication"
+  },
+  "temporalis": {
+    "en": "Temporalis",
+    "am": "ቴምፖራሊስ",
+    "region": "Head & Neck",
+    "notes": "Assists in jaw elevation"
+  },
+  "buccinator": {
+    "en": "Buccinator",
+    "am": "ቡክሲኔተር",
+    "region": "Head & Neck",
+    "notes": "Compresses cheek; aids chewing"
+  },
+  "sternomandibularis": {
+    "en": "Sternomandibularis",
+    "am": "ስተርኖማንዲቡላሪስ",
+    "region": "Head & Neck",
+    "notes": "Flexes head and neck"
+  },
+  "brachiocephalicus": {
+    "en": "Brachiocephalicus",
+    "am": "ብራኪዮሴፋሊከስ",
+    "region": "Head & Neck",
+    "notes": "Extends shoulder and head"
+  },
+
+  "trapezius": {
+    "en": "Trapezius",
+    "am": "ትራፔዚየስ",
+    "region": "Thoracic",
+    "notes": "Elevates and rotates scapula"
+  },
+  "latissimus_dorsi": {
+    "en": "Latissimus Dorsi",
+    "am": "ላቲሲሙስ ዶርሲ",
+    "region": "Thoracic",
+    "notes": "Draws limb caudally"
+  },
+  "serratus_ventralis": {
+    "en": "Serratus Ventralis",
+    "am": "ሴራተስ ቬንትራሊስ",
+    "region": "Thoracic",
+    "notes": "Supports trunk between limbs"
+  },
+  "external_intercostals": {
+    "en": "External Intercostals",
+    "am": "ውጫዊ ኢንተርኮስታልስ",
+    "region": "Thoracic",
+    "notes": "Elevates ribs during inhalation"
+  },
+  "rectus_abdominis": {
+    "en": "Rectus Abdominis",
+    "am": "ሬክተስ አብዶሚኒስ",
+    "region": "Abdominal",
+    "notes": "Flexes vertebral column"
+  },
+  "external_oblique": {
+    "en": "External Oblique",
+    "am": "ውጫዊ ኦብሊክ",
+    "region": "Abdominal",
+    "notes": "Compresses abdomen"
+  },
+
+  "deltoideus": {
+    "en": "Deltoideus",
+    "am": "ዴልቶይዲየስ",
+    "region": "Forelimb",
+    "notes": "Flexes shoulder"
+  },
+  "triceps_brachii": {
+    "en": "Triceps Brachii",
+    "am": "ትራይሴፕስ ብራኪይ",
+    "region": "Forelimb",
+    "notes": "Extends elbow"
+  },
+  "biceps_brachii": {
+    "en": "Biceps Brachii",
+    "am": "ባይሴፕስ ብራኪይ",
+    "region": "Forelimb",
+    "notes": "Flexes elbow"
+  },
+  "extensor_carpi_radialis": {
+    "en": "Extensor Carpi Radialis",
+    "am": "ኤክስቴንሰር ካርፒ ሬዲያሊስ",
+    "region": "Forelimb",
+    "notes": "Extends carpus"
+  },
+  "flexor_carpi_ulnaris": {
+    "en": "Flexor Carpi Ulnaris",
+    "am": "ፍሌክሰር ካርፒ ኡልናሪስ",
+    "region": "Forelimb",
+    "notes": "Flexes carpus"
+  },
+  "digital_extensors_fore": {
+    "en": "Digital Extensors (Forelimb)",
+    "am": "ዲጂታል ኤክስቴንሰርስ (እጅ)",
+    "region": "Forelimb",
+    "notes": "Extends digits"
+  },
+
+  "gluteus_medius": {
+    "en": "Gluteus Medius",
+    "am": "ግሉቲየስ ሜዲየስ",
+    "region": "Hindlimb",
+    "notes": "Extends hip"
+  },
+  "biceps_femoris": {
+    "en": "Biceps Femoris",
+    "am": "ባይሴፕስ ፊሙሪስ",
+    "region": "Hindlimb",
+    "notes": "Extends hip and stifle"
+  },
+  "semitendinosus": {
+    "en": "Semitendinosus",
+    "am": "ሴሚቴንዲኖሰስ",
+    "region": "Hindlimb",
+    "notes": "Extends hip and hock"
+  },
+  "quadriceps_femoris": {
+    "en": "Quadriceps Femoris",
+    "am": "ኳድሪሴፕስ ፊሙሪስ",
+    "region": "Hindlimb",
+    "notes": "Extends stifle"
+  },
+  "gastrocnemius": {
+    "en": "Gastrocnemius",
+    "am": "ጋስትሮክኔሚየስ",
+    "region": "Hindlimb",
+    "notes": "Extends hock"
+  },
+  "digital_extensors_hind": {
+    "en": "Digital Extensors (Hindlimb)",
+    "am": "ዲጂታል ኤክስቴንሰርስ (እግር)",
+    "region": "Hindlimb",
+    "notes": "Extends digits"
+  },
+
+  "coccygeus": {
+    "en": "Coccygeus",
+    "am": "ኮክሲጄስ",
+    "region": "Tail & Perineal",
+    "notes": "Elevates tail"
+  },
+  "levator_ani": {
+    "en": "Levator Ani",
+    "am": "ሌቫተር አኒ",
+    "region": "Tail & Perineal",
+    "notes": "Supports pelvic floor"
+  }
+}

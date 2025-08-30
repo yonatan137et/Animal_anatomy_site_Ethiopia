@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Skull -->
+  <g id="cranium" />
+  <g id="mandible" />
+  <g id="maxilla" />
+  <g id="premaxilla" />
+  <g id="nasal_bone" />
+  <g id="frontal_bone" />
+  <g id="parietal_bone" />
+  <g id="occipital_bone" />
+  <g id="quadrate_bone" />
+  <g id="jugal_arch" />
+  <g id="sclerotic_ring" />
+
+  <!-- 🦴 Vertebral Column -->
+  <g id="cervical_vertebrae" />
+  <g id="thoracic_vertebrae" />
+  <g id="lumbar_vertebrae" />
+  <g id="sacral_vertebrae" />
+  <g id="caudal_vertebrae" />
+  <g id="synsacrum" />
+  <g id="pygostyle" />
+
+  <!-- 🫁 Thoracic Cage -->
+  <g id="sternum" />
+  <g id="carina_keel" />
+  <g id="ribs" />
+  <g id="uncinate_processes" />
+
+  <!-- 🦵 Forelimb (Wing) -->
+  <g id="scapula" />
+  <g id="coracoid" />
+  <g id="furcula" />
+  <g id="humerus" />
+  <g id="radius" />
+  <g id="ulna" />
+  <g id="carpometacarpus" />
+  <g id="phalanges_wing" />
+
+  <!-- 🦵 Hindlimb -->
+  <g id="ilium" />
+  <g id="ischium" />
+  <g id="pubis" />
+  <g id="femur" />
+  <g id="patella" />
+  <g id="tibiotarsus" />
+  <g id="fibula" />
+  <g id="tarsometatarsus" />
+  <g id="phalanges_foot" />
+  <g id="hallux" />
+
+</svg>

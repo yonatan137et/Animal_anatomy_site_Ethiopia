@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200">
+
+  <!-- 🧠 Head & Neck Muscles -->
+  <g id="masseter" />
+  <g id="temporalis" />
+  <g id="depressor_mandibulae" />
+  <g id="splenius_capitis" />
+  <g id="longus_colli" />
+  <g id="tracheolateralis" />
+  <g id="complexus" />
+
+  <!-- 🫁 Thoracic Muscles -->
+  <g id="pectoralis_major" />
+  <g id="pectoralis_minor" />
+  <g id="supracoracoideus" />
+  <g id="serratus_ventralis" />
+  <g id="intercostals_external" />
+  <g id="intercostals_internal" />
+  <g id="latissimus_dorsi" />
+
+  <!-- 🦵 Wing Muscles (Forelimb) -->
+  <g id="deltoideus" />
+  <g id="biceps_brachii" />
+  <g id="triceps_brachii" />
+  <g id="brachialis" />
+  <g id="extensor_carpi_radialis" />
+  <g id="flexor_carpi_ulnaris" />
+  <g id="flexor_digitorum_superficialis_wing" />
+  <g id="flexor_digitorum_profundus_wing" />
+  <g id="extensor_digitorum_wing" />
+
+  <!-- 🦵 Hindlimb Muscles -->
+  <g id="gluteus_medius" />
+  <g id="gluteus_maximus" />
+  <g id="biceps_femoris" />
+  <g id="semitendinosus" />
+  <g id="semimembranosus" />
+  <g id="quadriceps_femoris" />
+  <g id="sartorius" />
+  <g id="gracilis" />
+  <g id="gastrocnemius" />
+  <g id="flexor_digitorum_superficialis_hind" />
+  <g id="flexor_digitorum_profundus_hind" />
+  <g id="extensor_digitorum_longus" />
+
+  <!-- 🧍 Abdominal Muscles -->
+  <g id="external_abdominal_oblique" />
+  <g id="internal_abdominal_oblique" />
+  <g id="transversus_abdominis" />
+  <g id="rectus_abdominis" />
+
+  <!-- 🐔 Tail & Perineal Muscles -->
+  <g id="coccygeus" />
+  <g id="levator_ani" />
+  <g id="sphincter_ani_externus" />
+  <g id="cloacal_sphincter" />
+
+</svg>

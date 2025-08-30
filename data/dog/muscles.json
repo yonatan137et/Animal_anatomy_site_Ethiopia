@@ -1,0 +1,138 @@
+{
+  "masseter": {
+    "en": "Masseter",
+    "am": "ማሴተር",
+    "system": "Head & Neck",
+    "function": "Elevates mandible for chewing"
+  },
+  "temporalis": {
+    "en": "Temporalis",
+    "am": "ቴምፖራሊስ",
+    "system": "Head & Neck",
+    "function": "Assists in jaw closure"
+  },
+  "sternocephalicus": {
+    "en": "Sternocephalicus",
+    "am": "ስተርኖሴፋሊከስ",
+    "system": "Head & Neck",
+    "function": "Flexes neck and turns head"
+  },
+  "brachiocephalicus": {
+    "en": "Brachiocephalicus",
+    "am": "ብራኪዮሴፋሊከስ",
+    "system": "Head & Neck",
+    "function": "Extends shoulder and moves head"
+  },
+
+  "trapezius": {
+    "en": "Trapezius",
+    "am": "ትራፔዚየስ",
+    "system": "Thorax",
+    "function": "Elevates and rotates scapula"
+  },
+  "latissimus_dorsi": {
+    "en": "Latissimus Dorsi",
+    "am": "ላቲሲሙስ ዶርሲ",
+    "system": "Thorax",
+    "function": "Draws limb caudally"
+  },
+  "pectoralis": {
+    "en": "Pectoralis",
+    "am": "ፔክቶራሊስ",
+    "system": "Thorax",
+    "function": "Adducts forelimb"
+  },
+  "external_oblique": {
+    "en": "External Abdominal Oblique",
+    "am": "ውጫዊ አብዶሚናል ኦብሊክ",
+    "system": "Abdomen",
+    "function": "Compresses abdominal contents"
+  },
+  "rectus_abdominis": {
+    "en": "Rectus Abdominis",
+    "am": "ሬክተስ አብዶሚኒስ",
+    "system": "Abdomen",
+    "function": "Flexes trunk; supports viscera"
+  },
+
+  "deltoid": {
+    "en": "Deltoid",
+    "am": "ዴልቶይድ",
+    "system": "Forelimb",
+    "function": "Flexes shoulder"
+  },
+  "triceps_brachii": {
+    "en": "Triceps Brachii",
+    "am": "ትራይሴፕስ ብራኪይ",
+    "system": "Forelimb",
+    "function": "Extends elbow"
+  },
+  "biceps_brachii": {
+    "en": "Biceps Brachii",
+    "am": "ባይሴፕስ ብራኪይ",
+    "system": "Forelimb",
+    "function": "Flexes elbow"
+  },
+  "extensor_carpi_radialis": {
+    "en": "Extensor Carpi Radialis",
+    "am": "ኤክስቴንሰር ካርፒ ራዲያሊስ",
+    "system": "Forelimb",
+    "function": "Extends carpus"
+  },
+  "flexor_carpi_ulnaris": {
+    "en": "Flexor Carpi Ulnaris",
+    "am": "ፍሌክሰር ካርፒ ኡልናሪስ",
+    "system": "Forelimb",
+    "function": "Flexes carpus"
+  },
+
+  "gluteal": {
+    "en": "Gluteal Muscles",
+    "am": "ግሉቲያል ጡንቻዎች",
+    "system": "Hindlimb",
+    "function": "Extends and abducts hip"
+  },
+  "biceps_femoris": {
+    "en": "Biceps Femoris",
+    "am": "ባይሴፕስ ፊሞሪስ",
+    "system": "Hindlimb",
+    "function": "Extends hip and stifle"
+  },
+  "semitendinosus": {
+    "en": "Semitendinosus",
+    "am": "ሴሚቴንዲኖሰስ",
+    "system": "Hindlimb",
+    "function": "Flexes stifle; extends hip"
+  },
+  "quadriceps_femoris": {
+    "en": "Quadriceps Femoris",
+    "am": "ኳድሪሴፕስ ፊሞሪስ",
+    "system": "Hindlimb",
+    "function": "Extends stifle"
+  },
+  "gastrocnemius": {
+    "en": "Gastrocnemius",
+    "am": "ጋስትሮክኔሚየስ",
+    "system": "Hindlimb",
+    "function": "Extends hock"
+  },
+  "tibialis_cranialis": {
+    "en": "Tibialis Cranialis",
+    "am": "ቲቢያሊስ ክራኒያሊስ",
+    "system": "Hindlimb",
+    "function": "Flexes hock"
+  },
+
+  "coccygeus": {
+    "en": "Coccygeus",
+    "am": "ኮክሲጅየስ",
+    "system": "Tail",
+    "function": "Moves tail laterally"
+  },
+  "levator_ani": {
+    "en": "Levator Ani",
+    "am": "ሌቫቶር አኒ",
+    "system": "Tail",
+    "function": "Elevates anus and supports pelvic floor"
+  }
+}

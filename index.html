@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Domestic Animals Anatomy — Ethiopia</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.ico" />
-  <base href="https://yonatan13t.github.io/Animal_anatomy_site_Ethiopia/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
 </head>
-<body>
+<body data-species="dog" data-system="skeleton">
   <header>
     <h1>Domestic Animals Anatomy</h1>
     <div class="lang-switch">
@@ -21,7 +20,7 @@
     <aside class="left">
       <label for="speciesSelect" id="label-species">Species</label>
       <select id="speciesSelect">
-        <option value="dog">Dog</option>
+        <option value="dog" selected>Dog</option>
         <option value="cat">Cat</option>
         <option value="sheep">Sheep</option>
         <option value="goat">Goat</option>
@@ -33,7 +32,7 @@
       </select>
 
       <div class="systems">
-        <button class="system-tab active" data-system="bones">Bones</button>
+        <button class="system-tab active" data-system="skeleton">Skeleton</button>
         <button class="system-tab" data-system="muscles">Muscles</button>
         <button class="system-tab" data-system="organs">Organs</button>
       </div>
@@ -43,7 +42,7 @@
 
     <section class="canvas" aria-label="Anatomy canvas">
       <div id="svgContainer" class="svg-wrap" role="img" aria-live="polite">
-        <!-- SVG loads here -->
+        <!-- SVG will be loaded here -->
       </div>
       <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
     </section>
@@ -56,10 +55,9 @@
   </main>
 
   <footer>
-    <p>Made for Ethiopian veterinary education. Offline-capable. © You</p>
+    <p>Made for Ethiopian veterinary education. Offline-capable.</p>
   </footer>
 
   <script src="app.js"></script>
 </body>
 </html>
-
